@@ -2,23 +2,24 @@ body {
   background-image: url("/assets/images/skiing.jpg");
 }
 
+h1 {
+    font-family: 'Barrio', cursive;
+    color: white;
+}
+
 
 /*
 
-font-family: 'Arizonia', cursive;
-font-family: 'Barrio', cursive;
-font-family: 'Cabin Sketch', cursive;
-font-family: 'Calligraffitti', cursive;
-font-family: 'Finger Paint', cursive;
-font-family: 'Knewave', cursive;
-font-family: 'Megrim', cursive;
+font-family: 'Arizonia', cursive;2
+font-family: 'Barrio', cursive; 1
+font-family: 'Cabin Sketch', cursive;3
+font-family: 'Calligraffitti', cursive;5
+font-family: 'Finger Paint', cursive;4 button possibly
+font-family: 'Megrim', cursive; **1
 font-family: 'Mrs Sheppards', cursive;
-font-family: 'Nosifer', cursive;
+font-family: 'Nosifer', cursive; ??
 font-family: 'Over the Rainbow', cursive;
-font-family: 'Piedra', cursive;
-font-family: 'Quintessential', cursive;
-font-family: 'Sarina', cursive;
 font-family: 'Sedgwick Ave', cursive;
-font-family: 'Yatra One', cursive;
+
 
 */
