@@ -1,10 +1,25 @@
-body {
-  background-image: url("/assets/images/skiing.jpg");
+/*
+.responsive {
+  background-image: url("/assets/images/climbing.jpg");
+  background-size:100px 100px; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
+
+*/
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+    
+  
+
 
 h1 {
     font-family: 'Barrio', cursive;
-    color: white;
+    color: blue;
 }
 
 
