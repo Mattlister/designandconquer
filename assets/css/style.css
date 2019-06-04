@@ -1,7 +1,6 @@
 
-.responsive {
+body {
   background-image: url("/assets/images/skiing.jpg");
-  background-size:100px 100px; 
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
