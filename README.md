@@ -1,44 +1,38 @@
 # Design & Conquer Website
 
-
-
-[My page](https://mattlister.github.io/The-Monkees-Monkees/)
-
+[My page](https://github.com/Mattlister/designandconquer)
 
 The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
 Full Stack Developer Course. I’ve used Bootstrap to design the HTML layout of the website. This is to provide functionality and a 
 responsive design which sits in an HTML shell with added elements of CSS to add styling. This is a Single Page Applciation (SPA Respectively)
-adventure holiday booking website.
-
-
+adventure holiday booking website. The user can use the images to display an API and holiday booking destination form that will show them where
+they can travel too and what's available.
 
 
 ### How I’d like the website to be perceived:
 
-* A site that anyone can use. They can choose their adventure all from one location.
+* A site that anyone looking for something new can use. They can choose their adventure all from one location.
 
 * They've seen the locations on TV or in magazines and this is where the user can start their dream.
 
-* A nice clean UX design site all sat in one location. Click and point revolving images provide more information and the user never
+* A nice clean UX single page design site all sat in one location. Click and point revolving images provide more information and the user never
 * leaves the cool holiday home page. Design & Conquer.
 
 
-### [Home Page](https://mattlister.github.io/The-Monkees-Monkees/index.html)
+### [Home Page](https://github.com/Mattlister/designandconquer)
 
-Being a SPA, you never leave the one page. You can do everything all one place and so I've added all the necessary features on the home page.
+Being a SPA, you never leave the one page. You can do everything all in one place and so I've added all the necessary features on the home page.
 
 
 ### Hopes for the website are:
 
-I made the website for the fans and tried to make it look up to date with easy to use functionality. I also like to think it could be a good base 
-platform website as you can link here and then go on to other pages to find more in depth information, opportunities to purchase memorabilia and 
-follow the band as the remaining members continue to tour. I wanted the site to be easy to use for all users of all ages and so to:
+A user can use the site with ease and simplicity to  the page:
 
-* Showcase the band 
+* Accessing the websites to find the perfect holiday 
 
-* Allow the user to follow them, purchase items or arrange private bookings
+* Allow the user to follow a dream and a passion
 
-* Nice design that allows each user to move around the site comfortably. This is designed for fans of all ages.
+* Nice design that allows each user to move around the site comfortably.
 
 * Clean, clear and easy to use.
 
@@ -47,29 +41,17 @@ follow the band as the remaining members continue to tour. I wanted the site to 
 
 ### UX
 
-- I drew up various mock wireframes and initially had a 
+- I drew up various mock wireframes and initially had a a jumobotron header with a white background and then the 9 images on top. 
+- It wasn't bold enough and so a single blown up image with a colourful picture I feel gives it a much bigger impact when viewed by
+- a user.
 
-- My initial design was all done by hand with a layout in mind. When I first started my project and spoke to my Mentor, I had 
-  various ideas of how I wanted the page to look with a strong background image to showcase the look of the band. Showing 
-  togetherness and them at the height of their career. The black and white image provided from course material I found 
-  to be perfect, it’s clean, crisp and there seems to be passion behind the photo. 
-
-- The movement of the page is subtle but sharp and the static image against a moving page adds a professional element to the site. 
-
-- The Monkees will always have older fans naturally due to when they were popular and so this site has been developed with that in mind. 
-  A user of any age could easily find their way around and the pages aren’t overloaded with information. There’s short simple info pieces 
-  about the band members for a user but the option to find out more is available via the social media links. Newer fans can use these links 
-  to get to each page and so YouTube, Facebook and Twitter page are available to find tour dates, hear their music and purchase merchandise 
-  direct.
+- There will always be bold adventurers looking for something new. Watching the amazing documentary Free Solo, it showcased how far someone
+- will go to fill that need and addiction for something different. I wanted this site to be bold, colourful but all in one neat and easy to use
+- place. Design and Conquer is a website I was going to add to my portfolio from years ago but I neved made it. As a project, I thought this was
+- perfect to use for the holiday allowance project for the course and allows me to showcase what I've learnt.
 
 ### Site Interactivity and Features
 
-Interactivity has been a key feature for the website. There's working Modals on each page which are accessible via buttons. The Modal
-card that appears then contains a new snippet of inormation that refrences the band. Also, there's a working playable video on the homepage
-for their classic hit "Daydream Believer"
-
-Across the entire site, each page has Modal cards. Each card shows an image, information or a list. On the contact us page, there's a working
-form and a contact us page.
 
 
 # Tech Used
@@ -78,6 +60,10 @@ form and a contact us page.
 * CSS 
 * [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * [Font Awesome](https://fontawesome.com/start)
+* Javascript
+* SCSS
+* Jquery
+* 
 
 
 

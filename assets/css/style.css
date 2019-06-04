@@ -1,21 +1,20 @@
-
-body {
-  background-image: url("/assets/images/skiing.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
+body { 
+  background: url("/assets/images/skiing.jpg") no-repeat center fixed; 
+  background-size: cover;
 }
 
-
-
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
   
-  
-
 
 h1 {
     font-family: 'Barrio', cursive;
-    color: blue;
+    color: white;
 }
+
+
 
 
 /*
