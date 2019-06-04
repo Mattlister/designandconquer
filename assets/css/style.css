@@ -1,0 +1,36 @@
+
+.responsive {
+  background-image: url("/assets/images/climbing.jpg");
+  background-size:100px 100px; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+
+
+  
+  
+
+
+h1 {
+    font-family: 'Barrio', cursive;
+    color: blue;
+}
+
+
+/*
+
+font-family: 'Arizonia', cursive;2
+font-family: 'Barrio', cursive; 1
+font-family: 'Cabin Sketch', cursive;3
+font-family: 'Calligraffitti', cursive;5
+font-family: 'Finger Paint', cursive;4 button possibly
+font-family: 'Megrim', cursive; **1
+font-family: 'Mrs Sheppards', cursive;
+font-family: 'Nosifer', cursive; ??
+font-family: 'Over the Rainbow', cursive;
+font-family: 'Sedgwick Ave', cursive;
+
+
+*/
