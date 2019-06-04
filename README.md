@@ -69,37 +69,29 @@ A user can use the site with ease and simplicity to  the page:
 
 ## The goals for the website are:
 
-* To promote The Monkees as a band and showcase their music.
-* To show them in their youth at the height of their career.
-* The ability to contact the band and book them for events or purchase music and other merchandise from them.
-* A simple UX design which opens new and old fans to the band so they can enjoy their music for the first time or fall in love with them all over again.
-
-The customer goals of this website are:
+*
 
 ## Ideal site visitors
 
-Someone wanting to discover an era of music which will never be forgotten for the 60's still define music today.
-A person who still follows the band and would like to contact them and find out what they're up to and where they're playing.
+
 
 ## This project is the best way to help them achieve these things because:
 
-The website has touring pages which showcases where they're playing. The website works as a portal as there are social media links
-on each page which takes a user to the bands more indepth pages.
-
+The website has one page that has all navigation and options direct from the one page.
 ## This website is:
 
 Easy to navigate through.
 
 Allows the user to work through the site with an easy to understand front end design.
 Provides the user the information they need without it being overwhelming.
-Booking forms and Get in touch forms are clear and concise if you wanted to book the band. Modal cards are easy to read through as well.
+Booking forms and Get in touch forms are clear and concise for when the user wants to book a holiday
 
 
 ## Deployment
 
 This project was developed using the Cloud9 development software and then stored in git using the Cloud9 platform.
 
-The project was regularly pushed to GitHub repository https://github.com/Mattlister/The-Monkees-Monkees and 
+The project was regularly pushed to GitHub repository https://github.com/Mattlister/designandconquer/commits/master and 
 published to GitHub pages using the GitHub settings.
 
 ### Deployment to Github
@@ -141,15 +133,11 @@ I used default commands to push to Github such as:
 
 ## Testing
 
-Testing information can be found in my [TESTING.MD](https://github.com/Mattlister/The-Monkees-Monkees/blob/master/TESTING.md) file
 
 ### Content
 
-The text for each page was taken from the band members wikipedia pages and touring pages and then edited by Matthew Lister.
+The text for each page was taken for the adventure photos were direct from Goolge and then edited by Matthew Lister.
 
-All the images used in this site were provided by Course Institite except for touring2 and touring3 which were taken from Google.
-
-The video for my website was again provided by Code Institute as part of the course material.
 
 ### Code
 
