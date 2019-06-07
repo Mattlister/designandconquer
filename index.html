@@ -31,20 +31,35 @@
       <div class="col-col-sm-12 col-md-6 col-lg-4"><img src="assets/images/sharkadventure.jpg" alt="" class="img-thumbnail"></div>
       <div class="col-col-sm-12 col-md-6 col-lg-4"><img src="assets/images/nileboat.jpg" alt="" class="img-thumbnail"></div>
       <div class="col-col-sm-12 col-md-6 col-lg-4"><img src="assets/images/dubaibuggys.jpeg" alt="" class="img-thumbnail"></div>
+      <div id="map"></div>
     </div>
   </div>
 
-
-  
-
-</body>
-
 <footer>
+  
+  <script>
+      function initMap() {
+        var map =  new google.maps.Map(document.getElementById("map"), {
+        zoom: 3,
+        center: {
+          lat: 27.9881,
+          lng: 86.9250
+        }
+        });
+      }
+      
+  </script>
   
   <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY&callback=initMap"
   type="text/javascript"></script>
     <script src="assets/js/maps.js"></script>
+
 </footer>
+
+  
+
+</body>
+
 
 </html>
