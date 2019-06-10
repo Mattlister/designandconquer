@@ -42,9 +42,38 @@ function initMap() {
       
       
       
-  </script>
-  
-  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY&callback=initMap"></script>
-  type="text/javascript"></script>
-    <script src="assets/js/maps.js"></script>
+function initialize() {
+    var latlng = new google.maps.LatLng(18.520266,73.856406);
+    var latlng2 = new google.maps.LatLng(28.579943,77.330006);
+    var myOptions = {
+        zoom: 15,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var myOptions2 =  {
+        zoom: 15,
+        center: latlng2,
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    };
+
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    
+    var map2 = new google.maps.Map(document.getElementById("map_canvas_2"), myOptions2);
+
+    var myMarker = new google.maps.Marker(
+    {
+        position: latlng,
+        map: map,
+        title:"Pune"
+   });
+
+    var myMarker2 = new google.maps.Marker(
+    {
+        position: latlng2,
+        map: map2,
+        title:"Noida"
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
