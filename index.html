@@ -9,16 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Arizonia|Barrio|Cabin+Sketch|Calligraffitti|Finger+Paint|Knewave|Megrim|Mrs+Sheppards|Nosifer|Over+the+Rainbow|Piedra|Quintessential|Sarina|Sedgwick+Ave|Yatra+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="assets/js/jquery.flip.min.js"></script>
-  
-  <script>
-$(function(){
-    $(".flip").flip({
-        trigger: 'hover'
-    });
-});
-</script>
+
 
   <title>Design and Conquer</title>
 
@@ -29,26 +20,145 @@ $(function(){
   <h1>Design and Conquer</h1>
 
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-col-sm-12 col-md-6 col-lg-4"><div class="flip"><div class="front"><img src="assets/images/bikingsm.jpg" class="img-thumbnail" alt=""/><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4"><div class="flip"><div class="front"><img src="assets/images/climbingsm.jpg" class="img-thumbnail" alt=""><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4"><div class="flip"><div class="front"><img src="assets/images/everest.jpg" class="img-thumbnail" alt=""><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4 my-2"><div class="flip"><div class="front"><img src="assets/images/womansurfing2.jpg" alt="" class="img-thumbnail"><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4 my-2"><div class="flip"><div class="front"><img src="assets/images/skiingsm.jpg" class="img-thumbnail" alt=""><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4 my-2"><div class="flip"><div class="front"><img src="assets/images/skydive.jpg" class="img-thumbnail" alt=""><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4"><div class="flip"><div class="front"><img src="assets/images/sharkadventure.jpg" alt="" class="img-thumbnail"><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4"><div class="flip"><div class="front"><img src="assets/images/nileboat.jpg" alt="" class="img-thumbnail"><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
-      <div class="col-col-sm-12 col-md-6 col-lg-4"><div class="flip"><div class="front"><img src="assets/images/dubaibuggys.jpeg" alt="" class="img-thumbnail"><div class="back"><h3>Some Text in the Back!</h3></div></div></div></div>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-col-sm-12 col-md-6 col-lg-4">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="/assets/images/biking.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Paris</h2>
+               <p>What an amazing city</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-lat='21.03' data-lng='105.85'>
+         Location 1
+       </button></div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/climbingsm.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Yosamite Rock Climbing</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/everest.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Mount Everest Hiking</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4 my-2">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/womansurfing2.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Surfing the Coastline</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4 my-2">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/skiingsm.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Skiing The French Alps</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4 my-2">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/skydive.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Paris</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/sharkadventure.jpg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Australian Shark Diving</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/nileboat.jpg" alt="" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Sailing The Nile</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-col-sm-12 col-md-6 col-lg-4">
+         <div class="flip-box">
+           <div class="flip-box-inner">
+             <div class="flip-box-front"><img src="assets/images/dubaibuggys.jpeg" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-back">
+               <h2>Dubai Buggying</h2>
+               <p>What an amazing city</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12 modal_body_content">
+              <p>Some contents...</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 modal_body_map">
+              <div class="location-map" id="location-map">
+                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 modal_body_end">
+              <p>Else...</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  
-  
+  </div>  
 
-<footer>
-  </footer>
-  
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 
 
   
