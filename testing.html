@@ -58,3 +58,10 @@
 </body>
 
 </html>
+
+ // Trigger map resize event after modal shown
+  $('#myModal').on('shown.bs.modal', function() {
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(myLatlng);
+  });
+});
