@@ -1,39 +1,47 @@
-// Code goes here
-
-$(document).ready(function() {
-  var map = null;
-  var myMarker;
-  var myLatlng;
-
-  function initializeGMap(lat, lng) {
-    myLatlng = new google.maps.LatLng(lat, lng);
-
-    var myOptions = {
-      zoom: 12,
-      zoomControl: true,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-
-    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-
-    myMarker = new google.maps.Marker({
-      position: myLatlng
+function initMap() {
+  var pointA = new google.maps.LatLng(55.9533, -3.1883),
+    pointB = new google.maps.LatLng(57.4778, 4.2247),
+    myOptions = {
+      zoom: 7,
+      center: pointA
+    },
+    map = new google.maps.Map(document.getElementById('map-canvas'), myOptions),
+    markerA = new google.maps.Marker({
+      position: pointA,
+      title: "Marker A",
+      label: "A",
+      map: map
     });
-    myMarker.setMap(map);
-  }
-
-  // Re-init map before show modal
-  $('#myModal').on('show.bs.modal', function(event) {
-    var button = $(event.relatedTarget);
-    initializeGMap(button.data('lat'), button.data('lng'));
-    $("#location-map").css("width", "100%");
-    $("#map_canvas").css("width", "100%");
+  markerA.addListener('click', function(e) {
+    map.setCenter(this.position);
+    $(".modal-header .modal-title").text(this.title);
+    $(".modal-body #modalLatLng").text(this.position);
+    $('#myModal1').modal('show');
   });
+}
 
-  // Trigger map resize event after modal shown
-  $('#myModal').on('shown.bs.modal', function() {
-    google.maps.event.trigger(map, "resize");
-    map.setCenter(myLatlng);
+
+if (typeof(google) == "undefined") {
+  var mapsAPI = "AIzaSyAIPPUQ0PSWMjTsgvIWRRcJv3LGfRzGmnA";
+  $.getScript('https://maps.google.com/maps/api/js?key=' + mapsAPI).done(function() {
+    initMap()
   });
-});
+} else {
+  console.log("google api already loaded");
+}
+
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
