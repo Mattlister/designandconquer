@@ -20,7 +20,7 @@ h1 {
 h2 {
   font-family: 'Mrs Sheppards', cursive;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
 }
@@ -44,7 +44,7 @@ h2 {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
+.flip-box:pointer .flip-box-inner {
   transform: rotateY(180deg);
 }
 

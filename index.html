@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Arizonia|Barrio|Cabin+Sketch|Calligraffitti|Finger+Paint|Knewave|Megrim|Mrs+Sheppards|Nosifer|Over+the+Rainbow|Piedra|Quintessential|Sarina|Sedgwick+Ave|Yatra+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   
 
   <title>Design and Conquer</title>
@@ -19,12 +20,12 @@
 <body>
 
   <h1>Design and Conquer</h1>
+  
 
-
-   <div class="container-fluid">
+  <div class="container-fluid">
      <div class="row">
        <div class="col-col-sm-12 col-md-6 col-lg-4">
-         <div class="flip-box">
+         <div class="flip-box" ontouchstart="this.classList.toggle('click');">
            <div class="flip-box-inner">
              <div class="flip-box-front"><img src="/assets/images/biking.jpg" alt="Paris" style="width:300px;height:200px"></div>
              <div class="flip-box-back">
@@ -144,54 +145,7 @@
      </div>
    </div>
    
-<script>function initMap() {
-  var pointA = new google.maps.LatLng(55.9533, -3.1883),
-    pointB = new google.maps.LatLng(57.4778, 4.2247),
-    myOptions = {
-      zoom: 7,
-      center: pointA
-    },
-    map = new google.maps.Map(document.getElementById('map-canvas'), myOptions),
-    markerA = new google.maps.Marker({
-      position: pointA,
-      title: "Marker A",
-      label: "A",
-      map: map
-    });
-  markerA.addListener('click', function(e) {
-    map.setCenter(this.position);
-    $(".modal-header .modal-title").text(this.title);
-    $(".modal-body #modalLatLng").text(this.position);
-    $('#myModal1').modal('show');
-  });
-}
 
-
-if (typeof(google) == "undefined") {
-  var mapsAPI = "AIzaSyAIPPUQ0PSWMjTsgvIWRRcJv3LGfRzGmnA";
-  $.getScript('https://maps.google.com/maps/api/js?key=' + mapsAPI).done(function() {
-    initMap()
-  });
-} else {
-  console.log("google api already loaded");
-}
-
-
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
    
 
  <!--modal 1--> 
@@ -428,11 +382,11 @@ for (i = 0; i < coll.length; i++) {
     </div>
   </div>
   
- 
-  
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="//maps.googleapis.com/maps/api/js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="script,js"></script>
+ <script src="/assets/js/jquery.flip.min.js"></script>
 
 </body>
   
