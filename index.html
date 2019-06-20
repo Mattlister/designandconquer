@@ -8,9 +8,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Arizonia|Barrio|Calligraffitti|Finger+Paint|Knewave|Megrim|Yatra+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barrio%7CCalligraffitti%7CFinger+Paint%7CKnewave%7CMegrim%7CYatra+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="assets/images/monkey.png">
+  
   
 
 
@@ -33,12 +34,16 @@
                <h2>Paris</h2>
                <p>What an amazing city</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='21.03' data-lng='105.85'>
          Location 1
-       </button>
-       </div>
+</button>
+         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1" data-lat='10.85' data-lng='106.62'>
+      Location 2
+    </button>
        
+       </div>
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4">
          <div class="flip-box">
            <div class="flip-box-inner">
@@ -52,6 +57,7 @@
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4">
          <div class="flip-box">
            <div class="flip-box-inner">
@@ -65,6 +71,7 @@
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4 my-2">
          <div class="flip-box">
            <div class="flip-box-inner">
@@ -78,6 +85,7 @@
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4 my-2">
          <div class="flip-box">
            <div class="flip-box-inner">
@@ -104,6 +112,7 @@
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4">
          <div class="flip-box">
            <div class="flip-box-inner">
@@ -117,10 +126,11 @@
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4">
          <div class="flip-box">
            <div class="flip-box-inner">
-             <div class="flip-box-front"><img src="assets/images/nileboat.jpg" alt="" alt="Paris" style="width:300px;height:200px"></div>
+             <div class="flip-box-front"><img src="assets/images/nileboat.jpg" alt="Paris" style="width:300px;height:200px"></div>
              <div class="flip-box-back">
                <h2>Sailing The Nile</h2>
                <p>What an amazing city</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal8" data-lat='21.03' data-lng='105.85'>
@@ -130,6 +140,7 @@
            </div>
          </div>
        </div>
+       
        <div class="col-col-sm-12 col-md-6 col-lg-4">
          <div class="flip-box">
            <div class="flip-box-inner">
@@ -144,12 +155,13 @@
          </div>
        </div>
      </div>
+    </div> 
    
 
    
 
  <!--modal 1--> 
-<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -160,7 +172,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 800px; height: 500px;" id="map_canvas"></div>
+                <div style="width: 800px; height: 500px;" id="map1"></div>
               </div>
             </div>
           </div>
@@ -175,7 +187,7 @@
   </div>
   
    <!--modal 2--> 
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -186,7 +198,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map2"></div>
               </div>
             </div>
           </div>
@@ -201,7 +213,7 @@
   </div>
   
    <!--modal 3--> 
-<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -212,7 +224,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map3"></div>
               </div>
             </div>
           </div>
@@ -227,7 +239,7 @@
   </div>
 
  <!--modal 4--> 
-<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -238,7 +250,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map4"></div>
               </div>
             </div>
           </div>
@@ -253,7 +265,7 @@
   </div>
   
    <!--modal 5--> 
-<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -264,7 +276,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map5"></div>
               </div>
             </div>
           </div>
@@ -279,7 +291,7 @@
   </div>
 
  <!--modal 6--> 
-<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -290,7 +302,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map6"></div>
               </div>
             </div>
           </div>
@@ -305,7 +317,7 @@
   </div>
   
    <!--modal 7--> 
-<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal7" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -316,7 +328,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map7"></div>
               </div>
             </div>
           </div>
@@ -331,7 +343,7 @@
   </div>
   
    <!--modal 8--> 
-<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal8" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -342,7 +354,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map8"></div>
               </div>
             </div>
           </div>
@@ -357,7 +369,7 @@
   </div>
   
    <!--modal 9--> 
-<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal9" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -368,7 +380,7 @@
           <div class="row">
             <div class="col-md-12 modal_body_map">
               <div class="location-map" id="location-map">
-                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+                <div style="width: 600px; height: 400px;" id="map9"></div>
               </div>
             </div>
           </div>
@@ -382,9 +394,15 @@
     </div>
   </div>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
- <script src="script.js"></script>
+  
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
   
 
