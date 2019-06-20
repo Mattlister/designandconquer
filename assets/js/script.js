@@ -1,24 +1,40 @@
-function initMap() {
-  let pointA = new global.google.maps.LatLng(55.9533, -3.1883),
-    pointB = new global.google.maps.LatLng(57.4778, 4.2247),
-    myOptions = {
-      zoom: 7,
-      center: pointA
-    },
-    map = new global.google.maps.Map(document.getElementById('map-canvas'), myOptions),
-    markerA = new global.google.maps.Marker({
-      position: pointA,
-      title: "Marker A",
-      label: "A",
-      map: map
+// Code goes here
+
+global.$(document).ready(function() {
+  var map = null;
+  var myMarker;
+  var myLatlng;
+
+  function initializeGMap(lat, lng) {
+    myLatlng = new global.google.maps.LatLng(lat, lng);
+
+    var myOptions = {
+      zoom: 12,
+      zoomControl: true,
+      center: myLatlng,
+      mapTypeId: global.google.maps.MapTypeId.ROADMAP
+    };
+
+    map = new global.google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+    myMarker = new global.google.maps.Marker({
+      position: myLatlng
     });
-  markerA.addListener('click', function(e) {
-    map.setCenter(this.position);
-   global.$(".modal-header .modal-title").text(this.title);
-    global.$(".modal-body #modalLatLng").text(this.position);
-    global.$('#myModal1').modal('show');
+    myMarker.setMap(map);
+  }
+
+  // Re-init map before show modal
+  global.$('#myModal1').on('show.bs.modal', function(event) {
+    var button = global.$(event.relatedTarget);
+    initializeGMap(button.data('lat'), button.data('lng'));
+    global.$("#location-map").css("width", "100%");
+    global.$("#map_canvas").css("width", "100%");
   });
-}
 
+  // Trigger map resize event after modal shown
 
-
+  global.$('#myModal1').on('shown.bs.modal', function() {
+    global.google.maps.event.trigger(map, "resize");
+    map.setCenter(myLatlng);
+  });
+});

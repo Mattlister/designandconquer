@@ -25,6 +25,10 @@ h2 {
     text-shadow: 8px 10px 40px #00ffff;
 }
 
+input {
+    display: none;
+}
+
 .flip-box {
   background-color: transparent;
   width: 300px;
@@ -61,6 +65,7 @@ h2 {
   background-color: #bbb;
   color: black;
 }
+
 
 /* Style the back side */
 .flip-box-back {
