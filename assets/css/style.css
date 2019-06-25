@@ -47,10 +47,23 @@ p1 {
     text-shadow: #63FF00 1px 0 10px;
 }
 
+.btn:hover {background: #eee;}
+
+.info {color: dodgerblue;}
+
 button {
   font-family: 'Megrim', cursive;
   color: white;
   font-size: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
 }
 
 input {
