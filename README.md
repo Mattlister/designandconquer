@@ -133,6 +133,12 @@ I used default commands to push to Github such as:
 
 ## Testing
 
+I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
+using this browser. The website worked to the normal standard on Mozilla Firefox as well. So far, So good. But, On Apple's Safari browser, there were bugs 
+displayed. The images when hovered over as you'll see will flip and they'll be a grdient background with both a Location and Information button on the back.
+When testing in Safari, the image flipped and stayed as the image but a mirrored version. When the buttons did show, it flipped the image back to the originally
+and there was no maps or modals appearing. These are bugs I need to look into but this is a junction I came to mid project.
+
 
 ### Content
 
