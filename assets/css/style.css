@@ -25,6 +25,15 @@ h2 {
     text-shadow: 8px 10px 40px #00ffff;
 }
 
+h3 {
+  font-family: 'Barrio', cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #00ffff;
+  
+}
+
 p {
   font-family: 'Barrio', cursive;
   color: black;
