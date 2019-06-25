@@ -25,7 +25,17 @@ h2 {
     text-shadow: 8px 10px 40px #00ffff;
 }
 
+
 h3 {
+  font-family: 'Barrio', cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #00ffff;
+  
+}
+
+h4 {
   font-family: 'Barrio', cursive;
     color: white;
     font-size: 30px;
@@ -40,7 +50,7 @@ p {
   font-size: 20px;
 }
 
-p1 {
+tag {
   font-family: 'Rubik Mono One', sans-serif;
     color: black;
     font-size: 15px;
@@ -57,14 +67,17 @@ button {
   font-size: 20px;
 }
 
-.btn {
+btn {
   border: none;
   background-color: inherit;
-  padding: 14px 28px;
+  padding: 50px 28px;
   font-size: 16px;
   cursor: pointer;
+  display: flex; justify-content: center;
   display: inline-block;
 }
+
+
 
 input {
     display: none;
@@ -114,3 +127,6 @@ input {
   transform: rotateY(180deg);
 }
 
+.modal-backdrop {
+   background-color: #d1f9f7;
+}
