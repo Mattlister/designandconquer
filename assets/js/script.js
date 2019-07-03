@@ -1,39 +1,26 @@
-/* global $ google */
-$(document).ready(function() {
-  var map;
-  var myMarker;
-  var myLatlng;
-  const mapID = document.getElementById("map1")
-  function initializeGMap(lat, lng) {
-    myLatlng = new google.maps.LatLng(lat, lng);
-
-    var myOptions = {
-      zoom: 12,
-      zoomControl: true,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-
-    map = new google.maps.Map(mapID, myOptions);
-
-    myMarker = new google.maps.Marker({
-      position: myLatlng
+function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 3,
+        center: {
+            lat: 46.619261,
+            lng: -33.134766
+        }
     });
-    myMarker.setMap(map);
-  }
 
-  // Re-init map before show modal
-  $('#myModal1').on('show.bs.modal', function(event) {
-    var button = $(event.relatedTarget);
-    initializeGMap(button.data('lat'), button.data('lng'));
-    $("#location-map").css("width", "100%");
-    $("#map1").css("width", "100%");
-  });
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  // Trigger map resize event after modal shown
+    var locations = [
+        { lat: 40.785091, lng: -73.968285 },
+        { lat: 41.084045, lng: -73.874245 },
+        { lat: 40.754932, lng: -73.984016 }
+    ];
 
-$('#myModal1').on('shown.bs.modal', function() {
-    google.maps.event.trigger(map, "resize");
-    map.setCenter(myLatlng);
-  });
-});
+    var markers = locations.map(function(location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    });
+
+    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+}
