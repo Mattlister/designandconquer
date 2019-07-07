@@ -1,6 +1,7 @@
-<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
    (function(){
-      emailjs.init("user_Mrr05wNVUIO4siIKtzb3l");
+      emailjs.init("<YOUR USER ID>");
    })();
 </script>
