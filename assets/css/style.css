@@ -11,7 +11,7 @@ img-src {
 
 h1 {
     font-family: 'Barrio', cursive;
-    color: white;
+    color: #ffffff;
     font-size: 70px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-family: 'Megrim', cursive;
-    color: white;
+    color: #ffffff;
     font-size: 30px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
@@ -30,7 +30,7 @@ h2 {
 
 h3 {
   font-family: 'Barrio', cursive;
-    color: white;
+    color: #ffffff;
     font-size: 30px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
@@ -39,7 +39,7 @@ h3 {
 
 h4 {
   font-family: 'Barrio', cursive;
-    color: grey;
+    color: #6C7A89;
     font-size: 25px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
@@ -48,7 +48,7 @@ h4 {
 
 .p4 {
   font-family: 'Barrio', cursive;
-    color: grey;
+    color: #6C7A89;
     font-size: 35px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
@@ -58,7 +58,7 @@ h4 {
 
 p {
   font-family: 'Barrio', cursive;
-  color: black;
+  color: #000000;
   font-size: 20px;
 }
 
@@ -71,7 +71,7 @@ tag {
 
 .btn:hover {background: #eee;}
 
-.info {color: white;
+.info {color: #ffffff;
     font-size: 30px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
@@ -80,7 +80,7 @@ tag {
 
 button {
   font-family: 'Barrio', cursive;
-  color: white;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -135,7 +135,7 @@ input {
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
   background-color: #bbb;
-  color: black;
+  color: #000000;
 }
 
 
