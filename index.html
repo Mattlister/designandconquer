@@ -10,26 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Barrio%7CCalligraffitti%7CFinger+Paint%7CKnewave%7CRubik+Mono+One%7CMegrim%7CYatra+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/compass.ico">
-
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("<YOUR USER ID>");
-   })();
-</script>
- 
 </head>
 
 <body>
-
     <h1>Design and Conquer</h1>
 
     <div class="container">
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
-                <button class="btn info" class="btn btn-primary" data-toggle="modal" data-target="#myModal11">What We Do And How To Book</button>
+                <a class="btn info" class="btn btn-primary" data-toggle="modal" data-target="#myModal11">What We Do And How To Book</button>
             </div>
             <div class="col-3"></div>
         </div>
@@ -44,8 +34,9 @@
                         <div class="flip-box-front"><img src="assets/images/biking.jpg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Queensland Mountain Bike Trail</h2>
-                            <p>Bike Riding For The Brave</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='-45.031162' data-lng='168.662643' '-45.031402' data-lng='168.662300'>
+                            <p>Bike Riding For The Brave</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
          The Location
+         <div id="map"></div>
        </button>
                             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal2">
         Information
@@ -65,7 +56,7 @@
                             <p>Face The Climb</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
              The Location
              </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal3" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal3">
         Information
        </button>
                         </div>
@@ -80,10 +71,10 @@
                         <div class="flip-box-front"><img src="assets/images/everest.jpg" alt="Mount Everest" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Mount Everest Hiking</h2>
-                            <p>As High As You Can Go</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='27.986065' data-lng='86.922623'>
+                            <p>As High As You Can Go</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
          The Location
        </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal4" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal4">
         Information
        </button>
                         </div>
@@ -97,10 +88,10 @@
                         <div class="flip-box-front"><img src="assets/images/womansurfing2.jpg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Surfing the Banzai Coastline</h2>
-                            <p>Feel The Surf</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='21.664019' data-lng='-158.053852'>
+                            <p>Feel The Surf</p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
          The Location
          </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal5" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal5">
         Information
        </button>
                         </div>
@@ -114,10 +105,10 @@
                         <div class="flip-box-front"><img src="assets/images/skiingsm.jpg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Skiing The French Alps</h2>
-                            <p>The Downhill Of Your Life</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='45.292165498' data-lng='6.574664368'>
+                            <p>The Downhill Of Your Life</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
          The Location
        </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal6" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal6">
         Information
        </button>
                         </div>
@@ -130,10 +121,10 @@
                         <div class="flip-box-front"><img src="assets/images/skydive.jpg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Skydiving at Victoria Falls</h2>
-                            <p>Sights From The Heights</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='17.9318' data-lng='25.8256'>
+                            <p>Sights From The Heights</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
          The Location
        </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal7" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal7">
         Information
        </button>
                         </div>
@@ -147,10 +138,10 @@
                         <div class="flip-box-front"><img src="assets/images/sharkadventure.jpg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Australian Neptune Island Shark Diving</h2>
-                            <p>Up Close And Personal</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='-35.321557' data-lng='136.115238'>
+                            <p>Up Close And Personal</p><button type="button" class="btn btn-primary" data-toggle="modal">
            The Location
        </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal8" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal8">
         Information
        </button>
                         </div>
@@ -164,10 +155,10 @@
                         <div class="flip-box-front"><img src="assets/images/nileboat.jpg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Sailing The Nile</h2>
-                            <p>Rivertrip Of A Lifetime</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='25.6872' data-lng='32.6396'>
+                            <p>Rivertrip Of A Lifetime</p><button type="button" class="btn btn-primary" data-toggle="modal">
          The Location 
        </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal9" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal9">
         Information
        </button>
                         </div>
@@ -181,10 +172,10 @@
                         <div class="flip-box-front"><img src="assets/images/dubaibuggys.jpeg" alt="Paris" style="width:300px;height:200px"></div>
                         <div class="flip-box-back">
                             <h2>Dubai Buggying</h2>
-                            <p>Travelling Without Limits</p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" data-lat='24.9508' data-lng='55.7250'>
+                            <p>Travelling Without Limits</p><button type="button" class="btn btn-primary" data-toggle="modal">
          The Location
        </button>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal10" data-lat='45.292165498' data-lng='6.574664368'>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal10">
         Information
        </button>
                         </div>
@@ -421,7 +412,7 @@
 
                                                 <form>
                                                     <div class="form-group">
-                                                        <label for="exampleFormControlInput1"><h4>Email Address</h4></label>
+                                                        <label for="exampleFormControlInput1" h4 id="header">Email Address</label>
                                                         <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="">
                                                     </div>
                                                     <div class="form-group">
@@ -466,12 +457,6 @@
 
 
                             <div class="col-sm-4">
-
-
-
-
-
-
                             </div>
                         </div>
 
@@ -482,9 +467,9 @@
         </div>
     </div>
 
-
+    <div id="map" style="width: 500px; height: 400px;"></div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/maps.js"></script>
+    <script src="/assets/js/maps.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
