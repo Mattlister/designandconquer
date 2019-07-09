@@ -20,3 +20,5 @@ const petsData = [
     photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
   }
 ];
+
+document.getElementById("app").innerHTML = `<h1>Pets (${petsData.length} results)</h1>`
