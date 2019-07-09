@@ -29,7 +29,7 @@ h2 {
 
 
 h3 {
-  font-family: 'Barrio', cursive;
+  font-family: 'Shadows Into Light', cursive;
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -79,7 +79,13 @@ tag {
 }
 
 button {
-  font-family: 'Barrio', cursive;
+  font-family: 'barrio', cursive;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.button1 {
+  font-family: 'Megrim', cursive;
   color: #ffffff;
   font-size: 20px;
 }
@@ -93,6 +99,11 @@ btn {
   cursor: pointer;
   display: flex; justify-content: center;
   display: inline-block;
+}
+
+.sizing {
+  width: 300px;
+  height: 200px;
 }
 
 
