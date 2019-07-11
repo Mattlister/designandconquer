@@ -17,7 +17,7 @@ function initialize () {
 
 for (let x in Queensland) {
   let location = Queensland[x];
-  let location = new google.maps.LatLng(location.lat,location.lng);
+  let location1 = new google.maps.LatLng(location.lat,location.lng);
   let marker = new google.maps.Marker({
     position: location,
     title: location.name,
@@ -33,6 +33,5 @@ for (let x in Queensland) {
     
     }
  }
-}
-google.maps.event.addDOMListener(window, 'load', initialize);
 
+google.maps.event.addDOMListener(window, 'load', initializ);
