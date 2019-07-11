@@ -1,6 +1,15 @@
+fetch('/assets/js/locations.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(JSON.stringify(myJson));
+  });
+
+
 function initialize () {
   let map = new google.maps.Map(document.getElementById('map_canvas'), {
-    center: new google.maps.LatLng(,),
+    center: new google.maps.LatLng(-20.917574,142.702789),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     zoom: 18
   });
