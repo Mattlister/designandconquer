@@ -3,17 +3,13 @@ let locations = [
  {'name': 'google queensland 2','27.6333':,'153.1667':},
  {'name': 'google queensland 3','27.3358':,'152.8219'
  
- {'name':'google yosamite 1','lat':,'lng'},
- {'name': 'google yosamite 2','lat':,'lng':},
- {'name': 'google yosamite 3','lat':,'lng'
+ {'name':'google yosamite 1','37.7339':,'119.6377'},
+ {'name': 'google yosamite 2','37.8107':,'119.4852':},
+ {'name': 'google yosamite 3','41.75290':,'-74.20720'
 
- {'name':'google queensland 1','lat':,'lng'},
- {'name': 'google queensland 2','lat':,'lng':},
- {'name': 'google queensland 3','lat':,'lng'
-
- {'name':'google everest 1','lat':,'lng'},
- {'name': 'google everest 2','lat':,'lng':},
- {'name': 'google everest 3','lat':,'lng'
+ {'name':'google everest 1','27.9958':,'86.8728'},
+ {'name': 'google everest 2','27.9750':,'86.9321':},
+ {'name': 'google everest 3','27.9626':,'86.9336'
 
  {'name':'google banzai 1','lat':,'lng'},
  {'name': 'google banzai 2','lat':,'lng':},
