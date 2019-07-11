@@ -1,7 +1,7 @@
 let locations = [
- {'name':'google queensland 1','lat':,'lng'},
- {'name': 'google queensland 2','lat':,'lng':},
- {'name': 'google queensland 3','lat':,'lng'
+ {'name':'google queensland 1','-37.75':,'145.01667'},
+ {'name': 'google queensland 2','27.6333':,'153.1667':},
+ {'name': 'google queensland 3','27.3358':,'152.8219'
  
  {'name':'google yosamite 1','lat':,'lng'},
  {'name': 'google yosamite 2','lat':,'lng':},
