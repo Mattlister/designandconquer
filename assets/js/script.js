@@ -1,4 +1,4 @@
-fetch('/assets/js/locations.json')
+fetch('assets/js/locations.json')
   .then(function(response) {
     return response.json();
   })
