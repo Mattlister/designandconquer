@@ -24,13 +24,17 @@ let locations = [
  {'name': 'google victoria 3','25.8572':,'27.8493'
  
  
- {'name':'google neptune 1','lat':,'lng'},
- {'name': 'google neptune 2','lat':,'lng':},
- {'name': 'google neptune 3','lat':,'lng'
+ {'name':'google neptune 1','35.2335':,'136.0655'},
+ {'name': 'google neptune 2','-35.283':,'136.100':},
+ {'name': 'google neptune 3','35.2795':,'136.097'
 
- {'name':'google nile 1','lat':,'lng'},
- {'name': 'google nile 2','lat':,'lng':},
- {'name': 'google nile 3','lat':,'lng'
+ {'name':'google nile 1','29.533438':,'31.270695'},
+ {'name': 'google nile 2','31.343994':,'27.002488':},
+ {'name': 'google nile 3','30.8999964':,'31.1166662'
+ 
+ {'name':'google dubai 1','25.1734':,'55.4068'},
+ {'name': 'google dubai 2','25.3463':,'55.4209':},
+ {'name': 'google dubai 3','24.9037':,'55.6273'
 
 ]
 
