@@ -1,7 +1,40 @@
-let Queensland = [
+let locations = [
  {'name':'google queensland 1','lat':,'lng'},
  {'name': 'google queensland 2','lat':,'lng':},
  {'name': 'google queensland 3','lat':,'lng'
+ 
+ {'name':'google yosamite 1','lat':,'lng'},
+ {'name': 'google yosamite 2','lat':,'lng':},
+ {'name': 'google yosamite 3','lat':,'lng'
+
+ {'name':'google queensland 1','lat':,'lng'},
+ {'name': 'google queensland 2','lat':,'lng':},
+ {'name': 'google queensland 3','lat':,'lng'
+
+ {'name':'google everest 1','lat':,'lng'},
+ {'name': 'google everest 2','lat':,'lng':},
+ {'name': 'google everest 3','lat':,'lng'
+
+ {'name':'google banzai 1','lat':,'lng'},
+ {'name': 'google banzai 2','lat':,'lng':},
+ {'name': 'google banzai 3','lat':,'lng'
+
+ {'name':'google alps 1','lat':,'lng'},
+ {'name': 'google alps 2','lat':,'lng':},
+ {'name': 'google alps 3','lat':,'lng'
+
+ {'name':'google victoria 1','lat':,'lng'},
+ {'name': 'google victoria 2','lat':,'lng':},
+ {'name': 'google victoria 3','lat':,'lng'
+ 
+ 
+ {'name':'google neptune 1','lat':,'lng'},
+ {'name': 'google neptune 2','lat':,'lng':},
+ {'name': 'google neptune 3','lat':,'lng'
+
+ {'name':'google nile 1','lat':,'lng'},
+ {'name': 'google nile 2','lat':,'lng':},
+ {'name': 'google nile 3','lat':,'lng'
 
 ]
 
