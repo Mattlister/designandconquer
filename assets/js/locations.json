@@ -1,8 +1,3 @@
-let locations = [
- {'name':'google queensland 1','-37.75':,'145.01667'},
- {'name': 'google queensland 2','27.6333':,'153.1667':},
- {'name': 'google queensland 3','27.3358':,'152.8219'
- 
  {'name':'google yosamite 1','37.7339':,'119.6377'},
  {'name': 'google yosamite 2','37.8107':,'119.4852':},
  {'name': 'google yosamite 3','41.75290':,'-74.20720'
@@ -38,3 +33,215 @@ let locations = [
 
 ]
 
+ {'name':'google yosamite 1','37.7339':,'119.6377'},
+ {'name': 'google yosamite 2','37.8107':,'119.4852':},
+ {'name': 'google yosamite 3','41.75290':,'-74.20720'
+
+[
+	{
+	  "adventure": "queensland biking",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": -37.75,
+		  "lng": 145.01667
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 27.6333,
+		  "lng": 153.1667
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 27.3358,
+		  "lng": 152.8219
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	},
+	{
+	  "adventure": "yosamite climbing",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 37.7339,
+		  "lng": 119.6377
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 37.8107,
+		  "lng": 119.4852
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 41.75290,
+		  "lng": -74.20720
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	},
+	{
+	  "adventure": "everest climbing ",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	}
+  ]
+  
+ [
+	{
+	  "adventure": "banzai surfing",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	},
+	{
+	  "adventure": "french alps",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	},
+	{
+	  "adventure": "victoria skydive",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	}
+  ]
+   
+   
+[
+	{
+	  "adventure": "neptune diving",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	},
+	{
+	  "adventure": "nile sailing",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	},
+	{
+	  "adventure": "dubai buggying",
+	  "locations": [
+		{
+		  "name": "Google Location 1",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 2",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		},
+		{
+		  "name": "Google Location 3",
+		  "lat": 50.010083,
+		  "lng": -110.113006
+		}
+	  ],
+	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
+	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	}
+  ]
+      
