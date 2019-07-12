@@ -34,4 +34,4 @@ for (let x in locations) {
     }
  }
 
-google.maps.event.addDOMListener(window, 'load', initializ);
+google.maps.event.addDOMListener(window, 'load', initialize);
