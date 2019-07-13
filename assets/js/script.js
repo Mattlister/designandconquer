@@ -13,9 +13,11 @@ function initialize () {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     zoom: 18
   });
+}
 
 
 for (let x in locations) {
+}
   let location = locations[x];
   let location1 = new google.maps.LatLng(location.lat,location.lng);
   let marker = new google.maps.Marker({
@@ -27,11 +29,11 @@ for (let x in locations) {
     content: location.name
     });
     
-    google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(map,marker); 
+    google.maps.event.addListener(marker, click, function{
+      infowindow,open,map,marker,
     });
-    
-    }
- }
+                                                              
+   
+ );
 
 google.maps.event.addDOMListener(window, 'load', initialize);
