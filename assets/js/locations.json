@@ -17,9 +17,7 @@
 		  "lat": 27.3358,
 		  "lng": 152.8219
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": ""
+	  ]
 	},
 	{
 	  "adventure": "yosamite climbing",
@@ -40,9 +38,7 @@
 		  "lng": -74.20720
 		}
       
-	  ], 
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  ] 
 	},
 	{
 	  "adventure": "everest climbing ",
@@ -63,9 +59,8 @@
 		  "lng": 86.9336
 		}
       
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  ]
+
 	},
   {
 	  "adventure": "banzai surfing",
@@ -85,9 +80,9 @@
 		  "lat": 33.8807,
 		  "lng": 78.5122
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  
+    ]
+    
 	},
 	
 	{
@@ -108,11 +103,12 @@
 		  "lat": 45.3968,
 		  "lng": 6.5666
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
-	},
-	{
+      
+	  ]
+	
+  },
+  
+  {
 	  "adventure": "victoria skydive",
 	  "locations": [
 		{
@@ -130,9 +126,8 @@
 		  "lat": 25.8572,
 		  "lng": 27.8493
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  ]
+    
 	},
 	{
 	  "adventure": "neptune diving",
@@ -152,9 +147,7 @@
 		  "lat": 50.010083,
 		  "lng": -110.113006
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  ]
 	},
 	{
 	  "adventure": "nile sailing",
@@ -174,9 +167,7 @@
 		  "lat": 50.010083,
 		  "lng": -110.113006
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  ]
 	},
 	{
 	  "adventure": "dubai buggying",
@@ -196,9 +187,7 @@
 		  "lat": 50.010083,
 		  "lng": -110.113006
 		}
-	  ],
-	  "photo": "https://media.giphy.com/media/ZIcOEgfPoRoe4/giphy.gif",
-	  "description": "He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t captured. Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? When other websites give you text, they’re not sending the best."
+	  ]
 	}
   ]
       
