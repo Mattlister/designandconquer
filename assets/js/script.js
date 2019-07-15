@@ -1,6 +1,6 @@
 fetch('assets/js/locations.json')
   .then(function(response) {
-    return response.json();
+    console.log(response)
   })
   .then(function(myJson) {
     console.log(JSON.stringify(myJson));
@@ -29,11 +29,14 @@ for (let x in locations) {
     content: location.name
     });
     
-    google.maps.event.addListener(marker, click, function{
+    google.maps.event.addListener(marker, click, function() {
       infowindow,open,map,marker,
-    });
-                                                              
    
- );
+      DOMContentLoaded 
+                                                                                          
 
-google.maps.event.addDOMListener(window, 'load', initialize);
+);document.addEventListener(window, 'load', function() {
+  initialize(50.0000, 60.0000,
+});
+
+
