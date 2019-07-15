@@ -183,56 +183,12 @@ img {
   font-size: 2.6rem;
 }
 
-.animal {
-  max-width: 650px;
-  padding: 20px;
-  margin: 30px auto;
-  background-color: #FFF;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
-  overflow: hidden;
+#map {
+  height: 100%;
 }
-
-.animal h4 {
-  margin: 0 0 6px 0;
-}
-
-.pet-photo {
-  float: left;
-  width: 40%;
-  margin-right: 15px;
-}
-
-.pet-name {
-  font-size: 2rem;
-  font-weight: normal;
-  margin: 0 0 1rem 0;
-}
-
-.species {
-  font-size: .9rem;
-  color: #888;
-  vertical-align: middle;
-}
-
-.foods-list {
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
-  left: 17px;
-  font-size: .85rem;
-  line-height: 1.5;
-}
-
-.footer {
-  font-size: .7rem;
-  color: #888;
-  text-align: center;
-  margin: 0;
-}
-
-html,
-body,
-#map-canvas {
-  height: 100%;
-  width: 100%;
 }

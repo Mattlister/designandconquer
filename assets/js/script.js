@@ -1,19 +1,30 @@
 fetch('assets/js/locations.json')
   .then(function(response) {
-    console.log(response)
+    return response.json();
   })
-  .then(function(myJson) {
-    console.log(JSON.stringify(myJson));
+  .then(function(response) {
+    console.log(response);
+  });
+  
+  fetch('assets/js/locations.json')
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (response) {
+    myFunction(response);
   });
 
+function myFunction(response) {
+	/* do something with response variable */
+}
 
-function initialize () {
+function initialize () 
   let map = new google.maps.Map(document.getElementById('map_canvas'), {
     center: new google.maps.LatLng(-20.917574,142.702789),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     zoom: 18
   });
-}
+
 
 
 for (let x in locations) {
@@ -29,14 +40,6 @@ for (let x in locations) {
     content: location.name
     });
     
-    google.maps.event.addListener(marker, click, function() {
-      infowindow,open,map,marker,
-   
-      DOMContentLoaded 
-                                                                                          
-
-);document.addEventListener(window, 'load', function() {
-  initialize(50.0000, 60.0000,
+    google.maps.event.addDomListener(window, 'load', function () {
+   initialize(latitude, longitude);
 });
-
-
