@@ -50,9 +50,9 @@ $(document).ready(function() {
   });
 
   
-  for (let x in locations) {
+  for (let x in locations.json) {
 }
-  let location = locations[x];
+  let location = locations.json[x];
   let location1 = new google.maps.LatLng(location.lat,location.lng);
   let marker = new google.maps.Marker({
     position: location,
