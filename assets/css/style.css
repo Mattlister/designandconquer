@@ -20,7 +20,7 @@ h1 {
 
 
 h2 {
-  font-family: 'Megrim', cursive;
+  font-family: 'Righteous', cursive;
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -38,7 +38,16 @@ h3 {
 }
 
 h4 {
-  font-family: 'Megrim', cursive;
+  font-family: 'Righteous', cursive;
+    color: #6C7A89;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #00ffff;
+  
+}
+
+h5 {
+  font-family: 'Righteous', cursive;
     color: #6C7A89;
     font-size: 25px;
     text-align: center;
@@ -57,7 +66,7 @@ h4 {
 
 
 p {
-  font-family: 'Megrim', cursive;
+  font-family: 'Barrio', cursive;
   color: #000000;
   font-size: 20px;
 }
@@ -85,7 +94,7 @@ button {
 }
 
 button1 {
-  font-family: 'Megrim', cursive;
+  font-family: 'Righteous', cursive;
   color: #ffffff;
   font-size: 20px;
 }
@@ -192,3 +201,16 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+
+.my-class {
+  text-align: center;
+}
+
+

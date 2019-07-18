@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Barrio%7CCalligraffitti%7CFinger+Paint%7CKnewave%7CRubik+Mono+One%7CMegrim%7CYatra+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/compass.ico">
 
@@ -188,7 +189,6 @@
     </div>
 
 
-
     <!--modal 1-->
     <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
@@ -291,8 +291,72 @@
 
         <div class="col-md-3 offset-md-3">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jXn2CtyCd0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <div class="text-center">
+                        <a href="" class="btn btn-lg btn-info" data-toggle="modal" data-target="#modalRegisterForm">Bookings Here</a>
+                    </div>
+
             </div>
         </div>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="card-text"></p>
+
+                <div class="card-body">
+                    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title w-200 font-weight-bold">Sign up</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1"><h4>Email Address</h4></label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1"><h4>What Would You Like To Know?</h4></label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+      <option>Email Us For Information</option>
+      <option>Send Through Booking Request</option>
+      <option>Ask Us To Contact You</option>
+    </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect2"><h4>How Many Weeks Away?</h4></label>
+                                        <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1"><h4>Please Enter Any Additional Information</h4></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                </form>
+
+
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn btn-info btn-lg">Book The Adventure</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+   
+
+                </div>
+            </div>
 
     </div>
 

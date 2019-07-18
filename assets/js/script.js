@@ -31,7 +31,7 @@ var map;
   .then((resp) => resp.json())
   .then(function(data) {
     mapArray.forEach(function(element) {
-    console.log('/assets/js/locations.json');
+    console.log("mapArray");
   });
 		console.log(data);
     })
