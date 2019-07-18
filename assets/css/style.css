@@ -209,8 +209,33 @@ form {
     display: inline-block;
 }
 
-.my-class {
+
+
+.modal-content {
+
   text-align: center;
+  
 }
 
+.element-style {
+  width: 100px;
+}
 
+ .form-group {
+                    background: #ffffff;
+                    padding: 20px;
+                }
+
+                .form-group2 {
+                    background: #ffffff;
+                    padding: 20px;
+                }
+
+                .border {
+                    margin: 70px;
+                    border: 1px solid #4CAF50;
+                }
+
+                .padding-footer {
+                    padding: 30px;
+                }
