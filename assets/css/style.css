@@ -1,5 +1,6 @@
 body { 
   background: url("../images/skiing.jpg"); 
+  background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 
@@ -209,17 +210,24 @@ form {
     display: inline-block;
 }
 
-
-
 .modal-content {
+                    background: #ffffff;
+                    padding: 20px;
+                }
 
-  text-align: center;
-  
-}
+                .form-group2 {
+                    background: #ffffff;
+                    padding: 20px;
+                }
 
-.element-style {
-  width: 100px;
-}
+                .border {
+                    margin: 70px;
+                    border: 1px solid #4CAF50;
+                }
+
+                .padding-footer {
+                    padding: 30px;
+                }
 
  .form-group {
                     background: #ffffff;
