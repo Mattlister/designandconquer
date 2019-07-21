@@ -38,5 +38,12 @@ var map;
   .catch(function(error) {
     console.log(error);
 	});
+	
+	$(function () {
+        $("#btnClosePopup").click(function () {
+            $("#modal-content").modal("hide");
+        });
+    });
+	
   
   
