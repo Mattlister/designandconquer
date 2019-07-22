@@ -30,8 +30,8 @@ var map;
   fetch('assets/js/locations.json')
   .then((resp) => resp.json())
   .then(function(data) {
-    mapArray.forEach(function(element) {
-    console.log("mapArray");
+    data.forEach(function(element) {
+    console.log(element);
   });
 		console.log(data);
     })
