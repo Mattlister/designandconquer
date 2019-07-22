@@ -40,7 +40,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Oxygen', sans-serif;
     color: #6C7A89;
     font-size: 25px;
     text-align: center;
@@ -57,9 +57,6 @@ h5 {
 
 }
 
-font-family: 'Oxygen', sans-serif;
-font-family: 'Assistant', sans-serif;
-font-family: 'Istok Web', sans-serif;
 
 .p4 {
   font-family: 'Barrio', cursive;
