@@ -49,13 +49,17 @@ h4 {
 }
 
 h5 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Oxygen', sans-serif;
     color: #6C7A89;
     font-size: 25px;
     text-align: center;
     text-shadow: 8px 10px 40px #00ffff;
 
 }
+
+font-family: 'Oxygen', sans-serif;
+font-family: 'Assistant', sans-serif;
+font-family: 'Istok Web', sans-serif;
 
 .p4 {
   font-family: 'Barrio', cursive;
@@ -90,7 +94,7 @@ tag {
 }
 
 button {
-  font-family: 'barrio', cursive;
+  font-family: 'Megrim', cursive;
   color: #ffffff;
   font-size: 20px;
 }
