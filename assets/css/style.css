@@ -1,9 +1,11 @@
 body { 
   background: url("../images/skiing.jpg"); 
-  background-repeat: no-repeat, repeat;
+  height: 500%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
-
 
 img-src {
   opacity: 1.0;
