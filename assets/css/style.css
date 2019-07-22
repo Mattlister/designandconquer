@@ -5,8 +5,10 @@ body {
 }
 
 .container-fluid {
-  
-  width: 1150px;
+    width: 1150px;
+    margin: 30px 0 20px 0;
+    padding: 20px; /* padding should be 20px*/
+    text-align: center;
   
 }
 
