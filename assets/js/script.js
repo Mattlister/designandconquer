@@ -44,3 +44,4 @@ var map;
             $("#modal-content").modal("hide");
         });
     });
+

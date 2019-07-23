@@ -260,3 +260,10 @@ form {
     }
 
 
+a {
+  width: -webkit-calc(1% + 1em);
+  width: calc(1% + 1em);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -ms-transform 1s;
+  transition: transform 1s
+ }
