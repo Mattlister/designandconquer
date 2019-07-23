@@ -44,11 +44,3 @@ var map;
             $("#modal-content").modal("hide");
         });
     });
-	
-  $('body').click(function (event) 
-{
-   if(!$(event.target).closest('#modalRegisterForm').length && !$(event.target).is('#myModal11')) {
-     $(".modalDialog").hide();
-   }     
-});
-  
