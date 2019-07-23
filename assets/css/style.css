@@ -1,7 +1,7 @@
 body {
   background: url("../images/skiing.jpg");
-  object-fit: cover;
-  width: 100%;
+  background-repeat:no-repeat;
+  background-size: 1920px 1080px;
   height:auto;
 }
 
