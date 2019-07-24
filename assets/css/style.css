@@ -68,6 +68,14 @@ h5 {
 
 }
 
+.form-group { font-family: 'Oxygen', sans-serif;
+    color: #6C7A89;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #00ffff;
+
+
+}
 
 p {
   font-family: 'Barrio', cursive;
@@ -186,6 +194,12 @@ input {
    background-color: #050505;
 }
 
+
+.iframe {
+  padding:1px;
+  border:1px
+  
+}
 
 
 /* CSS For working content */
