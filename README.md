@@ -5,17 +5,19 @@
 The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
 Full Stack Developer Course. I’ve used Bootstrap to design the HTML layout of the website. This is to provide functionality and a 
 responsive design which sits in an HTML shell with added elements of CSS to add styling. This is a Single Page Applciation (SPA Respectively)
-adventure holiday booking website. The user can use the images to display an API and holiday booking destination form that will show them where
-they can travel too and what's available.
+adventure holiday booking website. The user can use the images to display an API map and see information on each page. There's a "What we do 
+and how to book" option at the top of the page where the user can enquire and book holida destinations using the request and booking form 
+that will show them how to book and what's available.
 
 
 ### How I’d like the website to be perceived:
 
-* A site that anyone looking for something new can use. They can choose their adventure all from one location.
+* This website would be an easy to use adventure holiday booking site which can be accessed all from one easy location.
 
-* They've seen the locations on TV or in magazines and this is where the user can start their dream.
+* They've seen the locations on TV or in magazines and this is where the user can start their dream holiday.
 
 * A nice clean UX single page design site all sat in one location. Click and point revolving images provide more information and the user never
+
 * leaves the cool holiday home page. Design & Conquer.
 
 
@@ -23,10 +25,12 @@ they can travel too and what's available.
 
 Being a SPA, you never leave the one page. You can do everything all in one place and so I've added all the necessary features on the home page.
 
+* All revolving images have an information button about the location and holiday and a map which shows where the area is.
+
 
 ### Hopes for the website are:
 
-A user can use the site with ease and simplicity to  the page:
+A user can use the site with ease and simplicity to the page:
 
 * Accessing the websites to find the perfect holiday 
 
@@ -35,7 +39,6 @@ A user can use the site with ease and simplicity to  the page:
 * Nice design that allows each user to move around the site comfortably.
 
 * Clean, clear and easy to use.
-
 
 
 
@@ -61,9 +64,7 @@ A user can use the site with ease and simplicity to  the page:
 * [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * [Font Awesome](https://fontawesome.com/start)
 * Javascript
-* SCSS
-* Jquery
-* 
+
 
 
 
