@@ -48,6 +48,13 @@ A user can use the site with ease and simplicity to the page:
 - It wasn't bold enough and so a single blown up image with a colourful picture I feel gives it a much bigger impact when viewed by
 - a user.
 
+## Original concepts
+
+ https:/assets/wireframes/New Wireframe 1.png
+ https:/assets/wireframes/New Wireframe 3.png
+ 
+
+
 - There will always be bold adventurers looking for something new. Watching the amazing documentary Free Solo, it showcased how far someone
 - will go to fill that need and addiction for something different. I wanted this site to be bold, colourful but all in one neat and easy to use
 - place. Design and Conquer is a website I was going to add to my portfolio from years ago but I neved made it. As a project, I thought this was
