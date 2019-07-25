@@ -2,6 +2,8 @@
 
 [My page](https://github.com/Mattlister/designandconquer)
 
+A Single Page Application for anyone looking to conquer their next Big Adventure!!
+
 The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
 Full Stack Developer Course. I’ve used Bootstrap to design the HTML layout of the website. This is to provide functionality and a 
 responsive design which sits in an HTML shell with added elements of CSS to add styling. This is a Single Page Applciation (SPA Respectively)
