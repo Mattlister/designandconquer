@@ -22,17 +22,26 @@ that will show them how to book and what's available.
 
 ## 2. Festures of site
 
+
+
 ## 3. Technologies Used
 
 ## 4. Testing
 
 ## 5. Deployment
 
+* How the 
+
 ## 6. Acknowledgements
+
+* Media
+* Code
+* Acclaims
 
 ## 7. Disclaimer
 
 ### How I’d like the website to be perceived:
+
 
 * This website would be an easy to use adventure holiday booking site which can be accessed all from one easy location.
 
@@ -41,6 +50,19 @@ that will show them how to book and what's available.
 * A nice clean UX single page design site all sat in one location. Click and point revolving images provide more information and the user never
 
 * leaves the cool holiday home page. Design & Conquer.
+
+
+# Project Goals
+
+The primary goal of Design and Conquer is a single page application where a user can book an adventure holiday. As the title indicates, the user
+is able to "design" the advneture and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
+What We Do? section where a user can change choose a holiday if needed. The user can watch videos on each slide and read information about the 
+location. There's also a Help Guide on the home page which explains the website.
+
+# User Goals
+
+The website has been designed for people that want to try a new type of holiday that's not on the normal scale. It's also designed for people
+who want to add to their list of adventures and try something new. 
 
 
 ### [Home Page](https://github.com/Mattlister/designandconquer)
