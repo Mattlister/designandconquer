@@ -199,7 +199,19 @@ The text for each page was taken for the adventure photos were direct from Goolg
 
 ### Code
 
-Some CSS code and Bootstrap was originally taken from Bootstrap 4 and W3C Schools and then edited by Matthew Lister
+* I've used various code for this website. As they say, a lazy programmer is a smart programmer so I used a fair amount of the code from my orignal 
+* MS1 project, from Google Garage and from other locations. Please see a list below.
+
+* HTML - All code produced by Matthew Lister except for the content such as videos and*  images. These were searched and found on Google Chrome and
+* then added into iframe and img source code which I had put together. The modal formts and forms were taken from my MS1 and edited to correspond
+* to the needs of this website. I used script tags from Google Fonts to display the correct formatted fonts.
+
+* CSS - All CSS code was produced by Matthew Lister originally typed to add styling to the HTML page. This included Font styling, image sizing and
+* colour choices except for the gradients for the back of the flip boxes. This can be found at: http://www.annenbergdl.org/tutorials/easy-breezy-beautiful-css-gradients/
+* which helps add so much more to the back of the flip boxes.
+
+
+JavaScript - The code for this was produced by Matthew Lister aga
 
 ### Acknowledgements
 
