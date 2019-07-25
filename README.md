@@ -203,15 +203,25 @@ The text for each page was taken for the adventure photos were direct from Goolg
 * MS1 project, from Google Garage and from other locations. Please see a list below.
 
 * HTML - All code produced by Matthew Lister except for the content such as videos and*  images. These were searched and found on Google Chrome and
-* then added into iframe and img source code which I had put together. The modal formts and forms were taken from my MS1 and edited to correspond
-* to the needs of this website. I used script tags from Google Fonts to display the correct formatted fonts.
+then added into iframe and img source code which I had put together. The modal formts and forms were taken from my MS1 and edited to correspond
+to the needs of this website. I used script tags from Google Fonts to display the correct formatted fonts.
 
 * CSS - All CSS code was produced by Matthew Lister originally typed to add styling to the HTML page. This included Font styling, image sizing and
-* colour choices except for the gradients for the back of the flip boxes. This can be found at: http://www.annenbergdl.org/tutorials/easy-breezy-beautiful-css-gradients/
-* which helps add so much more to the back of the flip boxes.
+colour choices except for the gradients for the back of the flip boxes. This can be found at: http://www.annenbergdl.org/tutorials/easy-breezy-beautiful-css-gradients/
+which helps add so much more to the back of the flip boxes. Once I had the code typed up, I ran it through Autoprefixer to clean up and resolve any
+breaks which did help in regards to displaying on various sized devices.
+ 
+
+* JavaScript - Some of the code for this was produced by Matthew Lister based on learning material from the code insitute course. I also used code
+from google garage which I used to create the code to fetch data fro JSON. The mapping section was imported and edited from google maps API's.
 
 
-JavaScript - The code for this was produced by Matthew Lister aga
+* JSON - The code was produced using information found online on how to produce a JSON file. Once I had the basis, I added more informtion to the 
+file to hold multiple markers that will display on the map.
+
+
+
+
 
 ### Acknowledgements
 
