@@ -1,5 +1,8 @@
 # Design & Conquer Website
 
+
+![]{assets/images/header.png}
+
 [My page](https://github.com/Mattlister/designandconquer)
 
 The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
