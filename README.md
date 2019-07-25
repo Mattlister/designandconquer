@@ -1,4 +1,4 @@
-![](assets/images/header.jpg)
+![](/assets/wireframes/header.jpg)
 
 [My page](https://github.com/Mattlister/designandconquer)
 
