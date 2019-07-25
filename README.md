@@ -52,12 +52,18 @@ that will show them how to book and what's available.
 * leaves the cool holiday home page. Design & Conquer.
 
 
-# Project Goals
+# Project Goals and Design
+
+![](/assets/images/flipimage1.jpg) ![](/assets/images/flipimage2.jpg ![](/assets/images/flipimage3.jpg)
 
 The primary goal of Design and Conquer is a single page application where a user can book an adventure holiday. As the title indicates, the user
 is able to "design" the advneture and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
 What We Do? section where a user can change choose a holiday if needed. The user can watch videos on each slide and read information about the 
 location. There's also a Help Guide on the home page which explains the website.
+
+
+
+
 
 # User Goals
 
@@ -94,8 +100,6 @@ A user can use the site with ease and simplicity to the page:
 
 ## Original concepts
 
- https:/assets/wireframes/New Wireframe 1.png
- https:/assets/wireframes/New Wireframe 3.png
  
 
 
