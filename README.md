@@ -1,6 +1,3 @@
-# Design & Conquer Website
-
-
 ![](assets/images/header.png)
 
 [My page](https://github.com/Mattlister/designandconquer)
