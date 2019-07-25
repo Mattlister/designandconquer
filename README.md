@@ -13,12 +13,12 @@ that will show them how to book and what's available.
 
 1.
 
-[Project Goals]
-[User Goals]
-[Developer Goals]
-[User Stories]
-[Project Design]
-[Wireframes]
+* Project Goals
+* Users Objects
+* Developer Objects
+* User Stories
+* Project Design
+* Wireframes
 
 
 
