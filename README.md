@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![](/assets/images/header.jpg)
+=======
+![](/assets/images/header.png)
+>>>>>>> cdeeebdde367aea51e5cdce8b87f395407c50c6f
 
 [My page](https://github.com/Mattlister/designandconquer)
 
