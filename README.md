@@ -192,9 +192,14 @@ When testing in Safari, the image flipped and stayed as the image but a mirrored
 and there was no maps or modals appearing. These are bugs I need to look into but this is a junction I came to mid project.
 
 
-### Content
+### Media and Content
 
-The text for each page was taken for the adventure photos were direct from Goolge and then edited by Matthew Lister.
+The text, images and videos were found on various sites for each particular venture. 
+
+* The content was taken and used in context from actual sites running these adventures for real and so their write up's were specific for the use of 
+promoting the products.
+* The images were searched and found on Google
+* The videos were searched for and found on Google. I used Vimeo videos as they're clearer than YouTube videos.
 
 
 ### Code
