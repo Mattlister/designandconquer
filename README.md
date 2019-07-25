@@ -11,7 +11,7 @@ adventure holiday booking website. The user can use the images to display an API
 and how to book" option at the top of the page where the user can enquire and book holida destinations using the request and booking form 
 that will show them how to book and what's available.
 
-
+## 1. UX Design
 
 * Project Goals
 * Users Objects
@@ -20,7 +20,17 @@ that will show them how to book and what's available.
 * Project Design
 * Wireframes
 
+## 2. Festures of site
 
+## 3. Technologies Used
+
+## 4. Testing
+
+## 5. Deployment
+
+## 6. Acknowledgements
+
+## 7. Disclaimer
 
 ### How I’d like the website to be perceived:
 
