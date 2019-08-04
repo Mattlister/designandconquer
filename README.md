@@ -1,4 +1,4 @@
-![](/assets/images/header.jpg)
+![](/assets/images/header.jpg style=centerme)
 
 [My page](https://github.com/Mattlister/designandconquer)
 
@@ -55,9 +55,7 @@ that will show them how to book and what's available.
 # Project Goals and Design
 
 ![](/assets/images/flipimage1.jpg) 
-![](/assets/images/flipimage2.jpg 
-![]/assets/images/flipimage3.jpg
-![](/assets/images/flipimage4.jpg)
+
 
 The primary goal of Design and Conquer is a single page application where a user can book an adventure holiday. As the title indicates, the user
 is able to "design" the advneture and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
