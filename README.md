@@ -121,9 +121,11 @@ For the user
    I went to Virgin (other holiday booking companies are available) to book it. I found going to see them was such a constructive experience. They
    located the hotel, the best place to visit, the sites to see and helped make the entire experience easier before I'd even gone on the trip. The 
    idea behind Design and Conquer is the user visits the site, chooses their adventure and contacts the organiser of the site. The organiser then 
-   puts together the package which would include travelling, accomodation and insurances. That way, the user would only then need to worry about
-   packing their clothes and personal neccesities. This design I am also using to create other websites for 2 other companies. 
-4. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site fot the user to find.
+   helps to "design" the package which would include travelling, accomodation and insurances. That way, the user would only then need to worry about
+   packing their clothes and personal neccesities. The idea behind the site is the user can see something, like something and choose something. The
+   organiser then puts together options wit the user to "design" a personal experience.
+4. This design I am also using to create other websites for 2 other companies. 
+5. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site for a user to find.
 
 
 Project Design
@@ -134,7 +136,30 @@ content onto one page and not lose anything.
 Image and colour
 
 * As you can see in the wireframes, I was originally going to use an orange border with the header contained inside but it lost something online and
-  looked dated. I reviewed other sites that had more freedom in their approach as they weren't single page applications and so could offer 
+  looked dated. I reviewed other sites that had more freedom in their approach as they weren't single page applications and so could offer more but
+  I didn't have that advantage. I had to think of a way that could showcase the site without being over worded and was pleasing to view from the
+  outset. As explained above, the idea I had was that I wanted the user to see something, like something and choose something. If a user lands on 
+  the page, a large colourful bright displayed image was prominent on the page. It's crisp, clean and the heading stands out at the top with a clever
+  description in the heading. "Design and Conquer" is what the user does. They see the image. Say climbing Mount Everest for instance. They hover over
+  on a larger display or click on the image to make it flip when on a smaller screen. That way, you don't have the images auto flipping which spoiled
+  the look on a smaller screen.
+* The user then has the choice to either click on "The Location" option which displays a map with 3 markers for starting points. They can also choose
+  "Information" which when clicked displays a brief piece of informatve info that explains what the adventure holds in store. There's also a video 
+  which when clicked will showcase a users experience of what a new user can expect. When watched, they can go to the "What We Do and How to Book"]
+  below the header which again, showcases a users video with various adventures into a showreel. There's then a "Booking Here" button which displays
+  a booking form which the user can fill in with some brief information. Once filled in, they click on the "Submit" button and that's when the holiday
+  organisers would then go to work. I was trying to keep everything minimal but engaging without headache and I had to think of each step of a users
+  experience.
+
+Fonts
+
+* I tried and tested various fonts for the site. At the beginning, I had around 20 fonts all in one page and over a 2 hour period, tried each one
+  and I found .... which I used for the header to be perfect. I asked various users and had the site reviewed within peer review in Slack and took 
+  all the feedback onboard. The heading font had a positive response from various users... but, I had used it in other locations such as within the
+  modals for the descriptions of the holidays but users said it was too hard to read and took away the contents meaning. I then changed the wording
+  to my second main font which I used for the smaller descriptive title and again, a negative response. I tried another edgier font but it didn't 
+  hold well on the smaller devices and so I settled for... Peer reviews 
+It had an edge to it which looked like it good and 
 
 
 
