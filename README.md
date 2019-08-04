@@ -103,11 +103,40 @@ User Stories
 As a user aged between 16 and upwards, I want:
 
 1. The objectives to be met when using the site so it can be used with no confusion and easy to navigate.
-2. As it's a single page application, I wanted the modals to hold more information and allow me to move around more information without leaving
-   the page. I was able to showcase more content using this technique.
-3. The vidoes I used for the website again could display so much in a single piece of visual content more than a description could. It engaged me 
+2. As it's a single page application, I wanted the modals to hold more information and allow me to move around and find new content without leaving
+   the page. I was able to showcase more using this technique.
+3. The vidoes I used for the website again could display so much in a single piece of visual content more than any description could. It engaged me 
    and in turn the audience and would help me visualise and imagine the destination.
-4. Visual images before flipped takes you ti 
+4. Visual images before flipped shows you instantly what the adventure is before going any further.
+5. Visually stunning videos are used as mentioned before to really showcase the adventure.
+6. 'The Location' is pinpointed to the heading of the holiday. Seperate markers on the map shows 3 locations where you choose your adventure.
+7. A search option is also availabe on the maps which helps plan distances and gives me an idea of the location.
+
+
+For the user
+
+1. I want them to find the site enjoyable and engaging.
+2. I want them to find it holds enough information without being too confusing to use. 
+3. The idea behind the site is, they find the destination by watching the videos and then contacting us. I travelled to New York this year and
+   I went to Virgin (other holiday booking companies are available) to book it. I found going to see them was such a constructive experience. They
+   located the hotel, the best place to visit, the sites to see and helped make the entire experience easier before I'd even gone on the trip. The 
+   idea behind Design and Conquer is the user visits the site, chooses their adventure and contacts the organiser of the site. The organiser then 
+   puts together the package which would include travelling, accomodation and insurances. That way, the user would only then need to worry about
+   packing their clothes and personal neccesities. This design I am also using to create other websites for 2 other companies. 
+4. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site fot the user to find.
+
+
+Project Design
+
+I've designed the website with minimal but engaging colour and content. As it's a single page application, I had to think how I could add a lot of
+content onto one page and not lose anything.
+
+Image and colour
+
+* As you can see in the wireframes, I was originally going to use an orange border with the header contained inside but it lost something online and
+  looked dated. I reviewed other sites that had more freedom in their approach as they weren't single page applications and so could offer 
+
+
 
 
 ### [Home Page](https://github.com/Mattlister/designandconquer)
