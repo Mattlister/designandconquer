@@ -14,9 +14,9 @@ that will show them how to book and what's available.
 
 ## 1. UX Design
 
-* Project Goals
+* Project Goals and Design
 * Users Objects
-* Developer Objects
+* Developers Objects
 * User Stories
 * Project Design
 * Wireframes
@@ -67,7 +67,7 @@ location. There's also a Help Guide on the home page which explains the website.
 
 
 
-# User Goals
+# User Objects
 
 The website has been designed for people that want to try a new type of holiday that's not on the normal scale. It's also designed for people
 who want to add to their list of adventures.
@@ -91,6 +91,23 @@ Design and Conquer helps a user find their passion because:
 * Images and map markers showcase the locations so the user know where their adventures take place.
 
 
+Developers Objects
+
+* Well stuctured and content friendly with well thought out programming.
+* The layout is formatted in a way that the user can navigate around the site without frustration.
+* A professionally layed out single page application with includes JavaScript, JSON and complex HTML and CSS
+* A site that the developer would use themselves and will be using the format again for other clients. It will be a forefront of his portfolio.
+
+User Stories
+
+As a user aged between 16 and upwards, I want:
+
+1. The objectives to be met when using the site so it can be used with no confusion and easy to navigate.
+2. As it's a single page application, I wanted the modals to hold more information and allow me to move around more information without leaving
+   the page. I was able to showcase more content using this technique.
+3. The vidoes I used for the website again could display so much in a single piece of visual content more than a description could. It engaged me 
+   and in turn the audience and would help me visualise and imagine the destination.
+4. Visual images before flipped takes you ti 
 
 
 ### [Home Page](https://github.com/Mattlister/designandconquer)
