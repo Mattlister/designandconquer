@@ -1,5 +1,6 @@
 ![](/assets/images/header.jpg)
 
+
 [My page](https://github.com/Mattlister/designandconquer)
 
 A Single Page Application for anyone looking to conquer their next Big Adventure!!
@@ -69,7 +70,27 @@ location. There's also a Help Guide on the home page which explains the website.
 # User Goals
 
 The website has been designed for people that want to try a new type of holiday that's not on the normal scale. It's also designed for people
-who want to add to their list of adventures and try something new. 
+who want to add to their list of adventures.
+
+Aimed at thrill seekers and people who have a passion for the extraordinary, this site can be used to find that thrill of the unknown. The goals of
+the site are:
+
+* Starting that adventure
+* Finding that thrill
+* Easy to use
+* A clean and neat home page with easily findable information
+* Bright and engaging for the user
+* Striking images and easily readable content
+* Watchable videos that can help a user see what they can achieve
+
+Design and Conquer helps a user find their passion because:
+
+* The design of the site is to showcase whats available via visual content with description. This helps the user to see what they will
+ be able to do when they book the holiday.
+* Easy to navigate and book the adventure they want to try. A helpful handy guide is prominent on the home page to stop any confusion.
+* Images and map markers showcase the locations so the user know where their adventures take place.
+
+
 
 
 ### [Home Page](https://github.com/Mattlister/designandconquer)
