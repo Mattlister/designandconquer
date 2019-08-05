@@ -178,7 +178,7 @@ Styling
 
 Original wireframe concepts
 
-![](/assets/wireframes/origmobwireframe.png)
+![](/assets/wireframes/New Mockup 1.jpg)
 
 
 ![](/assets/images/flipimage1.jpg) 
