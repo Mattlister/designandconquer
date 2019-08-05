@@ -176,12 +176,25 @@ Styling
 * 
 -------------------------------------------------------------------------
 
-Original wireframe concepts
+Flip Image Concept
+
+* Image 1 shows after being selected, the beginning of the image flipping.
 
 <p align="center">
   <img width="500" height="250" src="/assets/images/flipimage1.jpg">
 </p>
 
+* Image 2 shows the image mid flip revealing the back of the box
+
+<p align="center">
+  <img width="500" height="250" src="/assets/images/flipimage2.jpg">
+</p>
+
+* Image 3 shows the back of the box showing 'The Location' and 'Information' buttons
+
+<p align="center">
+  <img width="500" height="250" src="/assets/images/flipimage3.jpg">
+</p>
 
 ![](/assets/images/flipimage1.jpg) ![](/assets/images/flipimage2.jpg) ![](/assets/images/flipimage3.jpg)
 
