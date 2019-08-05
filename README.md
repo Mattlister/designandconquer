@@ -181,7 +181,7 @@ Original wireframe concepts
 
 
 
-![](/assets/images/flipimage1.jpg) 
+![](/assets/images/flipimage1.jpg) ![](/assets/images/flipimage2.jpg) ![](/assets/images/flipimage3.jpg)
 
 
 
