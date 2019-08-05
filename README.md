@@ -178,7 +178,9 @@ Styling
 
 Original wireframe concepts
 
-
+<p align="center">
+  <img width="500" height="250" src="/assets/images/flipimage1.jpg">
+</p>
 
 
 ![](/assets/images/flipimage1.jpg) ![](/assets/images/flipimage2.jpg) ![](/assets/images/flipimage3.jpg)
