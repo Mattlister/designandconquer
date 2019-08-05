@@ -174,9 +174,12 @@ Colours
 Styling
 
 * 
-
+-------------------------------------------------------------------------
 
 Wireframes
+
+
+![](/assets/images/flipimage1.jpg) 
 
 
 
