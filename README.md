@@ -159,7 +159,26 @@ Fonts
   modals for the descriptions of the holidays but users said it was too hard to read and took away the contents meaning. I then changed the wording
   to my second main font which I used for the smaller descriptive title and again, a negative response. I tried another edgier font but it didn't 
   hold well on the smaller devices and so I settled for... Peer reviews 
-It had an edge to it which looked like it good and 
+
+
+Images
+
+* Each image used was specifically chosen to showcase the holiday without any wording. I chose to use images because you instantly know what's 
+ represented behind the image. whether it's bike riding or shark cage diving. They're easy to see, understand and use.
+
+Colours
+
+* As I used a strong visual background image, I wanted to use colours that would suit it throughout the site.
+
+
+Styling
+
+* 
+
+
+Wireframes
+
+
 
 
 
