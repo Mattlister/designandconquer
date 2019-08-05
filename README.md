@@ -154,12 +154,18 @@ Image and colour
 Fonts
 
 * I tried and tested various fonts for the site. At the beginning, I had around 20 fonts all in one page and over a 2 hour period, tried each one
-  and I found .... which I used for the header to be perfect. I asked various users and had the site reviewed within peer review in Slack and took 
-  all the feedback onboard. The heading font had a positive response from various users... but, I had used it in other locations such as within the
-  modals for the descriptions of the holidays but users said it was too hard to read and took away the contents meaning. I then changed the wording
-  to my second main font which I used for the smaller descriptive title and again, a negative response. I tried another edgier font but it didn't 
-  hold well on the smaller devices and so I settled for... Peer reviews 
+  and I found the Barrio font which I used for the header to be perfect. I asked various users and had the site reviewed within peer review in Slack took 
+  all the feedback onboard. The heading font had a positive response from users.
 
+* The second font I used, Megrim was again chosen from a long list of font choices. I thought it was cool, sharp and fitted in well with the design 
+  of the site. I used this for the smaller content fonts in the modals and it's response wasn't as good so I only this as a 2nd heading and description
+  font.
+
+* My third main font used was Oxygen. This was clear, concise and fitted neatly into the modals and all readable sections. 
+
+ * Each font chosen wasn't done on a whim. I started off with around 20 fonts each time I tried something new. Tested and had them all reviewed
+   and listened to the response of colleagues, friends, family and then my mentor and reviewers from the peers section in Slack. Each review helped
+   me select the font options I have used as they have been postiviely received in each use and instance.
 
 Images
 
