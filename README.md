@@ -176,7 +176,9 @@ Styling
 * 
 -------------------------------------------------------------------------
 
-Wireframes
+Original wireframe concepts
+
+![](/assets/wireframes/orig wireframe 1.png) ![](/assets/wireframes/origmob wireframe sm .png) 
 
 
 ![](/assets/images/flipimage1.jpg) 
