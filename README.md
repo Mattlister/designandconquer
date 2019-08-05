@@ -258,13 +258,39 @@ A user can use the site with ease and simplicity to the page:
 
 
 
-# Tech Used
+# Technologies Used
+
+This Project uses the following programming languages
 
 * HTML
 * CSS 
-* [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-* [Font Awesome](https://fontawesome.com/start)
 * Javascript
+* JSON
+
+Cloud 9 and AWS Cloud 9
+
+* The same IDE was used but it moved from one product supplier of simply Cloud 9 to AWS (Amazon) Cloud 9
+
+* [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+* Bootstrap was used to build a solid and yet simple structure which allowed the site to be responsive easily.
+
+* [Goolge Fonts](https://fonts.google.com/)
+
+* Google was used for stylising the website fonts as it gave me a great selection to choose from.
+
+ [Autoprefixer](https://autoprefixer.github.io/)
+ 
+* Autoprefixer was used to correct issues within the CSS which prevented the page displaying on products using Safari and made sure
+  all css prefixes were up to date.
+
+* Microsoft Word - I used this product to crop images which I used for my README.md file.
+
+* Vimeo - Searching on Vimeo allowed me to find a strong video for each holiday selection which have only been used for educational purposes.
+
+
+
+
 
 
 
