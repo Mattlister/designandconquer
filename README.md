@@ -196,11 +196,19 @@ Flip Image Concept
   <img width="500" height="250" src="/assets/images/flipimage3.jpg">
 </p>
 
-![](/assets/images/flipimage1.jpg) ![](/assets/images/flipimage2.jpg) ![](/assets/images/flipimage3.jpg)
+* Image 4 shows the how displayed when the reveal has finished
 
+<p align="center">
+  <img width="500" height="250" src="/assets/images/flipimage4.jpg">
+</p>
 
+* Images 5 and 6 have been added to show that the images are all responsive and consistent when selected.
 
-
+<p align="center">
+  <img width="500" height="250" src="/assets/images/flip2images1.jpg">
+</p><p align="center">
+  <img width="500" height="250" src="/assets/images/flip2images2.jpg">
+</p>
 
 
 ### [Home Page](https://github.com/Mattlister/designandconquer)
