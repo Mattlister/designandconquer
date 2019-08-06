@@ -234,6 +234,7 @@ img {
 #map {
   height: 100%;
 }
+
 /* Optional: Makes the sample page fill the window. */
 
 html, body {
@@ -249,9 +250,9 @@ form {
     display: inline-block;
 }
 
+/* form group layout */
 
-
- .form-group {
+.form-group {
                     background: #ffffff;
                     padding: 20px;
                 }

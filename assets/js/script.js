@@ -5,6 +5,8 @@ $('#myModal1').on('show.bs.modal', function(event) {
     $("#map1").css("width", "100%");
   });
   
+  
+  
 var map;
   var myMarker;
   var myLatlng;
