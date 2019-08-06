@@ -61,6 +61,14 @@ h5 {
 
 }
 
+h6 {
+    font-family: 'Barrio', cursive;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #00ffff;
+}
+
 /* Paragra[h styling */
 
 .p4 {
@@ -299,3 +307,27 @@ form {
       padding-bottom: 20px;
     }
 
+/* links styling */
+              
+            
+
+            .fab:hover {
+                color: #4BB543;
+            }
+
+            .fa-facebook {
+                background: #ffffff;
+                color: #3B5998;
+            }
+
+            .fa-twitter {
+                background: #ffffff;
+                color: #55ACEE;
+            }
+
+
+            .fa-youtube {
+                background: #ffffff;
+                color: #bb0000;
+            }
+    
