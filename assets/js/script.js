@@ -5,8 +5,6 @@ $('#myModal1').on('show.bs.modal', function(event) {
     $("#map1").css("width", "100%");
   });
   
-  
-  
 var map;
   var myMarker;
   var myLatlng;
@@ -20,6 +18,7 @@ var map;
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
+
 
     map = new google.maps.Map(mapID, myOptions);
 
