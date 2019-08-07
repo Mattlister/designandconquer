@@ -57,12 +57,12 @@ h5 {
     color: #6C7A89;
     font-size: 25px;
     text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
+    text-shadow: 8px 10px 90px #00ffff;
 
 }
 
 h6 {
-    font-family: 'Barrio', cursive;
+    font-family: 'Megrim', cursive;
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -309,10 +309,13 @@ form {
 
 /* links styling */
               
-            
+            .h6:hover {
+    
+                color: #24e5f2;
+            }
 
             .fab:hover {
-                color: #24e5f2;
+                color: #45f1f7;
             }
 
             .fa-facebook {
