@@ -46,3 +46,16 @@ var map;
         });
     });
 
+        function showOnLoadModal() {
+            $(window).on("load", function () {
+                $("#whatwedo").modal("show");
+                $("#form-group").modal("show");
+            });
+        }
+
+        function disappearModalTwo() {
+            document.getElementById("exampleModal_One").style.display='none';
+        }
+
+        showOnLoadModal();
+
