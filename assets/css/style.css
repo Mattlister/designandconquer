@@ -66,7 +66,8 @@ h6 {
     color: #ffffff;
     font-size: 30px;
     text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
+    text-shadow: 8px 10px 40px #ffffff,
+    1px 1px 3px #00ffff;
 }
 
 /* Paragra[h styling */
@@ -307,7 +308,7 @@ form {
       padding-bottom: 20px;
     }
 
-/* links styling */
+/* footer links styling */
               
             .h6:hover {
     
