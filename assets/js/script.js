@@ -57,9 +57,5 @@ var map;
             document.getElementById("exampleModal_One").style.display='none';
         }
 
-        showOnLoadModal();
-        
-        function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
+        hideOnLoadModal();
 
