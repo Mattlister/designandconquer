@@ -6,8 +6,6 @@ $('#myModal1').on('show.bs.modal', function(event) {
   });
   
 let map;
-  let myMarker;
-  let myLatlng;
   const mapID = document.getElementById("map1");
   function initializeGMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
@@ -28,17 +26,31 @@ let map;
     myMarker.setMap(map);
     }
     
-  fetch('assets/js/locations.json')
-  .then((resp) => resp.json())
+fetch('assets/js/locations.json')
+  .then(res => res.json())
   .then(function(data) {
-    data.forEach(function(element) {
-    console.log(element);
-  });
-		console.log(data);
-    })
+      console.log(data);
+      let loc = getLatLng(data);
+      console.log(loc);
+  })
   .catch(function(error) {
     console.log(error);
-	});
+  });
+function getLatLng(jsonElement) {
+  let locations = [];
+  jsonElement.forEach(element => {
+    element.locations.forEach(location => {
+      locations.push(
+          {
+              "lat": location.lat,
+              "lng": location.lng
+          }
+          );
+    });
+  });
+  return locations;
+}
+
 	
 	$(function () {
         $("#btnClosePopup").click(function () {
