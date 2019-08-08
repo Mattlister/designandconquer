@@ -5,14 +5,14 @@ $('#myModal1').on('show.bs.modal', function(event) {
     $("#map1").css("width", "100%");
   });
   
-var map;
-  var myMarker;
-  var myLatlng;
-  var mapID = document.getElementById("map1");
+let map;
+  let myMarker;
+  let myLatlng;
+  const mapID = document.getElementById("map1");
   function initializeGMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
 
-    var myOptions = {
+    const myOptions = {
       zoom: 12,
       zoomControl: true,
       center: myLatlng,
@@ -57,5 +57,6 @@ var map;
             document.getElementById("exampleModal_One").style.display='none';
         }
 
-        hideOnLoadModal();
-
+function myFunction() {
+  alert("Thanks for your email, we'll be in touch real soon!!!");
+}
