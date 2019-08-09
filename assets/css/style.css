@@ -1,5 +1,7 @@
 /* Main Background image and styling */
 
+@import url('https://fonts.googleapis.com/css?family=Barrio|Megrim|Oxygen|Righteous|Rubik+Mono+One|Shadows+Into+Light&display=swap');
+
 body { 
   background: url("../images/skiing.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -14,6 +16,7 @@ img-src {
 }
 
 /* Fonts */
+
 
 h1 {
     font-family: 'Barrio', cursive;
