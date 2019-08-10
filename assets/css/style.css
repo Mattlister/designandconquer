@@ -71,7 +71,7 @@ h6 {
     1px 1px 3px #00ffff;
 }
 
-/* Paragra[h styling */
+/* Paragragh styling */
 
 .p4 {
   font-family: 'Barrio', cursive;
@@ -119,11 +119,23 @@ tag {
 
 /* Button styling */
 
-button {
+.btn {
   font-family: 'Megrim', cursive;
   color: #ffffff;
-  font-size: 20px;
+   font-size: 40px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #ffffff,
+    1px 1px 3px #00ffff;
   
+}
+
+.btn-primary {
+  font-family: 'Megrim', cursive;
+  color: #ffffff;
+   font-size: 20px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #ffffff,
+    1px 1px 3px #00ffff;
 }
 
 button1 {
