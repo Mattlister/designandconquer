@@ -438,3 +438,38 @@
 
 </html>
 
+fetch("../locations.json")
+  .then(res => res.json())
+  .then(function(data) {
+      console.log(data);
+      let loc = getLatLng(data);
+      console.log(loc);
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+  
+  
+function getLatLng(jsonElement) {
+  let locations = [];
+  jsonElement.forEach(element => {
+    element.locations.forEach(location => {
+      
+      locations.json(
+          {
+              "lat": location.lat,
+              "lng": location.lng
+              
+              
+          }
+          
+          );
+    });
+  });
+  return locations.json;
+}
+
+Wc {message: "initMap is not a function", name: "InvalidValueError", 
+
+script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY&callback=initMap">
+    </script>

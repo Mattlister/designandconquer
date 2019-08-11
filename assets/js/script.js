@@ -1,13 +1,14 @@
 $('#myModal1').on('show.bs.modal', function(event) {
     let button = $(event.relatedTarget);
-    initializeGMap(button.data('lat'), button.data('lng'));
+    initMap(button.data('lat'), button.data('lng'));
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
   
+  
 let map;
   const mapID = document.getElementById("map1");
-  function initializeGMap(lat, lng) {
+  function initMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
 
     const myOptions = {
@@ -18,6 +19,7 @@ let map;
     };
 
 
+
     map = new google.maps.Map(mapID, myOptions);
 
     myMarker = new google.maps.Marker({
@@ -26,7 +28,7 @@ let map;
     myMarker.setMap(map);
     }
     
-fetch('../locations.json')
+fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
       console.log(data);
@@ -47,8 +49,6 @@ function getLatLng(jsonElement) {
           {
               "lat": location.lat,
               "lng": location.lng
-              
-              
           }
           
           );
@@ -56,15 +56,6 @@ function getLatLng(jsonElement) {
   });
   return locations;
 }
-
-
-
-
-
-
-
-
-
 
 
 
