@@ -136,6 +136,24 @@ tag {
     text-align: center;
     text-shadow: 8px 10px 40px #ffffff,
     1px 1px 3px #00ffff;
+
+}
+
+.btn-primary:hover {
+  background-color: #242ef2;
+}
+
+.btn-success {
+  font-family: 'Megrim', cursive;
+  color: #ffffff;
+   font-size: 20px;
+    text-align: center;
+    text-shadow: 8px 10px 40px #ffffff,
+    1px 1px 3px #00ffff;
+}
+
+.btn-success:hover {
+  background-color: #242ef2;
 }
 
 button1 {
