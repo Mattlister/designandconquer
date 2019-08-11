@@ -26,7 +26,7 @@ let map;
     myMarker.setMap(map);
     }
     
-fetch('assets/js/locations.json')
+fetch('../locations.json')
   .then(res => res.json())
   .then(function(data) {
       console.log(data);
@@ -36,23 +36,39 @@ fetch('assets/js/locations.json')
   .catch(function(error) {
     console.log(error);
   });
+  
+  
 function getLatLng(jsonElement) {
   let locations = [];
   jsonElement.forEach(element => {
     element.locations.forEach(location => {
+      
       locations.push(
           {
               "lat": location.lat,
               "lng": location.lng
+              
+              
           }
+          
           );
     });
   });
   return locations;
 }
 
-	
-	$(function () {
+
+
+
+
+
+
+
+
+
+
+
+$(function () {
         $("#btnClosePopup").click(function () {
             $("#modal-content").modal("hide");
         });
