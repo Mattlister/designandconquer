@@ -4,12 +4,13 @@ $('#myModal1').on('show.bs.modal', function(event) {
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
-  
-  
-let map;
-  const mapID = document.getElementById("map1");
+
+
+ let map;
+  let mapID = document.getElementById("map1");
   function initMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
+    
 
     const myOptions = {
       zoom: 12,
@@ -18,17 +19,15 @@ let map;
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-
-
     map = new google.maps.Map(mapID, myOptions);
 
     myMarker = new google.maps.Marker({
-      position: myLatlng
+      parseFloat: myLatlng
     });
     myMarker.setMap(map);
     }
     
-fetch('assets/js/locations.json')
+  fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
       console.log(data);
@@ -58,19 +57,11 @@ function getLatLng(jsonElement) {
 }
 
 
-
 $(function () {
         $("#btnClosePopup").click(function () {
             $("#modal-content").modal("hide");
         });
     });
-
-        function showOnLoadModal() {
-            $(window).on("load", function () {
-                $("#whatwedo").modal("show");
-                $("#form-group").modal("show");
-            });
-        }
 
         function disappearModalTwo() {
             document.getElementById("exampleModal_One").style.display='none';
