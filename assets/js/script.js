@@ -1,6 +1,6 @@
 $('#myModal1').on('show.bs.modal', function(event) {
     let button = $(event.relatedTarget);
-    initMap(button.data('lat'), button.data('lng'));
+    initMap(parseFloat(button.data('lat')), parseFloat(button.data('lng')));
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
