@@ -15,14 +15,14 @@ $('#myModal1').on('show.bs.modal', function(event) {
     const myOptions = {
       zoom: 12,
       zoomControl: true,
-      center: myLatlng,
+      center: +myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
     map = new google.maps.Map(mapID, myOptions);
 
     myMarker = new google.maps.Marker({
-      parseFloat: myLatlng
+      position: +myLatlng
     });
     myMarker.setMap(map);
     }
@@ -50,9 +50,11 @@ function getLatLng(jsonElement) {
               "lng": location.lng
           }
           
+          
           );
     });
   });
+  
   return locations;
 }
 
