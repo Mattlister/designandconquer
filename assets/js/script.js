@@ -1,6 +1,6 @@
 $('#myModal1').on('show.bs.modal', function(event) {
     let button = $(event.relatedTarget);
-    initMap(parseFloat(button.data('lat')), parseFloat(button.data('lng')));
+    initMap(parseFloat(a.data('lat')), parseFloat(a.data('lng')));
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
@@ -9,7 +9,7 @@ $('#myModal1').on('show.bs.modal', function(event) {
  let map;
   let mapID = document.getElementById("map1");
   function initMap(lat, lng) {
-    myLatlng = new google.maps.LatLng(+lat, +lng);
+    myLatlng = new google.maps.LatLng(lat, lng);
     
 
     const myOptions = {
