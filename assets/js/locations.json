@@ -1,195 +1,136 @@
-[
-	{
-	  "adventure": "queensland biking",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": -37.75,
-		  "lng": 145.01667
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 27.6333,
-		  "lng": 153.1667
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 27.3358,
-		  "lng": 152.8219
-		}
-	  ]
-	},
-	{
-	  "adventure": "yosamite climbing",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 37.7339,
-		  "lng": 119.6377
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 37.8107,
-		  "lng": 119.4852
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 41.75290,
-		  "lng": -74.20720
-		}
-      
-	  ] 
-	},
-	{
-	  "adventure": "everest climbing ",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 27.9750,
-		  "lng": 86.9336
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 27.9750,
-		  "lng": 86.9321
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 27.9626,
-		  "lng": 86.9336
-		}
-      
-	  ]
-
-	},
-  {
-	  "adventure": "banzai surfing",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 21.664019,
-		  "lng": -158.053852
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 21.6415,
-		  "lng": 158.0671
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 33.8807,
-		  "lng": 78.5122
-		}
-	  
-    ]
-    
-	},
-	
-	{
-	  "adventure": "french alps",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 45.9237,
-		  "lng": 6.8694
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 45.4683,
-		  "lng": 6.9056
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 45.3968,
-		  "lng": 6.5666
-		}
-      
-	  ]
-	
-  },
-  
-  {
-	  "adventure": "victoria skydive",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 17.7806,
-		  "lng": 25.2778
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 17.9243,
-		  "lng": 85.8572
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 25.8572,
-		  "lng": 27.8493
-		}
-	  ]
-    
-	},
-	{
-	  "adventure": "neptune diving",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		}
-	  ]
-	},
-	{
-	  "adventure": "nile sailing",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		}
-	  ]
-	},
-	{
-	  "adventure": "dubai buggying",
-	  "locations": [
-		{
-		  "name": "Google Location 1",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		},
-		{
-		  "name": "Google Location 2",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		},
-		{
-		  "name": "Google Location 3",
-		  "lat": 50.010083,
-		  "lng": -110.113006
-		}
-	  ]
-	}
-  ]
-      
-      
-     
+[{
+        "name": "Google Location 1",
+        "lat": -37.75,
+        "lng": 145.01667
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 27.6333,
+        "lng": 153.1667
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 27.3358,
+        "lng": 152.8219
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 37.7339,
+        "lng": 119.6377
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 37.8107,
+        "lng": 119.4852
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 41.7529,
+        "lng": -74.2072
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 27.975,
+        "lng": 86.9336
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 27.975,
+        "lng": 86.9321
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 27.9626,
+        "lng": 86.9336
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 21.664019,
+        "lng": -158.053852
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 21.6415,
+        "lng": 158.0671
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 33.8807,
+        "lng": 78.5122
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 45.9237,
+        "lng": 6.8694
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 45.4683,
+        "lng": 6.9056
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 45.3968,
+        "lng": 6.5666
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 17.7806,
+        "lng": 25.2778
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 17.9243,
+        "lng": 85.8572
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 25.8572,
+        "lng": 27.8493
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 1",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 2",
+        "lat": 50.010083,
+        "lng": -110.113006
+    },
+    {
+        "name": "Google Location 3",
+        "lat": 50.010083,
+        "lng": -110.113006
+    }
+]

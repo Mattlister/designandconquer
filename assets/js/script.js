@@ -1,6 +1,6 @@
 $('#myModal1').on('show.bs.modal', function(event) {
-    let button = $(event.relatedTarget);
-    initMap(parseFloat(a.data('lat')), parseFloat(a.data('lng')));
+    let relatedTarget = $(event.relatedTarget);
+    initMap(parseFloat(relatedTarget.data('lat')), parseFloat(relatedTarget.data('lng')));
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
@@ -9,20 +9,20 @@ $('#myModal1').on('show.bs.modal', function(event) {
  let map;
   let mapID = document.getElementById("map1");
   function initMap(lat, lng) {
-    myLatlng = new google.maps.LatLng(lat, lng);
     
-
-    const myOptions = {
+    
+    var myLatlng = new google.maps.LatLng(lat, lng);
+    var myOptions = {
       zoom: 12,
       zoomControl: true,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    map = new google.maps.Map(mapID, myOptions);
+    var map = new google.maps.Map(mapID, myOptions);
 
     myMarker = new google.maps.Marker({
-      position: myLatlng
+      position: myLatlng,
     });
     myMarker.setMap(map);
     }
@@ -32,7 +32,18 @@ $('#myModal1').on('show.bs.modal', function(event) {
   .then(function(data) {
       console.log(data);
       let loc = getLatLng(data);
-      console.log(loc);
+      data.forEach(adven => {
+        console.log(adven)
+        multiMarkers = {
+          lat: adven.lat,
+          lng: adven.lng
+        }
+        myMarker2 = new google.maps.Marker({
+            position: multiMarkers,
+            map: map,
+        });    
+        
+});
   })
   .catch(function(error) {
     console.log(error);
@@ -42,17 +53,15 @@ $('#myModal1').on('show.bs.modal', function(event) {
 function getLatLng(jsonElement) {
   let locations = [];
   jsonElement.forEach(element => {
-    element.locations.forEach(location => {
       
       locations.push(
           {
-              "lat": location.lat,
-              "lng": location.lng
+              "lat": element.lat,
+              "lng": element.lng
           }
           
           
           );
-    });
   });
   
   return locations;
