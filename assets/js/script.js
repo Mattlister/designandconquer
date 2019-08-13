@@ -9,7 +9,8 @@ $('#myModal1').on('show.bs.modal', function(event) {
  let map;
   let mapID = document.getElementById("map1");
   function initMap(lat, lng) {
-    
+
+
     
     var myLatlng = new google.maps.LatLng(lat, lng);
     var myOptions = {
@@ -17,15 +18,31 @@ $('#myModal1').on('show.bs.modal', function(event) {
       zoomControl: true,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
+      
     };
 
-    var map = new google.maps.Map(mapID, myOptions);
+  $.each(myMarker2,function()
+    {
+           var myLatlng = new google.maps.LatLng(lat, lng);
+        
+           var myMarker2 = new google.maps.Marker({
+            position: (myLatlng),
+    });
+    myMarker2.setMap(map);
+    });
+      
 
-    myMarker = new google.maps.Marker({
+    var map = new google.maps.Map(mapID, myOptions);
+    
+    
+
+    myMarker2 = new google.maps.Marker({
       position: myLatlng,
     });
-    myMarker.setMap(map);
+    myMarker2.setMap(map)
     }
+    
+    
     
   fetch('assets/js/locations.json')
   .then(res => res.json())
@@ -33,14 +50,15 @@ $('#myModal1').on('show.bs.modal', function(event) {
       console.log(data);
       let loc = getLatLng(data);
       data.forEach(adven => {
-        console.log(adven)
+        console.log(adven);
         multiMarkers = {
           lat: adven.lat,
           lng: adven.lng
-        }
+        };
         myMarker2 = new google.maps.Marker({
             position: multiMarkers,
             map: map,
+            
         });    
         
 });
