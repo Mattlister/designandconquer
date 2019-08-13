@@ -88,7 +88,7 @@ function getLatLng(jsonElement) {
 
 $(function () {
         $("#btnClosePopup").click(function () {
-            $("#modal-content").modal("hide");
+            $("#myModal1-content").modal("hide");
         });
     });
 
