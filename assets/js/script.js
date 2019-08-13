@@ -32,14 +32,16 @@ $('#myModal1').on('show.bs.modal', function(event) {
     });
       
 
+    
+
     var map = new google.maps.Map(mapID, myOptions);
     
     
 
-    myMarker2 = new google.maps.Marker({
+    myMarker = new google.maps.Marker({
       position: myLatlng,
     });
-    myMarker2.setMap(map)
+    myMarker.setMap(map)
     }
     
     
@@ -88,7 +90,7 @@ function getLatLng(jsonElement) {
 
 $(function () {
         $("#btnClosePopup").click(function () {
-            $("#myModal1-content").modal("hide");
+            $("#modal-content").modal("hide");
         });
     });
 
