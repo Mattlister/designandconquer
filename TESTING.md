@@ -473,3 +473,158 @@ Wc {message: "initMap is not a function", name: "InvalidValueError",
 
 script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY&callback=initMap">
     </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+fetch('assets/js/locations.json')
+  .then((resp) => resp.json())
+  .then(function(data) {
+    // Do something with your data here. Firstly look at it!
+		console.log(data);
+    })
+  .catch(function(error) {
+    console.log(error);
+	});
+​
+  var map;
+  var myMarker;
+  var myLatlng;
+  var mapID = document.getElementById("map1");
+​
+  function initializeGMap(lat, lng) {
+    myLatlng = new google.maps.LatLng(lat, lng);
+​
+    var myOptions = {
+      zoom: 12,
+      zoomControl: true,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+​
+    map = new google.maps.Map(mapID, myOptions);
+​
+    myMarker = new google.maps.Marker({
+      position: myLatlng
+    });
+    myMarker.setMap(map);
+    }
+Collapse
+
+
+------------------------------------------------------------------------------------
+
+
+    
+  fetch('assets/js/locations.json')
+  .then(res => res.json())
+  .then(function(data) {
+      console.log(data);
+      let loc = getLatLng(data);
+      data.forEach(adven => {
+        console.log(adven);
+        multiMarkers = {
+          lat: adven.lat,
+          lng: adven.lng
+        };
+        myMarker2 = new google.maps.Marker({
+            position: multiMarkers,
+            map: map,
+            
+        });    
+        
+});
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
+
+
+$('#myModal1').on('show.bs.modal', function(event) {
+    let relatedTarget = $(event.relatedTarget);
+    initMap(parseFloat(relatedTarget.data('lat')), parseFloat(relatedTarget.data('lng')));
+    $("#location-map").css("width", "100%");
+    $("#map1").css("width", "100%");
+  });
+
+
+ let map;
+  let mapID = document.getElementById("map1");
+  function initMap(lat, lng) {
+
+
+    
+    var myLatlng = new google.maps.LatLng(lat, lng);
+    var myOptions = {
+      zoom: 12,
+      zoomControl: true,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+      
+    };
+    
+    
+
+  $.each(myMarker2,function()
+    {
+           var myLatlng = new google.maps.LatLng(lat, lng);
+        
+           var myMarker2 = new google.maps.Marker({
+            position: (myLatlng),
+    });
+    myMarker2.setMap(map);
+    });
+      
+
+    
+
+    var map = new google.maps.Map(mapID, myOptions);
+    
+    
+
+    myMarker = new google.maps.Marker({
+      position: myLatlng,
+    });
+    myMarker.setMap(map)
+    }
+    
+  
+  
+function getLatLng(jsonElement) {
+  let locations = [];
+  jsonElement.forEach(element => {
+      
+      locations.push(
+          {
+              "lat": element.lat,
+              "lng": element.lng
+          }
+          
+          
+          );
+  });
+  
+  return locations;
+}
+
+
+$(function () {
+        $("#btnClosePopup").click(function () {
+            $("#modal-content").modal("hide");
+        });
+    });
+
+        function disappearModalTwo() {
+            document.getElementById("exampleModal_One").style.display='none';
+        }
+
+function myFunction() {
+  alert("Thanks for your email, we'll be in touch real soon!!!");
+}    
+    
