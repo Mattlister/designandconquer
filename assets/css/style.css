@@ -294,8 +294,10 @@ img {
 
 /* Map information and display */
 
-#map {
+html, body, #map-canvas {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Optional: Makes the sample page fill the window. */
