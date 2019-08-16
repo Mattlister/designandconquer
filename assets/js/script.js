@@ -1,10 +1,14 @@
-let map = new google.maps.Map(document.getElementById('#map1'), {
-  zoom: 10,
-  center: new google.maps.LatLng(lat, lng),
-  mapTypeId: google.maps.MapTypeId.ROADMAP
-});
+function initMap() {
+  let = {lat, lng};
+  let = new google.maps.Map(document.getElementById('map'), {zoom: 10, center});
+  let marker = new google.maps.Marker({
+   position: new google.maps.myLatLng(locations[i][1]),
+   mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+} 
 
-fetch('assets/data/locations.json')
+
+fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
       console.log(data);
@@ -16,13 +20,7 @@ fetch('assets/data/locations.json')
     }
   });
   
-  
-  $('#myModal1').on('show.bs.modal', function(event) {
-    let relatedTarget = $(event.relatedTarget);
-    $("#locations-map1").css("width", "100%");
-    $("#map1").css("width", "100%");
-  });
-  
+
   function getLatLng(jsonElement) {
   let locations = [];
   jsonElement.forEach(element => {
@@ -39,7 +37,11 @@ fetch('assets/data/locations.json')
   
   return locations;
 }
-  
+  $('#myModal1').on('show.bs.modal', function(event) {
+    let relatedTarget = $(event.relatedTarget);
+    $("#location-map").css("width", "100%");
+    $("#map1").css("width", "100%");
+  });
   
   $(function () {
         $("#btnClosePopup").click(function () {
@@ -52,4 +54,3 @@ fetch('assets/data/locations.json')
 function myFunction() {
   alert("Thanks for your email, we'll be in touch real soon!!!");
 }
- 
