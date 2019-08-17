@@ -1,11 +1,55 @@
-function initMap() {
-  let = {lat, lng};
-  let = new google.maps.Map(document.getElementById('map'), {zoom: 10, center});
-  let marker = new google.maps.Marker({
-   position: new google.maps.myLatLng(locations[i][1]),
-   mapTypeId: google.maps.MapTypeId.ROADMAP
+$(document).ready(function() {
+let map;
+let myMarker;
+let myLatLng;
+  var mapID = document.getElementById("map1");
+  function initializeGMap(lat, lng) {
+    myLatlng = new google.maps.LatLng(lat, lng);
+
+
+ var myOptions = {
+      zoom: 12,
+      zoomControl: true,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    map = new google.maps.Map(mapID, myOptions);
+
+
+
+    myMarker = new google.maps.Marker({
+      position: myLatlng
     });
-} 
+    myMarker.setMap(map);
+    }
+    
+     $('#myModal1').on('show.bs.modal', function(event) {
+    let button = $(event.relatedTarget);
+    initializeGMap(button.data('lat'), button.data('lng'));
+    $("#location-map").css("width", "100%");
+    $("#map1").css("width", "100%");
+  });
+
+
+  for (let x in locations) {
+}
+  let location = locations[x];
+  let location1 = new google.maps.LatLng(location.lat,location.lng);
+  let marker = new google.maps.Marker({
+    position: location,
+    title: location.name,
+    map: map
+  });
+
+
+  // Trigger map resize event after modal shown
+
+$('#myModal1').on('shown.bs.modal', function() {
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(myLatlng);
+  });
+});
 
 
 fetch('assets/js/locations.json')
@@ -20,9 +64,9 @@ fetch('assets/js/locations.json')
     }
   });
   
-
+  
   function getLatLng(jsonElement) {
-  let locations = [];
+  let locations = [i];
   jsonElement.forEach(element => {
       
       locations.push(
@@ -37,11 +81,7 @@ fetch('assets/js/locations.json')
   
   return locations;
 }
-  $('#myModal1').on('show.bs.modal', function(event) {
-    let relatedTarget = $(event.relatedTarget);
-    $("#location-map").css("width", "100%");
-    $("#map1").css("width", "100%");
-  });
+  
   
   $(function () {
         $("#btnClosePopup").click(function () {
