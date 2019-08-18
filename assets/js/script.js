@@ -32,7 +32,7 @@ let myLatLng;
   });
 });
 
-fetch('/locations.json')
+fetch('assets/js/locations.json')
   .then(response => {
     return response.json();
   })
@@ -40,6 +40,7 @@ fetch('/locations.json')
     //JSON data
     console.log(data);  })
   .catch(err => {
+    // Do something for an error here
   });
  
  
