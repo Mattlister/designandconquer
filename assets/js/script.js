@@ -30,58 +30,21 @@ let myLatLng;
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
-
-
-  for (let x in locations) {
-}
-  let location = locations[x];
-  let location1 = new google.maps.LatLng(location.lat,location.lng);
-  let marker = new google.maps.Marker({
-    position: location,
-    title: location.name,
-    map: map
-  });
-
-
-  // Trigger map resize event after modal shown
-
-$('#myModal1').on('shown.bs.modal', function() {
-    google.maps.event.trigger(map, "resize");
-    map.setCenter(myLatlng);
-  });
 });
 
-
-fetch('assets/js/locations.json')
-  .then(res => res.json())
-  .then(function(data) {
-      console.log(data);
-    for (let i = 0; i < data.length; i++) {
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(data.lat, data.lng),
-        map: map
-      });
-    }
+fetch('/locations.json')
+  .then(response => {
+    return response.json();
+  })
+  .then(data => {
+    //JSON data
+    console.log(data);  })
+  .catch(err => {
   });
-  
-  
-  function getLatLng(jsonElement) {
-  let locations = [i];
-  jsonElement.forEach(element => {
-      
-      locations.push(
-          {
-              "lat": element.lat,
-              "lng": element.lng
-          }
-          
-          
-          );
-  });
-  
-  return locations;
-}
-  
+ 
+ 
+ 
+ 
   
   $(function () {
         $("#btnClosePopup").click(function () {
