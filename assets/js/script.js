@@ -29,18 +29,18 @@ let myLatLng;
   });
 });
 
-fetch('assets/js/locations.json')
-  .then(res => res.json())
-  .then(function(data) {
-      console.log(data);
-    for (let i = 0; i < data.length; i++) {
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(element.lat, element.lng),
-        map: map,
-        
-      });
-    }
-  });
+fetch('/assets/js/locations.json').then(function (response) {
+      return response.json();
+      
+}).then(function (obj) {
+  console.log(obj);
+  
+}).catch(function (error) {
+  console.error('Something went wrong displaying the markers!');
+  console.error(error);
+});
+
+ const getLatLng = () =>
  function getLatLng(jsonElement) {
   let locations = [i];
   jsonElement.forEach(element => {
