@@ -6,7 +6,6 @@ let myLatLng;
   function initializeGMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
 
-
  var myOptions = {
       zoom: 12,
       zoomControl: true,
@@ -15,8 +14,6 @@ let myLatLng;
     };
 
     map = new google.maps.Map(mapID, myOptions);
-
-
 
     myMarker = new google.maps.Marker({
       position: myLatlng
@@ -33,18 +30,33 @@ let myLatLng;
 });
 
 fetch('assets/js/locations.json')
-  .then(response => {
-    return response.json();
-  })
-  .then(data => {
-    //JSON data
-    console.log(data);  })
-  .catch(err => {
-    // Do something for an error here
+  .then(res => res.json())
+  .then(function(data) {
+      console.log(data);
+    for (let i = 0; i < data.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(element.lat, element.lng),
+        map: map,
+        
+      });
+    }
   });
- 
- 
- 
+ function getLatLng(jsonElement) {
+  let locations = [i];
+  jsonElement.forEach(element => {
+      
+      locations.push(
+          {
+              "lat": lat,
+              "lng": lng
+          }
+          
+          
+          );
+  });
+  
+  return locations;
+}
  
   
   $(function () {
