@@ -9,7 +9,8 @@ $('#myModal1').on('show.bs.modal', function(event) {
  let map;
   let mapID = document.getElementById("map1");
   function initMap(lat, lng) {
-    
+
+
     
     var myLatlng = new google.maps.LatLng(lat, lng);
     var myOptions = {
@@ -17,16 +18,19 @@ $('#myModal1').on('show.bs.modal', function(event) {
       zoomControl: true,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
+      
     };
+
+
 
     var map = new google.maps.Map(mapID, myOptions);
     
     
 
-    myMarker = new google.maps.Marker({
+    myMarker2 = new google.maps.Marker({
       position: myLatlng,
     });
-    myMarker.setMap(map);
+    myMarker2.setMap(map)
     }
     
     
@@ -45,6 +49,7 @@ $('#myModal1').on('show.bs.modal', function(event) {
         myMarker2 = new google.maps.Marker({
             position: multiMarkers,
             map: map,
+            
         });    
         
 });
@@ -54,3 +59,34 @@ $('#myModal1').on('show.bs.modal', function(event) {
   });
   
   
+function getLatLng(jsonElement) {
+  let locations = [];
+  jsonElement.forEach(element => {
+      
+      locations.push(
+          {
+              "lat": element.lat,
+              "lng": element.lng
+          }
+          
+          
+          );
+  });
+  
+  return locations;
+}
+
+
+$(function () {
+        $("#btnClosePopup").click(function () {
+            $("#modal-content").modal("hide");
+        });
+    });
+
+        function disappearModalTwo() {
+            document.getElementById("exampleModal_One").style.display='none';
+        }
+
+function myFunction() {
+  alert("Thanks for your email, we'll be in touch real soon!!!");
+}
