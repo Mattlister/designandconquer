@@ -35,11 +35,11 @@ $('#myModal1').on('show.bs.modal', function(event) {
       console.log(data);
       let loc = getLatLng(data);
       data.forEach(adven => {
-        console.log(adven)
+        console.log(adven);
         multiMarkers = {
-          lat: adven.lat,
-          lng: adven.lng
-        }
+          lat: 50.010083,
+          lng: -110.113006
+        };
         myMarker2 = new google.maps.Marker({
             position: multiMarkers,
             map: map,
@@ -73,7 +73,7 @@ function getLatLng(jsonElement) {
 
 $(function () {
         $("#btnClosePopup").click(function () {
-            $("#modal-content").modal("hide");
+            $("#modal1").modal("hide");
         });
     });
 
