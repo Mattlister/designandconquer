@@ -1,72 +1,56 @@
-$(document).ready(function() {
-let map;
-let myMarker;
-let myLatLng;
-  var mapID = document.getElementById("map1");
-  function initializeGMap(lat, lng) {
-    myLatlng = new google.maps.LatLng(lat, lng);
+$('#myModal1').on('show.bs.modal', function(event) {
+    let relatedTarget = $(event.relatedTarget);
+    initMap(parseFloat(relatedTarget.data('lat')), parseFloat(relatedTarget.data('lng')));
+    $("#location-map").css("width", "100%");
+    $("#map1").css("width", "100%");
+  });
 
- var myOptions = {
+
+ let map;
+  let mapID = document.getElementById("map1");
+  function initMap(lat, lng) {
+    
+    
+    var myLatlng = new google.maps.LatLng(lat, lng);
+    var myOptions = {
       zoom: 12,
       zoomControl: true,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    map = new google.maps.Map(mapID, myOptions);
+    var map = new google.maps.Map(mapID, myOptions);
+    
+    
 
     myMarker = new google.maps.Marker({
-      position: myLatlng
+      position: myLatlng,
     });
     myMarker.setMap(map);
     }
     
-     $('#myModal1').on('show.bs.modal', function(event) {
-    let button = $(event.relatedTarget);
-    initializeGMap(button.data('lat'), button.data('lng'));
-    $("#location-map").css("width", "100%");
-    $("#map1").css("width", "100%");
-  });
-});
-
-fetch('/assets/js/locations.json').then(function (response) {
-      return response.json();
-      
-}).then(function (obj) {
-  console.log(obj);
-  
-}).catch(function (error) {
-  console.error('Something went wrong displaying the markers!');
-  console.error(error);
-});
-
- const getLatLng = () =>
- function getLatLng(jsonElement) {
-  let locations = [i];
-  jsonElement.forEach(element => {
-      
-      locations.push(
-          {
-              "lat": lat,
-              "lng": lng
-          }
-          
-          
-          );
-  });
-  
-  return locations;
-}
- 
-  
-  $(function () {
-        $("#btnClosePopup").click(function () {
-            $("#modal-content").modal("hide");
-        });
-    });
-        function disappearModalTwo() {
-            document.getElementById("exampleModal_One").style.display='none';
+    
+    
+  fetch('assets/js/locations.json')
+  .then(res => res.json())
+  .then(function(data) {
+      console.log(data);
+      let loc = getLatLng(data);
+      data.forEach(adven => {
+        console.log(adven)
+        multiMarkers = {
+          lat: adven.lat,
+          lng: adven.lng
         }
-function myFunction() {
-  alert("Thanks for your email, we'll be in touch real soon!!!");
-}
+        myMarker2 = new google.maps.Marker({
+            position: multiMarkers,
+            map: map,
+        });    
+        
+});
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+  
+  
