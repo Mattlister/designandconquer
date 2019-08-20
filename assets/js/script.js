@@ -1,19 +1,12 @@
 $('#myModal1').on('show.bs.modal', function(event) {
-    let relatedTarget = $(event.relatedTarget);
-    initMap(parseFloat(relatedTarget.data('lat')), parseFloat(relatedTarget.data('lng')));
     $("#location-map").css("width", "100%");
     $("#map1").css("width", "100%");
   });
 
-
- let map;
-  let mapID = document.getElementById("map1");
-  function initMap(lat, lng) {
   
-
-    
-    var myLatlng = new google.maps.LatLng(lat, lng);
-    var myOptions = {
+    let MAPID = new google.maps.Map(document.getElementById('map1'));
+    let myLatlng = new google.maps.LatLng(data.lat, data.lng)
+    let myOptions = {
       zoom: 12,
       zoomControl: true,
       center: myLatlng,
@@ -21,54 +14,43 @@ $('#myModal1').on('show.bs.modal', function(event) {
       
     };
 
-
-
-    var map = new google.maps.Map(mapID, myOptions);
+           var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
     
-    }
-    
-    
-    
-  fetch('assets/js/locations.json')
+   fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
-      console.log(data);
-      let loc = getLatLng(data);
-      data.forEach(adven => {
-        console.log(adven);
-        multiMarkers = {
-          lat: 50.010083,
-          lng: -110.113006
+   multiMarkers = {
+          lat: data.lat,
+          lng: data.lng
         };
-        myMarker2 = new google.maps.Marker({
-            position: multiMarkers,
-            map: map,
-            
-        });    
         
-});
-  })
+})
   .catch(function(error) {
-    console.log(error);
   });
   
-  
-function getLatLng(jsonElement) {
-  let locations = [];
-  jsonElement.forEach(element => {
-      
-      locations.push(
-          {
-              "lat": element.lat,
-              "lng": element.lng
-          }
-          
-          
-          );
-  });
-  
-  return locations;
-}
+  for (let i = 0; i < data.length; i++) {
+      // data.length will loop over until it hits the end of the json file
+      let marker = new google.maps.Marker({
+        position: {
+          lat: data.lat,
+          lng: data.lng
+        }
+        // Again we are setting the map structure
+      });
+      marker.setMap(MAP);
+    }
+
+
+----------------------------------------------------------
+
+
+
+
+
+
 
 
 $(function () {
@@ -84,3 +66,63 @@ $(function () {
 function myFunction() {
   alert("Thanks for your email, we'll be in touch real soon!!!");
 }
+
+
+
+myMarker = new google.maps.Marker({
+      position: +myLatlng
+      position: myLatlng
+    });
+    myMarker.setMap(map);
+    }
+
+
+
+----------------------------------------
+
+fetch('assets/js/locations.json')
+  fetch('assets/js/locations.json')
+  .then(res => res.json())
+  .then(function(data) {
+      console.log(data);
+@@ -58,20 +57,12 @@ function getLatLng(jsonElement) {
+}
+
+
+
+$(function () {
+        $("#btnClosePopup").click(function () {
+            $("#modal-content").modal("hide");
+        });
+    });
+
+        function showOnLoadModal() {
+            $(window).on("load", function () {
+                $("#whatwedo").modal("show");
+                $("#form-group").modal("show");
+            });
+        }
+
+        function disappearModalTwo() {
+            document.getElementById("exampleModal_One").style.display='none';
+        }
+
+
+-----------------------------------------
+
+then(function(data) {
+      console.log(data);
+      let loc = getLatLng(data);
+      console.log(loc);
+      data.forEach(adven => {
+        console.log(adven)
+        multiMarkers = {
+          lat: adven.lat,
+          lng: adven.lng
+        }
+        myMarker2 = new google.maps.Marker({
+            position: multiMarkers,
+            map: map,
+        });    
+
+});
