@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var mapID = document.getElementById("map1");
+  var mapID = document.getElementById("map");
   function initMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
     var myOptions = {
@@ -16,28 +16,25 @@ $(document).ready(function() {
 transitLayer.setMap(map);
     }
     
+    map = new google.maps.Map(mapID);
      $('#myModal1').on('show.bs.modal', function(event) {
     let button = $(event.relatedTarget);
     initMap(button.data('lat'), button.data('lng'));
     $("#location-map").css("width", "100%");
-    $("#map1").css("width", "100%");
+    $("#map").css("width", "100%");
   });
  
 });
-
-
 fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
-      console.log(data);
-    for (let i = 0; i < data.length; i++) {
-      let marker = new google.maps.LatLng({
-        position: (data.lat, data.lng),
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+    data.forEach(element => {
+       return myMarker = new google.maps.Marker({
+          position: {
+            lat: element.lat,
+            lng: element.lng
+          }
+        });
       });
-    }
-    
-  });
-  
- 
-  
+      console.log(myMarker)
+    });

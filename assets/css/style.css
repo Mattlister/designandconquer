@@ -291,7 +291,7 @@ img {
 
 /* Map information and display */
 
-html, body, #map1 {
+html, body, #map {
   height: 100%;
   margin: 0;
   padding: 0;
