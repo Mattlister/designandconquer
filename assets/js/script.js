@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var mapID = document.getElementById("map1");
+  var mapID = document.getElementById("map");
   function initMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
     var myOptions = {
@@ -20,7 +20,7 @@ transitLayer.setMap(map);
     let button = $(event.relatedTarget);
     initMap(button.data('lat'), button.data('lng'));
     $("#location-map").css("width", "100%");
-    $("#map1").css("width", "100%");
+    $("#map").css("width", "100%");
   });
  
 });
@@ -39,6 +39,4 @@ fetch('assets/js/locations.json')
   
  
   
-
-
-
+  

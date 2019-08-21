@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design and Conquer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -14,8 +15,6 @@
 </head>
 
 <body>
-    
-    
 
     <p id="first">Design and Conquer</p>
 
@@ -71,8 +70,6 @@
                     </div>
                 </div>
             </div>
-            
-            
             
 <!-- Everest Rock climbing -->            
 
@@ -224,7 +221,7 @@
                     <div class="row">
                         <div class="col-md-12 modal_body_map">
                             
-                            <div class="data-lng" id="data-lat">
+                            <div class="location-map" id="location-map">
                                 <div style="width: 1000px; height: 600px;" id="map"></div>
                             </div>
                         </div>
@@ -480,6 +477,7 @@
               <p class="card-text"></p>
 
                 <div class="card-body">
+                    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-label="myModalLabel">
                            <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                                 
@@ -546,7 +544,7 @@
       </div>
      </div>
     </div>
- 
+   </div>
  
  <div class="modal fade" id="Ahandyguide" tabindex="-1" role="dialog">
  <div class="modal-dialog modal-lg" role="document">
@@ -585,6 +583,7 @@
                          
                   </ol>
                 
+            </p>
 
         <div class="myclass">
             <div class="embed-responsive embed-responsive-16by9">
@@ -623,8 +622,6 @@
  </div>
  </div>
  
-<div id="map"></div>
- 
  
  <footer>
      
@@ -647,8 +644,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY&"></script>
     <script src="assets/js/script.js"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY&"
+    async defer></script>
+    </script>
 </body>
 
 
