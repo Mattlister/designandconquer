@@ -10,7 +10,7 @@ $(document).ready(function() {
     };
     
     map = new google.maps.Map(mapID, myOptions);
-    myMarker = new google.maps.Marker({
+    marker = new google.maps.Marker({
     });
     var transitLayer = new google.maps.TransitLayer();
 transitLayer.setMap(map);
@@ -24,24 +24,17 @@ transitLayer.setMap(map);
   });
  
 });
-
-
 fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
       console.log(data);
     for (let i = 0; i < data.length; i++) {
-      let marker = new google.maps.LatLng({
+      let myMarker = new google.maps.LatLng({
         position: (data.lat, data.lng),
         mapTypeId: google.maps.MapTypeId.ROADMAP
       });
     }
     
   });
-  console.log(myMarker);
-  myMarker.setMap(mapID)
-
-  
- 
-  
-  
+  console.log(Marker);
+  marker.setMap(mapID)
