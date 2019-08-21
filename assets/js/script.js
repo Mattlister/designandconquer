@@ -8,6 +8,18 @@ $(document).ready(function() {
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
+    {
+     var mapOptions = {
+    center: new google.maps.LatLng(37.09024, -95.712891),
+    zoom: 3
+  };
+   map = new google.maps.Map(document.getElementById('map-canvas'),
+    mapOptions);
+    
+    addJsonMarkers();
+}
+
+
 
     
     map = new google.maps.Map(mapID, myOptions);
@@ -39,4 +51,5 @@ fetch('assets/js/locations.json')
     }
     
   });
+  
  
