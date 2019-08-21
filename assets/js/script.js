@@ -29,12 +29,12 @@ fetch('assets/js/locations.json')
   .then(function(data) {
       console.log(data);
     for (let i = 0; i < data.length; i++) {
-      let myMarker = new google.maps.LatLng({
+      let marker = new google.maps.LatLng({
         position: (data.lat, data.lng),
         mapTypeId: google.maps.MapTypeId.ROADMAP
       });
     }
     
   });
-  console.log(Marker);
+  console.log(marker);
   marker.setMap(mapID)
