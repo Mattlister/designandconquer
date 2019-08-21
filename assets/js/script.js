@@ -24,6 +24,8 @@ transitLayer.setMap(map);
   });
  
 });
+
+
 fetch('assets/js/locations.json')
   .then(res => res.json())
   .then(function(data) {
@@ -36,6 +38,9 @@ fetch('assets/js/locations.json')
     }
     
   });
+  console.log(myMarker);
+  myMarker.setMap(mapID)
+
   
  
   
