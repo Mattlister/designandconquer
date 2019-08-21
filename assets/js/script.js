@@ -8,20 +8,9 @@ $(document).ready(function() {
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
-    {
-     var mapOptions = {
-    center: new google.maps.LatLng(37.09024, -95.712891),
-    zoom: 3
-  };
-   map = new google.maps.Map(document.getElementById('map-canvas'),
-    mapOptions);
     
-    addJsonMarkers();
-}
 
-
-
-    
+ 
     map = new google.maps.Map(mapID, myOptions);
     let myMarker = new google.maps.Marker({
     });
@@ -45,7 +34,21 @@ fetch('assets/js/locations.json')
       return myMarker = new google.maps.LatLng({
         position: (data.lat, data.lng),
         mapTypeId: google.maps.MapTypeId.ROADMAP
-      });
+     });
+      
+      function addJsonMarkers()
+      {
+          var markerData = JSON.parse(json);
+          
+         
+      }
+      
+      
+    var myLatlng = new google.maps.LatLng(this.Latitude, this.Longitude);
+    var myLatlng = new google.maps.Marker({
+        position: (myLatlng),
+        map:map,
+    });
       console.log(myMarker);
       myMarker.setMap(mapID);
     }
