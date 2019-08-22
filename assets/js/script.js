@@ -38,9 +38,9 @@ fetch('assets/js/locations.json')
       
       initMap(parseFloat(button.data('lat')), parseFloat(button.data('lng')))
       marker = new google.maps.Marker({
-        position: new google.maps.LatLng(cityList[i][1], cityList[i][2]),
+        position: new google.maps.LatLng(lat[i][1], lat[i][2]),
         map:map,
-        title: cityList[i][0]
+        title: myLatlng[i][0]
       });
       data.forEach(element => {
         element.forEach(data => {
