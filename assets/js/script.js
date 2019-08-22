@@ -45,7 +45,7 @@ fetch('assets/js/locations.json')
       data.forEach(element => {
         element.forEach(data => {
           myMarker = new google.maps.Marker({
-            position: new google.maps.LatLng(data.lat, data.lng),
+            position: new google.maps.LatLng(lat, lng),
             map:map,
           });
         });
@@ -53,11 +53,10 @@ fetch('assets/js/locations.json')
       {
           var markerData = JSON.parse(json);
           
-         
       }
       
       
-    var myLatlng = new google.maps.LatLng(this.Latitude, this.Longitude);
+    var myLatlng = new google.maps.LatLng(lat, lng);
     var myLatlng = new google.maps.Marker({
         position: (myLatlng),
         map:map,
