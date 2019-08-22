@@ -20,7 +20,7 @@ fetch('assets/js/locations.json')
      });
       
       initMap(parseFloat(button.data('lat')), parseFloat(button.data('lng')))
-      marker = new google.maps.Marker({
+      map = new google.maps.Marker({
         position: new google.maps.LatLng(lat[i][1], lat[i][2]),
         map:map,
         title: myLatlng[i][0]
@@ -33,19 +33,6 @@ fetch('assets/js/locations.json')
           });
         });
       });
-      {
-          var markerData = JSON.parse(json);
-          
-      }
-      
-      
-    var myLatlng = new google.maps.LatLng(lat, lng);
-    var myLatlng = new google.maps.Marker({
-        position: (myLatlng),
-        map:map,
-    });
-      console.log(myMarker);
-      myMarker.setMap(mapID);
     }
     
   });
