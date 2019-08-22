@@ -36,7 +36,20 @@ fetch('assets/js/locations.json')
         mapTypeId: google.maps.MapTypeId.ROADMAP
      });
       
-      function addJsonMarkers()
+      initMap(parseFloat(button.data('lat')), parseFloat(button.data('lng')))
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(cityList[i][1], cityList[i][2]),
+        map:map,
+        title: cityList[i][0]
+      });
+      data.forEach(element => {
+        element.forEach(data => {
+          myMarker = new google.maps.Marker({
+            position: new google.maps.LatLng(data.lat, data.lng),
+            map:map,
+          });
+        });
+      });
       {
           var markerData = JSON.parse(json);
           
