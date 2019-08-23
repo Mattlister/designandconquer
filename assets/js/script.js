@@ -1,13 +1,11 @@
 $(document).ready(function() {
-var map = document.getElementById("map1");
-var myLatlng; 
 const mapID = document.getElementById("map1");
 function initializeGMap(lat, lng) {
 myLatlng = new google.maps.LatLng(lat, lng);
 var myOptions = {
 zoom: 12,
 zoomControl: true,
-center: myLatlng,
+ center:{lat:43.3601,lng: -71.0589},
 mapTypeId: google.maps.MapTypeId.ROADMAP
 };
 map = new google.maps.Map(mapID, myOptions);
@@ -30,11 +28,11 @@ $("#map1").css("width", "100%");
 });
 
 $(document).ready(function() {
-  var mapID = document.getElementById('map');
+  var mapID = document.getElementById('map1');
   function initMap(lat, lng) {
     var myOptions = {
       zoom: 12,
-      center:{lat:-37.75,lng: 145.01667}
+     center:{lat:43.3601,lng: -71.0589},
     };
     
     let map = new google.maps.Map(mapID, myOptions);
