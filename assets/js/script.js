@@ -26,7 +26,9 @@ let myLatLng;
       console.log(data);
       for (let i = 0; i < data.length; i++) {
        myMarker = new google.maps.LatLng({
-        position: (data[i].lat, data[i].lng),
+        //position: (data[i].lat, data[i].lng),
+        lat: data[i].lat,
+        lng: data[i].lng,
         
       
         mapTypeId: google.maps.MapTypeId.ROADMAP
