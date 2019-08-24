@@ -25,8 +25,10 @@ let myLatLng;
   .then(function(data) {
       console.log(data);
       for (let i = 0; i < data.length; i++) {
-      return myMarker = new google.maps.LatLng({
+       myMarker = new google.maps.LatLng({
         position: (data.lat, data.lng),
+        
+      
         mapTypeId: google.maps.MapTypeId.ROADMAP
       });
       console.log(myMarker);
