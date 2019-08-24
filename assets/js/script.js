@@ -5,7 +5,7 @@ let myLatLng;
   var mapID = document.getElementById("map1");
   function initializeGMap(lat, lng) {
     myLatlng = new google.maps.LatLng(lat, lng);
-new
+
  var myOptions = {
       zoom: 12,
       zoomControl: true,
