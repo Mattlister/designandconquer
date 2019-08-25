@@ -1,3 +1,7 @@
+var UK = new google.maps.LatLng(53.409532, -2.010498);
+var IT = new google.maps.LatLng(42.745334, 12.738430);
+
+
 $(document).ready(function() {
 let map;
 let myMarker;
@@ -12,6 +16,7 @@ let myLatLng;
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
+
     
 
     map = new google.maps.Map(mapID, myOptions);
@@ -48,4 +53,10 @@ let myLatLng;
     $("#map1").css("width", "100%");
   });
 });
+
+let bike = [{name: "Google Location 1", lat: -37.75, lng: 145.01667},
+{name: "Google Location 2", lat: 27.6333, lng: 153.1667},
+{name: "Google Location 3", lat: 27.3358, lng: 152.8219}];
+
+
 
