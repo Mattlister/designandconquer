@@ -222,7 +222,17 @@
                         <div class="col-md-12 modal_body_map">
                             
                             <div class="location-map" id="location-map">
-                                <div style="width: 1000px; height: 600px;" id="map1"></div>
+                                
+                                <div style="width: 1000px; height: 600px;" id="map_go"></div>
+                            <div id="buttonbar" class="mine">
+    <button id="btnlabels">hide/show labels</button>
+    <button id="btnaddmarker">add marker</button>
+    <button id="btnoffset">offset -100px</button>
+    <input id="nptsearch" type="text" placeholder="autocomplete test (BRazil)" />
+</div>
+
+<div id="map_go" class="mine"></div>
+                            
                             </div>
                         </div>
                     </div>
@@ -236,6 +246,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- Queensland biking modal -->
     <div class="modal fade" id="bikingmodal" tabindex="-1" role="dialog">
