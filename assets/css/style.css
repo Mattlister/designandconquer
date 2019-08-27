@@ -297,6 +297,22 @@ html, body, #map {
   padding: 0;
 }
 
+
+/* add map marker */
+
+body {margin: 0.3em;}
+
+.mine {width: 95%; margin: 0.1em;}
+
+#buttonbar {background-color: whitesmoke;}
+
+#map_go {
+    border: 1px solid blue; 
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* Optional: Makes the sample page fill the window. */
 
 html, body {
