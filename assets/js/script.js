@@ -92,7 +92,7 @@ for (let x = 0; x < climb.length; x++) {
 //Everest
 
 let markse = [];
-for (let x = 0; x < climb.length; x++) {
+for (let x = 0; x < everest.length; x++) {
   let marker = new google.maps.LatLng(everest[x].lat, everest[x].lng);
   marks.push(marker);
 }
@@ -100,7 +100,7 @@ for (let x = 0; x < climb.length; x++) {
 //Banzai
 
 let markss = [];
-for (let x = 0; x < climb.length; x++) {
+for (let x = 0; x < banzai.length; x++) {
   let marker = new google.maps.LatLng(banzai[x].lat, banzai[x].lng);
   marks.push(marker);
 }
@@ -132,7 +132,7 @@ for (let x = 0; x < neptune.length; x++) {
 }
 
 
-//Nile shark dive
+//Nile River Cruise
 
 let marksni= [];
 for (let x = 0; x < nile.length; x++) {
@@ -140,9 +140,9 @@ for (let x = 0; x < nile.length; x++) {
   marks.push(marker);
 }
 
-//Dubai shark dive
+//Dubai Buggying
 
-let markdn= [];
+let marksdn= [];
 for (let x = 0; x < dubai.length; x++) {
   let marker = new google.maps.LatLng(dubai[x].lat, dubai[x].lng);
   marks.push(marker);
@@ -152,49 +152,15 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 
-// Map centering points
+// lat: 37.83333, lng: -119.49998
 
-let QB = new google.maps.LatLng(-37.623900, 144.707700);
-let YC = new google.maps.LatLng(37.865101, -119.538330);
-let ME = new google.maps.LatLng(27.986065, 86.922623);
-let BS = new google.maps.LatLng(21.664019, -158.053852);
-let FA = new google.maps.LatLng(45.45916483, 6.90249639);
-let VF = new google.maps.LatLng(-17.924444, 25.856667);
+let VT = new google.maps.LatLng(-26.785780, 153.110300);
+
 
 var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: QB
-};
-
-var myOptions = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: YC
-};
-
-var myOptions = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: ME
-};
-
-var myOptions = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: BS
-};
-
-var myOptions = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: FA
-};
-
-var myOptions = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: VF
+    center: VT
 };
 
 
@@ -207,7 +173,6 @@ addmarker();
 
 
 
-
 function addmarker(latilongi) {
     var marker = new google.maps.Marker({
         position: latilongi,
@@ -215,6 +180,10 @@ function addmarker(latilongi) {
         draggable: true,
         map: map
     });
+    
+    
+    
+    
     // Line below centers map on marker I assume this wont be needed as your
     // adding multiple markers but left it just in case
     
@@ -249,4 +218,3 @@ for (let x = 0; x < marks.length; x++) {
   
   
 });
-
