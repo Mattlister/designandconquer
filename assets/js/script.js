@@ -157,6 +157,9 @@ for (let x = 0; x < dubai.length; x++) {
 let QB = new google.maps.LatLng(-37.623900, 144.707700);
 let YC = new google.maps.LatLng(37.865101, -119.538330);
 let ME = new google.maps.LatLng(27.986065, 86.922623);
+let BS = new google.maps.LatLng(21.664019, -158.053852);
+let FA = new google.maps.LatLng(45.45916483, 6.90249639);
+let VF = new google.maps.LatLng(-17.924444, 25.856667);
 
 var myOptions = {
     zoom: 12,
@@ -174,6 +177,24 @@ var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: ME
+};
+
+var myOptions = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: BS
+};
+
+var myOptions = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: FA
+};
+
+var myOptions = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: VF
 };
 
 
