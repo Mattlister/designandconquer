@@ -152,16 +152,30 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 
-// lat: 37.83333, lng: -119.49998
+// Map centering points
 
-let VT = new google.maps.LatLng(-26.785780, 153.110300);
-let ST = new google.maps.LatLng(37.83333, -119.49998);
+let QB = new google.maps.LatLng(-37.623900, 144.707700);
+let YC = new google.maps.LatLng(37.865101, -119.538330);
+let ME = new google.maps.LatLng(27.986065, 86.922623);
 
 var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: VT
-}
+    center: QB
+};
+
+var myOptions = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: YC
+};
+
+var myOptions = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: ME
+};
+
 
 
 map = new google.maps.Map(document.getElementById("map_go"), myOptions);
