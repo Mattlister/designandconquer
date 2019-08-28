@@ -2,7 +2,7 @@ $(document).ready(function() {
 let map;
 let myMarker;
 let myLatLng;
-var mapID = document.getElementById("map_go");
+var mapID = document.getElementById("map_go, map_go1, map_go2, map_go3, map_go4, map_go5, map_go6, map_go7, map_go8, map_go9");
 
 
 function initializeGMap(lat, lng) {
@@ -151,21 +151,7 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 
-
-// lat: 37.83333, lng: -119.49998
-
-let VT = new google.maps.LatLng(-26.785780, 153.110300);
-
-
-var myOptions = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: VT
-};
-
-
-
-map = new google.maps.Map(document.getElementById("map_go"), myOptions);
+map = new google.maps.Map(document.getElementById("map_go, map_go1, map_go3, map_go4"), myOptions);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
 addmarker();
@@ -213,7 +199,7 @@ for (let x = 0; x < marks.length; x++) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
       $("#location-map").css("width", "100%");
-      $("#map_go").css("width", "100%");
+      $("map_go, map_go1, map_go3, map_go4, map_go5, map_go6, map_go7, map_go8, map_go9").css("width", "100%");
   });
   
   
