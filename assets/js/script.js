@@ -148,24 +148,7 @@ for (let x = 0; x < dubai.length; x++) {
   marks.push(marker);
 }
 
-// map centering
 
-
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map_Queensland'), {
-    zoom: 4,
-    center: {lat: 37.623900, lng: 144.707700},
-    disableDefaultUI: true
-  });
-}
-
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map_Yosamite'), {
-    zoom: 4,
-    center: {lat:37.865101, lng:-119.538330},
-    disableDefaultUI: true
-  });
-}
 
 
 
