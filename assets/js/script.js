@@ -10,7 +10,7 @@ function initializeGMap(lat, lng) {
   
 myLatlng = new google.maps.LatLng(lat, lng);
 
-let bike = [{name: "Google Location 1", lat:-37.623900, lng: 144.707700},
+let bike = [{name: "Google Location 1", lat:-37.623900, lng: 144.707700 },
 {name: "Google Location 2", lat: -26.785780, lng: 153.110300},
 {name: "Google Location 3", lat: -37.796270, lng: 146.974500}]
 
@@ -147,8 +147,12 @@ for (let x = 0; x < dubai.length; x++) {
   let marker = new google.maps.LatLng(dubai[x].lat, dubai[x].lng);
   marks.push(marker);
 }
-console.log( `Current Latitude is ${lat} and your longitude is ${lng}` );
 
+
+
+
+
+// lat: 37.83333, lng: -119.49998
 
 let VT = new google.maps.LatLng(-26.785780, 153.110300);
 
@@ -178,7 +182,7 @@ function addmarker(latilongi) {
     });
     
     
-    
+ console.log( `Current Latitude is ${lat} and your longitude is ${lng}` );   
     
     // Line below centers map on marker I assume this wont be needed as your
     // adding multiple markers but left it just in case
@@ -201,17 +205,11 @@ for (let x = 0; x < marks.length; x++) {
 
 });
 
+
     
 }
     
   $('#myModal1').on('show.bs.modal', function(event) {
-      let button = $(event.relatedTarget);
-      initializeGMap(button.data('lat'), button.data('lng'));
-      $("#location-map").css("width", "100%");
-      $("#map_go").css("width", "100%");
-  });
-  
-  $('#myModal2').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
       $("#location-map").css("width", "100%");
