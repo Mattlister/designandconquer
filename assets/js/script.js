@@ -8,6 +8,8 @@ var mapID = document.getElementById("map_go");
 function initializeGMap(lat, lng) {
   
   
+  
+  
 myLatlng = new google.maps.LatLng(lat, lng);
 
 let bike = [{name: "Google Location 1", lat:-37.623900, lng: 144.707700 },
