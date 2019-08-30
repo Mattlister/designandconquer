@@ -150,15 +150,14 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 
-
-
 // lat: 37.83333, lng: -119.49998
 
-let VT = new google.maps.LatLng(-26.785780, 153.110300);
+let VT = new google.maps.LatLng();
 
 
 var myOptions = {
     zoom: 12,
+    center: new google.maps.LatLng(0.0, 0.0),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: VT
 };
