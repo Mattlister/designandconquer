@@ -150,12 +150,19 @@ let VT = new google.maps.LatLng(-26.785780, 153.110300);
 let mapID = document.getElementById('map_go');
 
 
-
 var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: VT
 };
+
+
+map = new google.maps.Map(document.getElementById("map_go"), myOptions);
+// This add marker can probably be removed i just added it to show a marker
+// when code ran
+addmarker();
+
+//
 
 let ST = new google.maps.LatLng(37.865101, -119.538330);
 let map1ID = document.getElementById('map_canvas');
@@ -168,16 +175,26 @@ var myOptions1 = {
     center: ST
 };
 
-
-
-map = new google.maps.Map(document.getElementById("map_go"), myOptions);
-// This add marker can probably be removed i just added it to show a marker
-// when code ran
-addmarker();
-
-
 map = new google.maps.Map(document.getElementById('map-canvas'), myOptions1);
 addmarker();
+
+//
+
+let ET = new google.maps.LatLng(27.986065, 86.922623);
+let map2ID = document.getElementById('map_test');
+
+
+
+var myOptions2 = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: ET
+};
+
+map = new google.maps.Map(document.getElementById('map-test'), myOptions2);
+addmarker();
+
+//
 
 function addmarker(latilongi) {
     var marker = new google.maps.Marker({

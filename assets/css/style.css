@@ -331,6 +331,13 @@
       padding: 0;
     }
 
+#map_test {
+      border: 1px solid blue;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
 
     /* Optional: Makes the sample page fill the window. */
 
