@@ -147,6 +147,7 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 let VT = new google.maps.LatLng(-26.785780, 153.110300);
+let mapID = document.getElementById('map_go');
 
 
 
@@ -154,6 +155,17 @@ var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: VT
+};
+
+let ST = new google.maps.LatLng(37.865101, -119.538330);
+let map1ID = document.getElementById('map_canvas');
+
+
+
+var myOptions1 = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: ST
 };
 
 
@@ -164,7 +176,8 @@ map = new google.maps.Map(document.getElementById("map_go"), myOptions);
 addmarker();
 
 
-
+map = new google.maps.Map(document.getElementById('map-canvas'), myOptions1);
+addmarker();
 
 function addmarker(latilongi) {
     var marker = new google.maps.Marker({
@@ -173,9 +186,8 @@ function addmarker(latilongi) {
         draggable: true,
         map: map
     });
-    
-    
- console.log( `Current Latitude is ${lat} and your longitude is ${lng}` );   
+
+
     
     // Line below centers map on marker I assume this wont be needed as your
     // adding multiple markers but left it just in case
