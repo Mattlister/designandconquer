@@ -61,7 +61,7 @@
                         <div class="flip-box-back">
                             <h2>Yosamite Rock Climbing</h2>
                             <p>Face The Climb</p>
-                            <a href="#myModal2" data-toggle="modal" class="btn btn-primary" role="button" data-lat='37.83333' data-lng='-119.499998'>The Location</a>
+                            <a href="#myModal1" data-toggle="modal" class="btn btn-primary" role="button" data-lat='37.83333' data-lng='-119.499998'>The Location</a>
                             
                             <a href="#Yosamiteclimbingmodal" data-toggle="modal" class="btn btn-success" role="button">Information</a>
                             
@@ -80,7 +80,7 @@
                         <div class="flip-box-back">
                             <h2>Mount Everest Hiking</h2>
                             <p>As High As You Can Go</p> 
-                            <a href="#myModal3" data-toggle="modal" class="btn btn-primary" role="button" data-lat='27.986065' data-lng='86.922623'>The Location</a>
+                            <a href="#myModal1" data-toggle="modal" class="btn btn-primary" role="button" data-lat='27.986065' data-lng='86.922623'>The Location</a>
                         
                          <a href="#Everestclimbingmodal" data-toggle="modal" class="btn btn-success" role="button">Information</a>
                       
@@ -223,15 +223,15 @@
                             
                             <div class="location-map" id="location-map">
                                 
-                                <div style="width: 100px; height: 600px;" id="map_go"></div>
+                                <div style="width: 1000px; height: 600px;" id="map_go"></div>
                             <div id="buttonbar" class="mine">
     <button id="btnlabels">hide/show labels</button>
     <button id="btnaddmarker">add marker</button>
     <button id="btnoffset">offset -100px</button>
+    <input id="nptsearch" type="text" placeholder="autocomplete test (BRazil)" />
 </div>
 
-<div id='map_go'></div>
-
+<div id="map_go" class="mine"></div>
                             
                             </div>
                         </div>
@@ -246,82 +246,6 @@
             </div>
         </div>
     </div>
-    
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="row">
-                        <div class="col-md-12 modal_body_map">
-                            
-                            <div class="location-map" id="location-map">
-                                
-                                <div style="width: 100px; height: 600px;" id="map_canvas"></div>
-                            <div id="buttonbar" class="mine">
-    <button id="btnlabels">hide/show labels</button>
-    <button id="btnaddmarker">add marker</button>
-    <button id="btnoffset">offset -100px</button>
-</div>
-
-
-<div id='map_canvas'></div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 modal_body_end">
-    
-                            <p>It'll Be Truly Epic!!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
- 
- 
-    
-    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="row">
-                        <div class="col-md-12 modal_body_map">
-                            
-                            <div class="location-map" id="location-map">
-                                
-                                <div style="width: 100px; height: 600px;" id="map_test"></div>
-                            <div id="buttonbar" class="mine">
-    <button id="btnlabels">hide/show labels</button>
-    <button id="btnaddmarker">add marker</button>
-    <button id="btnoffset">offset -100px</button>
-</div>
-
-
-<div id='map_test'></div>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 modal_body_end">
-    
-                            <p>It'll Be Truly Epic!!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
 
 
 
@@ -736,10 +660,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY">
-    </script>
     <script src="assets/js/script.js"></script>
-     
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6qFLVRq_t3uKSNe6uvC-as31sIjWD8kY">
+    </script>
 </body>
 
     
