@@ -239,7 +239,7 @@ for (let x = 0; x < marks.length; x++) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
       $("#location-map").css("width", "100%");
-      $("#map_go").css("width", "100%");
+      $("#map_go1").css("width", "100%");
   });
   
    function addMarker(location) {
