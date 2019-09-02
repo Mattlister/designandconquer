@@ -168,15 +168,15 @@ var myOptions = {
 
 let ST = new google.maps.LatLng(37.865101, -119.538330);
 
-var myOptions1 = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: ST
-};
+// var myOptions1 = {
+  //  zoom: 12,
+ //   mapTypeId: google.maps.MapTypeId.ROADMAP,
+ //   center: ST
+// };
 
 let ET = new google.maps.LatLng(27.986065, 86.922623);
 
-var myOptions2 = {
+var myOptions1 = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: ET
@@ -185,20 +185,13 @@ var myOptions2 = {
 
 
 
-map = new google.maps.Map(document.getElementById("map_go"), myOptions);
+
+
+map = new google.maps.Map(document.getElementById("map_go2"), myOptions1);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
 addmarker();
 
-map = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
-// This add marker can probably be removed i just added it to show a marker
-// when code ran
-addmarker();
-
-map = new google.maps.Map(document.getElementById("map_go2"), myOptions2);
-// This add marker can probably be removed i just added it to show a marker
-// when code ran
-addmarker();
 
 function addmarker(latilongi) {
     var marker = new google.maps.Marker({
@@ -239,7 +232,7 @@ for (let x = 0; x < marks.length; x++) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
       $("#location-map").css("width", "100%");
-      $("#map_go1").css("width", "100%");
+      $("#map_go2").css("width", "100%");
   });
   
    function addMarker(location) {
@@ -248,10 +241,6 @@ for (let x = 0; x < marks.length; x++) {
             map: map
         });
     }
-
-    // Testing the addMarker function
-    CentralPark = new google.maps.LatLng(37.7699298, -122.4469157);
-    addMarker(CentralPark);
     
   
   
