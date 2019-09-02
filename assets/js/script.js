@@ -158,36 +158,16 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 
-let VT = new google.maps.LatLng(-37.623900, 144.707700);
+let QT = new google.maps.LatLng(-37.623900, 144.707700);
 
 var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: VT
-};
-
-let ST = new google.maps.LatLng(37.865101, -119.538330);
-
-// var myOptions1 = {
-  //  zoom: 12,
- //   mapTypeId: google.maps.MapTypeId.ROADMAP,
- //   center: ST
-// };
-
-let ET = new google.maps.LatLng(27.986065, 86.922623);
-
-var myOptions1 = {
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: ET
+    center: QT
 };
 
 
-
-
-
-
-map = new google.maps.Map(document.getElementById("map_go2"), myOptions1);
+map = new google.maps.Map(document.getElementById("map_go2"), myOptions);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
 addmarker();
@@ -228,7 +208,7 @@ for (let x = 0; x < marks.length; x++) {
 
 }
     
-  $('#myModal1').on('show.bs.modal', function(event) {
+  $('#Qbiking').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
       $("#location-map").css("width", "100%");

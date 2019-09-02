@@ -306,12 +306,7 @@ body {margin: 0.3em;}
 
 #buttonbar {background-color: whitesmoke;}
 
-#map_go {
-    border: 1px solid blue; 
-    height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 
 #map_go1 {
     border: 1px red; 
@@ -320,6 +315,12 @@ body {margin: 0.3em;}
   padding: 0;
 }
 
+#map_go2 {
+    border: 1px red; 
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* Optional: Makes the sample page fill the window. */
