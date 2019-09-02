@@ -308,14 +308,7 @@ body {margin: 0.3em;}
 
 
 
-#map_go1 {
-    border: 1px red; 
-    height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#map_go2 {
+#map_go {
     border: 1px red; 
     height: 100%;
   margin: 0;
