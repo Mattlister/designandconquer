@@ -161,27 +161,27 @@ for (let x = 0; x < dubai.length; x++) {
 let QT = new google.maps.LatLng(-37.623900, 144.707700);
 let YC = new google.maps.LatLng(37.865101, -119.538330);
 
-var myOptions_0 = {
+var myOptions0 = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: QT
 };
 
-var myOptions_1 = {
+var myOptions1 = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: YC
 };
 
-map_0 = new google.maps.Map(document.getElementById("map_go_0"), myOptions0);
+map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions0);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker(latlong_0, map_0);
+addmarker();
 
-map_1 = new google.maps.Map(document.getElementById("map_go_1"), myOptions1);
+map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker(latlong_1, map_1);
+addmarker();
 
 
 function addmarker(latilongi) {
@@ -189,13 +189,8 @@ function addmarker(latilongi) {
         position: latilongi,
         title: 'new marker',
         draggable: true,
-        map: map
+        map: map0
     });
-
-
-    
-    
-    
     
 
     
@@ -227,14 +222,14 @@ for (let x = 0; x < marks.length; x++) {
   $('#Qbiking').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
-      $("#location-map").css("width", "100%");
-      $("#map_go").css("width", "100%");
+      $("#location-map0").css("width", "100%");
+      $("#map_go0").css("width", "100%");
   });
 
     $('#Yclimbing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
-      $("#location-map").css("width", "100%");
+      $("#location-map1").css("width", "100%");
       $("#map_go1").css("width", "100%");
   });
   
