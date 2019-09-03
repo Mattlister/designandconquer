@@ -2,7 +2,7 @@ $(document).ready(function() {
 let map;
 let myMarker;
 let myLatLng;
-var mapID = document.getElementById("map_go");
+
 
 
 function initializeGMap(lat, lng) {
@@ -159,6 +159,7 @@ for (let x = 0; x < dubai.length; x++) {
 
 
 let QT = new google.maps.LatLng(-37.623900, 144.707700);
+let YC = new google.maps.LatLng(37.865101, -119.538330);
 
 var myOptions = {
     zoom: 12,
@@ -166,8 +167,18 @@ var myOptions = {
     center: QT
 };
 
+var myOptions1 = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: YC
+};
 
 map = new google.maps.Map(document.getElementById("map_go"), myOptions);
+// This add marker can probably be removed i just added it to show a marker
+// when code ran
+addmarker();
+
+map = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
 addmarker();
@@ -181,7 +192,7 @@ function addmarker(latilongi) {
         map: map
     });
     
-    
+
     
     
     // Line below centers map on marker I assume this wont be needed as your
@@ -215,7 +226,12 @@ for (let x = 0; x < marks.length; x++) {
       $("#map_go").css("width", "100%");
   });
 
-    
+    $('#Yclimbing').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(button.data('lat'), button.data('lng'));
+      $("#location-map").css("width", "100%");
+      $("#map_go1").css("width", "100%");
+  });
   
   
 });
