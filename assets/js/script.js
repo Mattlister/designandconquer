@@ -155,16 +155,15 @@ for (let x = 0; x < dubai.length; x++) {
   marks.push(marker);
 }
 
+// Quneensland mAP
 
 
-
-let QT = new google.maps.LatLng(-37.623900, 144.707700);
-
+let QB = new google.maps.LatLng(-37.623900, 144.707700);
 
 var myOptions = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: QT
+    center: QB
 };
 
 
@@ -181,21 +180,19 @@ function addmarker(latilongi) {
         draggable: true,
         map: map
     });
+  
+// Yosamite map    
 
-let YT = new google.maps.LatLng(-37.623900, 144.707700);    
-    
-    var myOptions1 = {
+let YC = new google.maps.LatLng(37.865101, -119.538330);
+
+var myOptions1 = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: YT
-};
-
-map = new google.maps.Map(document.getElementById("map_go"), myOptions1);
-// This add marker can probably be removed i just added it to show a marker
-// when code ran
-addmarker();
+    center: YC
+};    
 
 
+    
     
     // Line below centers map on marker I assume this wont be needed as your
     // adding multiple markers but left it just in case
@@ -235,13 +232,18 @@ for (let x = 0; x < marks.length; x++) {
         });
     }
     
-    $('#Yclimbing').on('show.bs.modal', function(event) {
+  $('#Yclimbing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
       initializeGMap(button.data('lat'), button.data('lng'));
       $("#location-map").css("width", "100%");
-      $("#map_go").css("width", "100%");
+      $("#map_go1").css("width", "100%");
   });
   
-  
+  function addMarker(location) {
+        marker = new google.maps.Marker({
+            position: location1,
+            map: map
+        });
+    }
   
 });
