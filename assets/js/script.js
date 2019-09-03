@@ -173,15 +173,15 @@ var myOptions1 = {
     center: YC
 };
 
-map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions0);
+map_0 = new google.maps.Map(document.getElementById("map_go0"), myOptions0);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
 addmarker();
 
-map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
+map_1 = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker();
+addmarker1();
 
 
 function addmarker(latilongi) {
@@ -189,16 +189,17 @@ function addmarker(latilongi) {
         position: latilongi,
         title: 'new marker',
         draggable: true,
-        map: map0
+        map: map_0
     });
-    
+}
 
-    
-    
-    // Line below centers map on marker I assume this wont be needed as your
-    // adding multiple markers but left it just in case
-    
-    //map.setCenter(marker.getPosition())
+
+function addmarker1(latilongi) {
+  var marker = new google.maps.Marker({
+      position: latilongi,
+      title: 'new marker'
+  });
+  
 }
 
 // zoom in and zoom out
