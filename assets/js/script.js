@@ -161,27 +161,27 @@ for (let x = 0; x < dubai.length; x++) {
 let QT = new google.maps.LatLng(-37.623900, 144.707700);
 let YC = new google.maps.LatLng(37.865101, -119.538330);
 
-var myOptions = {
+var myOptions_0 = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: QT
 };
 
-var myOptions1 = {
+var myOptions_1 = {
     zoom: 12,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: YC
 };
 
-map = new google.maps.Map(document.getElementById("map_go"), myOptions);
+map_0 = new google.maps.Map(document.getElementById("map_go_0"), myOptions0);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker();
+addmarker(latlong_0, map_0);
 
-map = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
+map_1 = new google.maps.Map(document.getElementById("map_go_1"), myOptions1);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker();
+addmarker(latlong_1, map_1);
 
 
 function addmarker(latilongi) {
@@ -191,6 +191,11 @@ function addmarker(latilongi) {
         draggable: true,
         map: map
     });
+
+
+    
+    
+    
     
 
     
