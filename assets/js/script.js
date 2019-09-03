@@ -160,6 +160,9 @@ for (let x = 0; x < dubai.length; x++) {
 
 let QT = new google.maps.LatLng(-37.623900, 144.707700);
 let YC = new google.maps.LatLng(37.865101, -119.538330);
+let EC = new google.maps.LatLng(27.986065, 86.922623);
+let BS = new google.maps.LatLng(21.664019, -158.053852);
+let FA = new google.maps.LatLng(45.45916483, 6.90249639);
 
 var myOptions0 = {
     zoom: 12,
@@ -173,6 +176,24 @@ var myOptions1 = {
     center: YC
 };
 
+var myOptions2 = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: EC
+};
+
+var myOptions3 = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: BS
+};
+
+var myOptions4 = {
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: FA
+};
+
 map_0 = new google.maps.Map(document.getElementById("map_go0"), myOptions0);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
@@ -183,6 +204,20 @@ map_1 = new google.maps.Map(document.getElementById("map_go1"), myOptions1);
 // when code ran
 addmarker1();
 
+map_2 = new google.maps.Map(document.getElementById("map_go2"), myOptions2);
+// This add marker can probably be removed i just added it to show a marker
+// when code ran
+addmarker2();
+
+map_3 = new google.maps.Map(document.getElementById("map_go3"), myOptions3);
+// This add marker can probably be removed i just added it to show a marker
+// when code ran
+addmarker3();
+
+map_4 = new google.maps.Map(document.getElementById("map_go4"), myOptions4);
+// This add marker can probably be removed i just added it to show a marker
+// when code ran
+addmarker4();
 
 function addmarker(latilongi) {
     var marker = new google.maps.Marker({
@@ -198,6 +233,34 @@ function addmarker1(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
       title: 'new marker'
+   
+  });
+  
+}
+
+function addmarker2(latilongi) {
+  var marker = new google.maps.Marker({
+      position: latilongi,
+      title: 'new marker'
+   
+  });
+  
+}
+
+function addmarker3(latilongi) {
+  var marker = new google.maps.Marker({
+      position: latilongi,
+      title: 'new marker'
+   
+  });
+  
+}
+
+function addmarker4(latilongi) {
+  var marker = new google.maps.Marker({
+      position: latilongi,
+      title: 'new marker'
+   
   });
   
 }
@@ -234,5 +297,25 @@ for (let x = 0; x < marks.length; x++) {
       $("#map_go1").css("width", "100%");
   });
   
+  $('#Eclimbing').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(button.data('lat'), button.data('lng'));
+      $("#location-map2").css("width", "100%");
+      $("#map_go2").css("width", "100%");
+  });
+  
+  $('#Bsurfing').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(button.data('lat'), button.data('lng'));
+      $("#location-map3").css("width", "100%");
+      $("#map_go3").css("width", "100%");
+  });
+  
+   $('#Falps').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(button.data('lat'), button.data('lng'));
+      $("#location-map4").css("width", "100%");
+      $("#map_go4").css("width", "100%");
+  });
   
 });

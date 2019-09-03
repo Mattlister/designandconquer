@@ -320,7 +320,30 @@ body {margin: 0.3em;}
     height: 100%;
   margin: 0;
   padding: 0;
+}  
+#map_go2 {
+    border: 1px red; 
+    height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+#map_go3 {
+    border: 1px red; 
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map_go4 {
+    border: 1px red; 
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 
 
 
