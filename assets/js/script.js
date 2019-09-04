@@ -208,14 +208,17 @@ addmarker1();
 map_2 = new google.maps.Map(document.getElementById("map_go2"), myOptions2);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker();
+addmarker2();
 
 map_3 = new google.maps.Map(document.getElementById("map_go3"), myOptions3);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker();
+addmarker3();
 
-
+map_4 = new google.maps.Map(document.getElementById("map_go4"), myOptions4);
+// This add marker can probably be removed i just added it to show a marker
+// when code ran
+addmarker4();
 
 // functions for my options
 
@@ -233,7 +236,6 @@ function addmarker1(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
       title: "new marker1",
-      draggable: true,
       map: map_1
   });
   
@@ -242,9 +244,8 @@ function addmarker1(latilongi) {
 function addmarker2(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: "new marker2",
-      draggable: true,
-      map: map_2
+      title: 'new marker2'
+   
   });
   
 }
@@ -252,9 +253,8 @@ function addmarker2(latilongi) {
 function addmarker3(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: "new marker3",
-      draggable: true,
-      map: map_3
+      title: 'new marker3'
+   
   });
   
 }
@@ -262,14 +262,11 @@ function addmarker3(latilongi) {
 function addmarker4(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: "new marker4",
-      draggable: true,
-      map: map_3
+      title: 'new marker4'
+   
   });
   
 }
-
-
 
 
 
