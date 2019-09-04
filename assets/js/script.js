@@ -75,8 +75,6 @@ let dubai = [{name: "Google Location 1", lat:25.1840, lng:55.2596},
 
 
 
-
-
 //map marker details
 
 // Queensland
@@ -155,14 +153,15 @@ for (let x = 0; x < dubai.length; x++) {
   marks.push(marker);
 }
 
-
-
+// coordinates for each location
 
 let QT = new google.maps.LatLng(-37.623900, 144.707700);
 let YC = new google.maps.LatLng(37.865101, -119.538330);
 let EC = new google.maps.LatLng(27.986065, 86.922623);
 let BS = new google.maps.LatLng(21.664019, -158.053852);
 let FA = new google.maps.LatLng(45.45916483, 6.90249639);
+
+//Variables to tie in to coordinates
 
 var myOptions0 = {
     zoom: 12,
@@ -194,6 +193,8 @@ var myOptions4 = {
     center: FA
 };
 
+// maps info for each myoptions variable
+
 map_0 = new google.maps.Map(document.getElementById("map_go0"), myOptions0);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
@@ -207,17 +208,16 @@ addmarker1();
 map_2 = new google.maps.Map(document.getElementById("map_go2"), myOptions2);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker2();
+addmarker();
 
 map_3 = new google.maps.Map(document.getElementById("map_go3"), myOptions3);
 // This add marker can probably be removed i just added it to show a marker
 // when code ran
-addmarker3();
+addmarker();
 
-map_4 = new google.maps.Map(document.getElementById("map_go4"), myOptions4);
-// This add marker can probably be removed i just added it to show a marker
-// when code ran
-addmarker4();
+
+
+// functions for my options
 
 function addmarker(latilongi) {
     var marker = new google.maps.Marker({
@@ -232,8 +232,9 @@ function addmarker(latilongi) {
 function addmarker1(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: 'new marker'
-   
+      title: "new marker1",
+      draggable: true,
+      map: map_1
   });
   
 }
@@ -241,8 +242,9 @@ function addmarker1(latilongi) {
 function addmarker2(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: 'new marker'
-   
+      title: "new marker2",
+      draggable: true,
+      map: map_2
   });
   
 }
@@ -250,8 +252,9 @@ function addmarker2(latilongi) {
 function addmarker3(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: 'new marker'
-   
+      title: "new marker3",
+      draggable: true,
+      map: map_3
   });
   
 }
@@ -259,11 +262,16 @@ function addmarker3(latilongi) {
 function addmarker4(latilongi) {
   var marker = new google.maps.Marker({
       position: latilongi,
-      title: 'new marker'
-   
+      title: "new marker4",
+      draggable: true,
+      map: map_3
   });
   
 }
+
+
+
+
 
 // zoom in and zoom out
 $(window).on('resize', function() {
@@ -273,6 +281,9 @@ $(window).on('resize', function() {
 });
 
 
+// add marker settings
+
+
 $('#btnaddmarker').on('click', function() {
 for (let x = 0; x < marks.length; x++) {
   addmarker(marks[x]);
@@ -280,8 +291,17 @@ for (let x = 0; x < marks.length; x++) {
 
 });
 
+$('#btnaddmarker').on('click', function() {
+for (let x = 0; x < marks.length; x++) {
+  addmarker1(marksc[x]);
+}
+
+});
 
 }
+    
+    // function and events
+    
     
   $('#Qbiking').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
