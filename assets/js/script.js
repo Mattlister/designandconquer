@@ -35,6 +35,17 @@ const jump = [{name: "Google Location 1", lat:-17.924444, lng:25.856667},
 {name: "Google Location 2", lat: 17.9318, lng: 25.8256},
 {name: "Google Location 3", lat: 17.9049, lng: 25.9379}];
 
+const dive = [{name: "Google Location 1", lat:34.7240, lng:135.8611}];
+
+const cruise = [{name: "Google Location 1", lat:29.533438, lng:31.270695},
+{name: "Google Location 2", lat: 21.701324, lng: 31.176766},
+{name: "Google Location 3", lat: 16.783861, lng: 32.898682}];
+
+const buggy = [{name: "Google Location 1", lat:25.1840, lng:55.2596},
+{name: "Google Location 2", lat: 25.1872, lng: 55.2812},
+{name: "Google Location 3", lat: 25.2768, lng: 55.3407}];
+
+
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
     
@@ -51,7 +62,9 @@ function initializeGMap(lat, lng) {
     var map3 = new google.maps.Map(document.getElementById("map_go3"), myOptions);
     var map4 = new google.maps.Map(document.getElementById("map_go4"), myOptions);
     var map5 = new google.maps.Map(document.getElementById("map_go5"), myOptions);
-
+    var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
+    var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
+    var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
 
 
     
@@ -158,6 +171,61 @@ function addmarker5(latilongi) {
     }
 } 
 
+// add marker settings
+$('#btnaddmarker6').on('click', function() {
+    addmarker6(dive[0].lat, dive[0].lng);
+});
+
+
+function addmarker6(latilongi) {
+    for (var i = 0; i < dive.length; i++) {
+        var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(dive[i].lat, dive[i].lng),
+        title: 'new marker',
+        draggable: true,
+        map: map6
+    });
+    }
+} 
+
+
+
+
+
+// add marker settings
+$('#btnaddmarker7').on('click', function() {
+    addmarker7(cruise[0].lat, cruise[0].lng);
+});
+
+
+function addmarker7(latilongi) {
+    for (var i = 0; i < cruise.length; i++) {
+        var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
+        title: 'new marker',
+        draggable: true,
+        map: map7
+    });
+    }
+} 
+
+// add marker settings
+$('#btnaddmarker8').on('click', function() {
+    addmarker8(buggy[0].lat, buggy[0].lng);
+});
+
+
+function addmarker8(latilongi) {
+    for (var i = 0; i < buggy.length; i++) {
+        var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(buggy[i].lat, buggy[i].lng),
+        title: 'new marker',
+        draggable: true,
+        map: map8
+    });
+    }
+} 
+
 } // End of the initializeGMap()
 
 
@@ -211,6 +279,26 @@ $('#Vfalls').on('show.bs.modal', function(event) {
       $("#map_go5").css("width", "100%");
   });
   
+  $('#Ndiving').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(dive[0].lat, dive[0].lng);
+      $("#location-map6").css("width", "100%");
+      $("#map_go6").css("width", "100%");
+  });
+  
+  $('#Ncruising').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(cruise[0].lat, cruise[0].lng);
+      $("#location-map7").css("width", "100%");
+      $("#map_go7").css("width", "100%");
+  });
+  
+  $('#Dbuggying').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(buggy[0].lat, buggy[0].lng);
+      $("#location-map8").css("width", "100%");
+      $("#map_go8").css("width", "100%");
+  });
 
   
 });
