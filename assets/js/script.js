@@ -79,7 +79,8 @@ function addmarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(bike[i].lat, bike[i].lng),
-        title: 'new marker',
+        
+        title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences',
         draggable: true,
         map: map0
     });
@@ -229,12 +230,6 @@ function addmarker8(latilongi) {
 } // End of the initializeGMap()
 
 
-// zoom in and zoom out
-$(window).on('resize', function() {
-    var currCenter = map.getCenter();
-    google.maps.event.trigger(map, 'resize');
-    map.setCenter(currCenter);
-});
 
     // function and events
   $('#Qbiking').on('show.bs.modal', function(event) {
@@ -305,7 +300,7 @@ $('#Vfalls').on('show.bs.modal', function(event) {
 
 
 
-Collapse
+
 
 
 
