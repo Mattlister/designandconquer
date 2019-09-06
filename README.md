@@ -19,10 +19,10 @@ that will show them how to book and what's available.
 
 ## 1. UX Design
 
-* Project Goals and Design
-* Users Objects
-* Developers Objects
-* User Stories
+* Project Goals and Design -
+* Users Objects -
+* Developers Objects -
+* User Stories -
 * Project Design
 * Wireframes
 
@@ -412,14 +412,25 @@ file to hold multiple markers that will display on the map.
 ### Acknowledgements
 
 I'd like to say than you to My mentor Simen Daehlin who has supported me through the project and has been a great influence and inspired me to
-keep going, especially when I really was ready to throw in the towel but a 10:30 call at niht helped get me back on track. The Slack
+keep going, especially when I really was ready to throw in the towel but a 10:30 call at night helped get me back on track. The Slack
 community reviewed my code and pointed out issues/ offered advice to aide me in improving my sites to produce something greater and so I'm 
-really grateful for their consistent support and it's good to know we're in this together. I'd also like to say a big thank you to Anna Greaves, 
-Anthony O'Brien and Shane Muirhead for their help in regard to issues I had with my JSON code and indepth code reviews.
+really grateful for their consistent support and it's good to know we're in this together. I'd like to say thank you and acknowledge John Longgately
+and Shane Muirhead for their help in regard to issues I had with my Javascript and JQUERY code. I'd also like to say a big thank you to Anna Greaves and 
+Anthony O'Brien for their ndepth code reviews.
 
 ### Disclaimer
 
 The content of the Website I have produced is for educational purposes only including all images and videos.
 
 
+### For my friends currently working on their Milestone 2 projects.
+
+I'm happy if youy'd like to use my readme file as a reference and guide as an example of how to write a strucured milestone project. The format will hopefully
+be of use to you but it is not ok to copy directly from mine for your own project. 
+
+Thank you for your understanding,
+
+Kind Regards,
+
+Matthew
 
