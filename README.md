@@ -184,7 +184,17 @@ Colours
 
 Styling
 
-* 
+* The style of the site as mentioned before is clean, neat and tidy. When landing on the site, everything is interactive so the user can immediately be intrigued
+ from the offset. The images flip when hovered over, this then displays the background with Locaiton and Information. These automatically take the user to the
+ next part of the site. Informaton holds a brief info on the site but enough to engage the customer. A video on each one shows what the holiday entails. You visually
+ see the adventure. Close the box and go back to the flipped image, click on Location and add marker and you see your holiday destinations. The choices are displayed
+ on the page, you can pick and then contact the organisers and they do the rest.
+
+ 
+
+
+
+
 -------------------------------------------------------------------------
 
 Flip Image Concept
@@ -322,7 +332,7 @@ Booking forms and Get in touch forms are clear and concise for when the user wan
 
 ## Deployment
 
-This project was developed using the Cloud9 development software and then stored in git using the Cloud9 platform.
+This project was developed using the Cloud9 development software originally and then AWS Cloud9. The data is stored in git using the Cloud9 platform.
 
 The project was regularly pushed to GitHub repository https://github.com/Mattlister/designandconquer/commits/master and 
 published to GitHub pages using the GitHub settings.
@@ -372,6 +382,10 @@ displayed. The images when hovered over as you'll see will flip and they'll be a
 When testing in Safari, the image flipped and stayed as the image but a mirrored version. When the buttons did show, it flipped the image back to the originally
 and there was no maps or modals appearing. These are bugs I need to look into but this is a junction I came to mid project.
 
+I used Autoprefixer as explained above to resolve the safari issues I had. I also tested on various iphone formats, ipad tablets and laptops. This inclued Macbook
+with Safari and laptops with Windows 10 installed. Tested on various browsers on both laptops to show everything displayed as it should and planned.
+
+
 
 ### Media and Content
 
@@ -385,11 +399,11 @@ promoting the products.
 
 ### Code
 
-* I've used various code for this website. As they say, a lazy programmer is a smart programmer so I used a fair amount of the code from my orignal 
-* MS1 project, from Google Garage and from other locations. Please see a list below.
+* I've used various code for this website. As they say, a lazy programmer is a smart programmer so I used some of my code from my 
+* MS1 project to start working on this. The Javasctipt was 
 
 * HTML - All code produced by Matthew Lister except for the content such as videos and*  images. These were searched and found on Google Chrome and
-then added into iframe and img source code which I had put together. The modal formts and forms were taken from my MS1 and edited to correspond
+then added into iframe and img source code which I had put together. The modal formats and forms were taken from my MS1 and edited to correspond
 to the needs of this website. I used script tags from Google Fonts to display the correct formatted fonts.
 
 * CSS - All CSS code was produced by Matthew Lister originally typed to add styling to the HTML page. This included Font styling, image sizing and
@@ -399,7 +413,8 @@ breaks which did help in regards to displaying on various sized devices.
  
 
 * JavaScript - Some of the code for this was produced by Matthew Lister based on learning material from the code insitute course. I also used code
-from google garage which I used to create the code to fetch data fro JSON. The mapping section was imported and edited from google maps API's.
+from google garage and JSFiddle to produce the map layouts that tie into the modals. To finish off the markers, I used information from stack overflow and edited
+it to display my markers as i'd hoped they would on the webapge. Some of the mapping section was imported and edited from google maps API's.
 
 
 * JSON - The code was produced using information found online on how to produce a JSON file. Once I had the basis, I added more informtion to the 
