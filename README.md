@@ -1,5 +1,10 @@
 ![](/assets/images/header.jpg)
 
+Design and Conquer is a website for adeventure holiday enthusiasts. Designed for anyone with a passion for travelling, I wanted it to
+be quick and easy to use. A click, choose and select site. Nothing to take the customers experience too far away from the adventure.
+I wanted the layout and features of the site to be crisp and engaging. the image draws you in, the interactivity of the site showcases
+what you can do. Simply get in touch and go from there. It's cool and engaging for the customer.
+
 
 [My page](https://github.com/Mattlister/designandconquer)
 
