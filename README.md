@@ -190,9 +190,25 @@ Styling
  see the adventure. Close the box and go back to the flipped image, click on Location and add marker and you see your holiday destinations. The choices are displayed
  on the page, you can pick and then contact the organisers and they do the rest.
 
+### UX
+
+- I drew up various mock wireframes and initially had a a jumobotron header with a white background and then the 9 images on top. 
+- It wasn't bold enough and so a single blown up image with a colourful picture I feel gives it a much bigger impact when viewed by
+- a user.
+
+## Original concepts
+
+
+<p align="left">
+  <img width="500" height="250" src="/assets/wireframes/originalFSwireframe.png>
+</p>
+
+
+* The wireframes above were the original design I had in mind. Bold header and the images below but I didn't think a solid colour 
+  background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better light but 
+  I reviewed other sites and they either had a similar design or something more dramatic so I decided to change it to something more like
+  it is below.
  
-
-
 
 
 -------------------------------------------------------------------------
@@ -253,13 +269,7 @@ A user can use the site with ease and simplicity to the page:
 
 
 
-### UX
 
-- I drew up various mock wireframes and initially had a a jumobotron header with a white background and then the 9 images on top. 
-- It wasn't bold enough and so a single blown up image with a colourful picture I feel gives it a much bigger impact when viewed by
-- a user.
-
-## Original concepts
 
  
 
