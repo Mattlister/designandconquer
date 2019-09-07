@@ -217,6 +217,18 @@ As a user aged between 16 and upwards, I want:
   <img width="300" height="350" src="/assets/wireframes/orangemob.png">
 </p>
 
+<p align="center">
+  <img width="400" height="400" src="/assets/wireframes/Newfswireframe.png">
+</p>
+
+<p align="center">
+  <img width="400" height="400" src="/assets/wireframes/ipadnewwf.png">
+</p>
+
+<p align="center">
+  <img width="300" height="350" src="/assets/wireframes/mobwireframe.png">
+</p>
+
 
 
 * The wireframes above were the original design I had in mind. Bold header and the images below but I didn't think a solid colour 
