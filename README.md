@@ -214,7 +214,7 @@ As a user aged between 16 and upwards, I want:
 
 
 <p align="center">
-  <img width="400" height="300" src="/assets/wireframes/orangemob.png">
+  <img width="300" height="200" src="/assets/wireframes/orangemob.png">
 </p>
 
 
