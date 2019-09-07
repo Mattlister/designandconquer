@@ -212,12 +212,9 @@ As a user aged between 16 and upwards, I want:
   <img width="500" height="250" src="/assets/wireframes/originalipadwframe.png">
 </p>
 
-<p align="center">
-  <img width="500" height="250" src="/assets/wireframes/originalipadwf.png">
-</p>
 
 <p align="center">
-  <img width="500" height="250" src="/assets/wireframes/originalipadwf.png">
+  <img width="500" height="250" src="/assets/wireframes/orangemob">
 </p>
 
 
