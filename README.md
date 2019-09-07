@@ -205,7 +205,7 @@ As a user aged between 16 and upwards, I want:
 
 
 <p align="center">
-  <img width="400" height="200" src="/assets/wireframes/originalFSwireframe.png">
+  <img width="400" height=400" src="/assets/wireframes/originalFSwireframe.png">
 </p>
 
 <p align="center">
