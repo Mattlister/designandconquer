@@ -203,6 +203,9 @@ As a user aged between 16 and upwards, I want:
 
 ## Original wireframe concepts
 
+* The wireframes below were the original design I had in mind. A bold header and the images were to be set below but I didn't think a 
+* solid colour background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better 
+* light but I reviewed other sites and they either had a similar design or something more dramatic.
 
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/originalFSwireframe.png">
@@ -217,6 +220,10 @@ As a user aged between 16 and upwards, I want:
   <img width="300" height="350" src="/assets/wireframes/orangemob.png">
 </p>
 
+* Changing it to a design more along the lines below made an impact straight away. It had colour giving a better overall layout and made
+  a difference from the moment I added the background image. Nothing else but that image changed everything. I could then layer over the 
+  top of it and add my original plan. I was able to build from the bottom up and show something more with imagery.
+
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/Newfswireframe.png">
 </p>
@@ -230,14 +237,17 @@ As a user aged between 16 and upwards, I want:
 </p>
 
 
-
-* The wireframes above were the original design I had in mind. Bold header and the images below but I didn't think a solid colour 
-  background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better light but 
-  I reviewed other sites and they either had a similar design or something more dramatic so I decided to change it to something more like
-  it is below.
- 
-
 # Flip Image Concept
+
+* After building the original layout, as you can see on the site as it is now, I changed the font to white. It stood out better against
+  the blue. Once in place, I could start my concept of building content from one location, I came up with the idea
+  of having] the flipped image as my original sketch below shows. 
+
+<p align="center">
+  <img width="500" height="250" src="/assets/wireframes/conceptsketch2.png">
+</p>
+
+ * To show this as a functioning working project, I attached the following shots below to show the process and fluid nature of the design working.
 
 * Image 1 shows after being selected, the beginning of the image flipping.
 
