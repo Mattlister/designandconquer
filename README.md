@@ -204,24 +204,34 @@ As a user aged between 16 and upwards, I want:
 ## Original wireframe concepts
 
 
+<p align="center">
+  <img width="500" height="250" src="/assets/wireframes/originalFSwireframe.png">
+</p>
+
+<p align="center">
+  <img width="500" height="250" src="/assets/wireframes/originalipadwframe.png">
+</p>
+
+<p align="center">
+  <img width="500" height="250" src="/assets/wireframes/originalipadwf.png">
+</p>
+
+<p align="center">
+  <img width="500" height="250" src="/assets/wireframes/originalipadwf.png">
+</p>
+
+
+
 * The wireframes above were the original design I had in mind. Bold header and the images below but I didn't think a solid colour 
   background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better light but 
   I reviewed other sites and they either had a similar design or something more dramatic so I decided to change it to something more like
   it is below.
  
 
-
 # Flip Image Concept
 
 * Image 1 shows after being selected, the beginning of the image flipping.
 
-<p align="center">
-  <img width="500" height="250" src="/assets/wireframes/originalFSwireframe.png">
-</p>
-
-<img src="markdownmonstericon.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
 
 * Image 2 shows the image mid flip revealing the back of the box
 
