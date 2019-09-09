@@ -93,9 +93,9 @@
 
 # Fonts
 
-* I tried and tested various fonts for the site. At the beginning, I had around 20 fonts all in one page and over a 2 hour period, tried each one
-  and I found the Barrio font which I used for the header to be perfect. I asked various users and had the site reviewed within peer review in Slack took 
-  all the feedback onboard. The heading font had a positive response from users.
+* I tried and tested various fonts for the site. At the beginning, I had 20 fonts all in one page and over a 2 hour period, tried each one.
+  I found the Barrio font to be perfect for the header. Off key, scribbled a little, not quite neat enough. A holiday adventurers font.
+  When reviewed within peer review in Slack, the feedback on the font choice was very positive.
 
 * The second font I used, Megrim was again chosen from a long list of font choices. I thought it was cool, sharp and fitted in well with the design 
   of the site. I used this for the smaller content fonts in the modals and it's response wasn't as good so I only this as a 2nd heading and description
@@ -103,7 +103,7 @@
 
 * My third main font used was Oxygen. This was clear, concise and fitted neatly into the modals and all readable sections. 
 
- * Each font chosen wasn't done on a whim. I started off with around 20 fonts each time I tried something new. Tested and had them all reviewed
+ * Each font chosen wasn't done on a whim. I started off as explained with around 20 fonts each time I tried something new. Tested and had them all reviewed
    and listened to the response of colleagues, friends, family and then my mentor and reviewers from the peers section in Slack. Each review helped
    me select the font options I have used as they have been postiviely received in each use and instance.
 
@@ -115,26 +115,26 @@
 - a user.
 
 
-# Project Goals and Design
+# Project Goals
 
 ![](/assets/images/flipimage1.jpg) 
 
 
-The primary goal of Design and Conquer is a single page application where a user can book an adventure holiday. As the title indicates, the user
-is able to "design" the advneture and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
-What We Do? section where a user can change choose a holiday if needed. The user can watch videos on each slide and read information about the 
-location. There's also a Help Guide on the home page which explains the website.
+* The primary goal of Design and Conquer is a single page application where a user can book an adventure holiday. As the title indicates, the user
+  is able to "design" the advneture and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
+  What We Do? section where a user can change choose a holiday if needed. The user can watch videos on each slide and read information about the 
+  location. There's also a Help Guide on the home page which explains the website and how to use it.
 
 
 
 
 # User Objects
 
-The website has been designed for people that want to try a new type of holiday that's not on the normal scale. It's also designed for people
-who want to add to their list of adventures.
+* The website has been designed for people that want to try a new type of holiday that's not on the normal scale. It's also designed for people
+ who want to add to their list of adventures.
 
-Aimed at thrill seekers and people who have a passion for the extraordinary, this site can be used to find that thrill of the unknown. The goals of
-the site are:
+* Aimed at thrill seekers and people who have a passion for the extraordinary, this site can be used to find that thrill of the unknown. The goals of
+  the site are:
 
 * Starting that adventure
 * Finding that thrill
@@ -144,47 +144,49 @@ the site are:
 * Striking images and easily readable content
 * Watchable videos that can help a user see what they can achieve
 
-Design and Conquer helps a user find their passion because:
+# Design and Conquer helps a user find their passion because:
 
 * The design of the site is to showcase whats available via visual content with description. This helps the user to see what they will
  be able to do when they book the holiday.
-* Easy to navigate and book the adventure they want to try. A helpful handy guide is prominent on the home page to stop any confusion.
-* Images and map markers showcase the locations so the user know where their adventures take place.
+ 
+* It's easy to navigate and book the adventure they want to try. A helpful handy guide is prominent on the home page to stop any confusion.
+ Images and map markers showcase the locations so the user know where their adventures take place.
 
 
-Developers Objects
+# Developers Objects
 
 * Well stuctured and content friendly with well thought out programming.
 * The layout is formatted in a way that the user can navigate around the site without frustration.
-* A professionally layed out single page application with includes JavaScript, JSON and complex HTML and CSS
-* A site that the developer would use themselves and will be using the format again for other clients. It will be a forefront of his portfolio.
+* A professionally layed out single page application with includes JavaScript, some JQuery, complex HTML and CSS.
+* A site that the developer would use themselves and I will be using the format again for other clients. It will be a forefront of his portfolio.
 
-User Stories
+# User Stories
 
-As a user aged between 16 and upwards, I want:
+# As a user aged between 16 and upwards, I want:
 
-1. The objectives to be met when using the site so it can be used with no confusion and easy to navigate.
+1. The objectives to be met when using the site so there's no confusion and it's easy to navigate around the page.
 2. As it's a single page application, I wanted the modals to hold more information and allow me to move around and find new content without leaving
-   the page. I was able to showcase more using this technique.
-3. The vidoes I used for the website again could display so much in a single piece of visual content more than any description could. It engaged me 
-   and in turn the audience and would help me visualise and imagine the destination.
-4. Visual images before flipped shows you instantly what the adventure is before going any further.
+   the page. I was able to showcase more using this technique through visual images and video.
+3. As for the vidoes I used for the website, they again displayed so much in a single piece of visual content more than words could. Somebody stepping
+   off the plane into the blue. A boat ride out to the sea to be within 2 metres of a Great White Shark. The unbelievable surf of Banzai's coast.
+   It engaged me, gave me the thrill to get on the plane and try that adventure for myself and in turn the audience. I could visualise and imagine 
+   the destination.
+4. Visual images before the box flipped shows you instantly what the adventure is going to be.
 5. Visually stunning videos are used as mentioned before to really showcase the adventure.
-6. 'The Location' is pinpointed to the heading of the holiday. Seperate markers on the map shows 3 locations where you choose your adventure.
-7. A search option is also availabe on the maps which helps plan distances and gives me an idea of the location.
+6. 'The Location' is pinpointed to the heading of the holiday. Seperate markers on the map shows locations where you choose your adventure.
 
 
 # For the user
 
 1. I want them to find the site enjoyable and engaging.
-2. I want them to find it holds enough information without being too confusing to use. 
+2. I want it to hold enough information without being too confusing to use. 
 3. The idea behind the site is, they find the destination by watching the videos and then contacting us. I travelled to New York this year and
    I went to Virgin (other holiday booking companies are available) to book it. I found going to see them was such a constructive experience. They
-   located the hotel, the best place to visit, the sites to see and helped make the entire experience easier before I'd even gone on the trip. The 
+   located the hotel, the best places to visit, the sites to see and helped make the entire experience easier before I'd left the travel agents. The 
    idea behind Design and Conquer is the user visits the site, chooses their adventure and contacts the organiser of the site. The organiser then 
    helps to "design" the package which would include travelling, accomodation and insurances. That way, the user would only then need to worry about
-   packing their clothes and personal neccesities. The idea behind the site is the user can see something, like something and choose something. The
-   organiser then puts together options wit the user to "design" a personal experience.
+   packing their clothes and personal neccesities. Again, the idea behind the site is the user can "see something", "like something" and "choose something". 
+   The organiser then puts together options with the user to "design" a personal experience.
 4. This design I am also using to create other websites for 2 other companies. 
 5. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site for a user to find.
 
@@ -193,27 +195,28 @@ As a user aged between 16 and upwards, I want:
 
 ## Original wireframe concepts
 
-* The wireframes below were the original design I had in mind. A bold header and the images were to be set below but I didn't think a 
-  solid colour background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better 
-  light but I reviewed other sites and they either had a similar design or something more dramatic.
+* The wireframes below were the original design I had in mind. A bold header and the images were to be sat on a blank background. How i visualised
+  it and how it showed were very different and it was much duller on screen. The images which hadn't been chosen at the time might have brought it 
+  into a better light but I reviewed other sites and they either had a similar design or something more dramatic.
 
-* Full Screen Design
+* Original Full Screen Design
 
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/originalFSwireframe.png">
 </p>
 
-* Ipad Design
+* Original Ipad Design
 
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/originalipadwframe.png">
 </p>
 
-* Mobile Design
+* Original Mobile Design
 
 <p align="center">
   <img width="300" height="350" src="/assets/wireframes/orangemob.png">
 </p>
+
 
 * Changing it to a design more along the lines below made an impact straight away. It had colour giving a better overall layout and made
   a difference from the moment I added the background image. Nothing else but that image changed everything. I could then layer over the 
@@ -240,9 +243,10 @@ As a user aged between 16 and upwards, I want:
 
 # Flip Image Concept
 
-* After building the original layout, as you can see on the site as it is now, I changed the font to white. It stood out better against
+* When building the original layout, as you can see on the site as it is now, I changed the font to white. It stood out better against
   the blue. Once in place, I could start my concept of building content from one location, I came up with the idea
-  of having] the flipped image as my original sketch below shows. 
+  of having the flipped image as my original sketch below shows. The 9 images and the idea behind the flipped image is at the bottom.
+  I think worked out really well and looks good. 
 
 <p align="center">
   <img width="500" height="250" src="/assets/wireframes/conceptsketch2.png">
@@ -284,12 +288,12 @@ As a user aged between 16 and upwards, I want:
 
 Being a SPA, you never leave the one page. You can do everything all in one place and so I've added all the necessary features on the home page.
 
-* All revolving images have an information button about the location and holiday and a map which shows where the area is.
+* All revolving images as stated have an information button about the location displaying the map which shows where the holiday is.
 
 
 ### Hopes for the website are:
 
-A user can use the site with ease and simplicity to the page:
+An user can navigate around the site with ease and simplicity:
 
 * Accessing the websites to find the perfect holiday 
 
@@ -298,7 +302,6 @@ A user can use the site with ease and simplicity to the page:
 * Nice design that allows each user to move around the site comfortably.
 
 * Clean, clear and easy to use.
-
 
 
 - There will always be bold adventurers looking for something new. Watching the amazing documentary Free Solo, it showcased how far someone
@@ -317,7 +320,7 @@ This Project uses the following programming languages
 * HTML
 * CSS 
 * Javascript
-* JSON
+* JQuery
 
 Cloud 9 and AWS Cloud 9
 
@@ -342,22 +345,17 @@ Cloud 9 and AWS Cloud 9
 
 
 
+# The goals for the website are:
+
+* To be seen as an easy to use resource for a holiday adventurer wanting to try something new. Also, it showcases my working knowledge of vari
+
+# Ideal site visitors
 
 
-
-
-
-## The goals for the website are:
-
-*
-
-## Ideal site visitors
-
-
-
-## This project is the best way to help them achieve these things because:
+# This project is the best way to help them achieve these things because:
 
 The website has one page that has all navigation and options direct from the one page.
+
 ## This website is:
 
 Easy to navigate through.
@@ -411,6 +409,32 @@ I used default commands to push to Github such as:
 * git push -u origin master which then pushes my update and I then need to enter my username and password for security.
 
 
+# Issues whilst building the site
+
+* This site although set me back a few times with various issues when putting the project in place. I originally wrote some in depth JavaScript
+  code that displayed the maps, had the content and centralised locations from HTML but I couldn't get more than one location using JavaScript. 
+  I originally planned to have 3 locations to choose from each holiday destination. As I looked more indepth, some of the holidays only had 1 option
+  available . For instance, there's only 1 Neptune island diving location. Only 1 Victoria falls etc and so I could narrow my locations but still
+  couldn't get them to display. So, as a suggestion from my mentor. I created a JSON file and added fetch commands to the JavaScript file. I was able
+  to create the For loops and arrays, I could get all the data to read. There were no errors in any of my code or DevTools but the markers would not
+  display. I had 3 extra sessions with my mentor. I spent time with tutors looking at this for a week solid but could not figure it out. I then came
+  up with the concept that the modals held the information, not the maps. The map was one solid piece of data. The modals were 9 seperate pieces of
+  of code. So, I created 9 modals to showcase the maps but this didn't resolve it. The modals still would not show the markers and so I reached out in 
+  Slack again. John Longgately who had done the code spotted what I was trying to do. It was hard explaining my situation as it seemed simple. Markers 
+  within maps but... the maps had to be seperated and the locations individually added. So, between me and John, we were able to re-write the code 
+  altogether and resolve the issue. I could get markers displaying on the maps. Phew!!
+
+* That was amajor milestone but.... I had more to workout because, when I added a centralised location to the modal 1, it worked great. Adding modal
+  2 though overwrote the information and so I had to work that out as well. It took me a week to resolve this through various searches and code checks
+  to stop the data overwriting when new information was added. I asked one of my peers, Shane Muirhead ro review it and he noticed all the content was
+  but as I'd not worked in JavaScript before, he was able to advise me on my hard coded could be streamlined and so with more research and advise, I 
+  created the working JavaScript file I have now. 
+
+* I've learnt a great deal on this project and yes, it has taken me longer but I believe I did create something relatively complicated. I only say this
+  because when researching what I was doind, the answers weren't always obvious to others. I was able to work through this and keep my head up and keep 
+  going to produce what I have now.
+
+
 ## Testing
 
 * I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
@@ -429,7 +453,7 @@ with Safari and laptops with Windows 10 installed. Tested on various browsers on
 The text, images and videos were found on various sites for each particular venture. 
 
 * The content was taken and used in context from actual sites running these adventures for real and so their write up's were specific for the use of 
-promoting the products.
+  promoting the products.
 * The images were searched and found on Google
 * The videos were searched for and found on Google. I used Vimeo videos as they're clearer than YouTube videos.
 
