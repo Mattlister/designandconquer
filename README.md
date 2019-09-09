@@ -206,17 +206,22 @@ As a user aged between 16 and upwards, I want:
 ## Original wireframe concepts
 
 * The wireframes below were the original design I had in mind. A bold header and the images were to be set below but I didn't think a 
-* solid colour background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better 
-* light but I reviewed other sites and they either had a similar design or something more dramatic.
+  solid colour background was enough and was dull. The images which hadn't been chosen at the time might have brought it into a better 
+  light but I reviewed other sites and they either had a similar design or something more dramatic.
+
+* Full Screen Design
 
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/originalFSwireframe.png">
 </p>
 
+* Ipad Design
+
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/originalipadwframe.png">
 </p>
 
+* Mobile Design
 
 <p align="center">
   <img width="300" height="350" src="/assets/wireframes/orangemob.png">
@@ -226,13 +231,19 @@ As a user aged between 16 and upwards, I want:
   a difference from the moment I added the background image. Nothing else but that image changed everything. I could then layer over the 
   top of it and add my original plan. I was able to build from the bottom up and show something more with imagery.
 
+* Full Screen Design
+
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/Newfswireframe.png">
 </p>
 
+* Ipad Design
+
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/ipadnewwf.png">
 </p>
+
+* Mobile Design
 
 <p align="center">
   <img width="300" height="350" src="/assets/wireframes/mobwireframe.png">
@@ -414,7 +425,7 @@ I used default commands to push to Github such as:
 
 ## Testing
 
-I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
+* I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
 using this browser. The website worked to the normal standard on Mozilla Firefox as well. So far, So good. But, On Apple's Safari browser, there were bugs 
 displayed. The images when hovered over as you'll see will flip and they'll be a grdient background with both a Location and Information button on the back.
 When testing in Safari, the image flipped and stayed as the image but a mirrored version. When the buttons did show, it flipped the image back to the originally
@@ -469,7 +480,7 @@ keep going, especially when I really was ready to throw in the towel but a 10:30
 community reviewed my code and pointed out issues/ offered advice to aide me in improving my sites to produce something greater and so I'm 
 really grateful for their consistent support and it's good to know we're in this together. I'd like to say thank you and acknowledge John Longgately
 and Shane Muirhead for their help in regard to issues I had with my Javascript and JQUERY code. I'd also like to say a big thank you to Anna Greaves and 
-Anthony O'Brien for their ndepth code reviews.
+Anthony O'Brien for their indepth code reviews.
 
 ### Disclaimer
 
