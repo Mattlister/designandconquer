@@ -1,21 +1,21 @@
 ![](/assets/images/header.jpg)
 
-Design and Conquer is a website for adeventure holiday enthusiasts. Designed for anyone with a passion for travelling, I wanted it to
-be quick and easy to use. A click, choose and select site. Nothing to take the customers experience too far away from the adventure.
-I wanted the layout and features of the site to be crisp and engaging. the image draws you in, the interactivity of the site showcases
-what you can do. Simply get in touch and go from there. It's cool and engaging for the customer.
+* Design and Conquer is a website for adeventure holiday enthusiasts. Designed for anyone with a passion for travelling, I wanted it to
+  be quick and easy to use. A click, choose and select site. Nothing to take the customers experience too far away from the adventure.
+  I wanted the layout and features of the site to be crisp and engaging. the image draws you in, the interactivity of the site showcases
+  what you can do. Simply get in touch and go from there. It's cool and engaging for the customer.
 
 
 [My page](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/7d84574e1e134945b270ee845b650848/preview/index.html)
 
-A Single Page Application for anyone looking to conquer their next Big Adventure!!
+* A Single Page Application for anyone looking to conquer their next Big Adventure!!
 
-The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
-Full Stack Developer Course. I’ve used Bootstrap to design the HTML layout of the website. This is to provide functionality and a 
-responsive design which sits in an HTML shell with added elements of CSS to add styling. This is a Single Page Applciation (SPA Respectively)
-adventure holiday booking website. The user can use the images to display an API map and see information on each page. There's a "What we do 
-and how to book" option at the top of the page where the user can enquire and book holiday destinations using the request and booking form 
-that will show them how to book and what's available.
+* The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
+  Full Stack Developer Course. I’ve used Bootstrap to design the HTML layout of the website. This is to provide functionality and a 
+  responsive design which sits in an HTML shell with added elements of CSS to add styling. This is a Single Page Applciation (SPA Respectively)
+  adventure holiday booking website. The user can use the images to display an API map and see information on each page. There's a "What we do 
+  and how to book" option at the top of the page where the user can enquire and book holiday destinations using the request and booking form 
+  that will show them how to book and what's available.
 
 ## Contents
 
@@ -30,60 +30,65 @@ that will show them how to book and what's available.
 
 
 
-## 2. Site Features and Design
+# 2. Site Features
 
-## Technologies Used
+# 3. Technologies Used
 
-## 4. Testing
+# 4. Testing
 
-## 5. Deployment
+# 5. Deployment
 
+# 6. Acknowledgements
 
-## 6. Acknowledgements
+# 7. Disclaimer
 
+# For my friends currently working on their Milestone 2 projects.
 
-## 7. Disclaimer
-
-## For my friends currently working on their Milestone 2 projects.
-
-
-### How I’d like the website to be perceived:
-
-
-* This website would be an easy to use adventure holiday booking site which can be accessed all from one easy location.
-
-* They've seen the locations on TV or in magazines and this is where the user can start their dream holiday.
-
-* A nice clean UX single page design site all sat in one location. Click and point revolving images provide more information and the user never
-
-* leaves the cool holiday home page. Design & Conquer.
 
 
 # Project Design
 
 * I've designed the website with minimal but engaging colour and content. As it's a single page application, I had to think how I could add a lot of
-  content onto one page and not lose anything.
+  content onto one page and not lose anything. The idea I had was for the user to "see something", "like something" and "choose something" It's crisp, 
+  clean and the heading stands out at the top with a clever description in the heading of what the website is about "Design and Conquer".
 
-# Image and colour
+# Design
 
 
-
-* As you can see in the wireframes, I was originally going to use an orange border with the header contained inside but it lost something online and
+* As you can see in the wireframes section further down, I was originally going to use an orange jumbotron header but it lost something onscreen and
   looked dated. I reviewed other sites that had more freedom in their approach as they weren't single page applications and so could offer more but
   I didn't have that advantage. I had to think of a way that could showcase the site without being over worded and was pleasing to view from the
-  outset. As explained above, the idea I had was that I wanted the user to see something, like something and choose something. If a user lands on 
-  the page, a large colourful bright displayed image was prominent on the page. It's crisp, clean and the heading stands out at the top with a clever
-  description in the heading. "Design and Conquer" is what the user does. They see the image. Say climbing Mount Everest for instance. They hover over
-  on a larger display or click on the image to make it flip when on a smaller screen. That way, you don't have the images auto flipping which spoiled
-  the look on a smaller screen.
+  outset. Something that stood out and so I came up with the second concept which is on the imaged wireframes. The sharp images gave something away for
+  what the website represents straight away. Adventure. As they say, a picture paints a thousand words and so it was again, a great way to do showcase
+  adventure and heartstopping moments without any words. Something I could use to showcase my SPA design.
 
+# Colours
 
-* The user then has the choice to either click on "The Location" option which displays a map with 3 markers for starting points. They can also choose
-  "Information" which when clicked displays a brief piece of informatve info that explains what the adventure holds in store. There's also a video 
-  which when clicked will showcase a users experience of what a new user can expect. When watched, they can go to the "What We Do and How to Book"]
-  below the header which again, showcases a users video with various adventures into a showreel. There's then a "Booking Here" button which displays
-  a booking form which the user can fill in with some brief information. Once filled in, they click on the "Submit" button and that's when the holiday
-  organisers would then go to work. I was trying to keep everything minimal but engaging without headache and I had to think of each step of a users
+* A colour scheme of blue was given to itself from the main image. It was such a striking coloured picture, it was hard not to use it's natural photographic
+  colours to my advantage. The white of the mountains, the bright sun at the top and the skiers bright clothing was just stunning and so I built around this 
+  and chose images whic sat well with the background. On the back of the flipped images, I used gradients which was used a blurred idea. Like the sun and blue
+  sky showing through frosted glass. It kept in with the design. 
+
+# Images
+
+* Each image used was specifically chosen to showcase that adventure I chose the idea of images because you instantly know what's 
+  represented. whether it's bike riding or shark cage diving. Once an option was chosen, the background has a shadowed grey filter so the 
+  option chosen stands out at the forefront of the design hiding the background and adding focus.
+
+# Styling
+
+* The style of the site as mentioned before is clean, neat and tidy. When landing on the site, everything is interactive so the user can 
+  immediately be drawn in from the offset. The images flip when hovered over which then displays the coloured background with Location and 
+  Information. 
+
+* When "The Location" option is selected, it displays a map which is a central point of the holiday destination. Click on the add marker button and
+  markers for available holiday locations will be displayed. The user instantly knows whats happening. They hover over the image so if it was Yosamite
+  for instance and they click on location. They have 3 climbs they can experience with Design and Conquer. To get a taste of what the site offers, if 
+  they choose "Information", some content on the modal which pops up explains what the adventure holds in store. There's also a video which when clicked 
+  showcases a users experience of that holiday. Once watched and chosen, they can go to the "What We Do and How to Book" below the header which again, 
+  showcases a users video with various adventures into a showreel. There's then a "Booking Here" button under the video which displays
+  a booking form. The user can fill it in with some brief information and once done, they click on the "Submit" button and that's when the holiday
+  organisers go to work. I was trying to keep everything minimal but engaging without headache and I had to think of each step of the users
   experience.
 
 # Fonts
@@ -102,23 +107,6 @@ that will show them how to book and what's available.
    and listened to the response of colleagues, friends, family and then my mentor and reviewers from the peers section in Slack. Each review helped
    me select the font options I have used as they have been postiviely received in each use and instance.
 
-# Images
-
-* Each image used was specifically chosen to showcase the holiday without any wording. I chose to use images because you instantly know what's 
- represented behind the image. whether it's bike riding or shark cage diving. They're easy to see, understand and use.
-
-# Colours
-
-* As I used a strong visual background image, I wanted to use colours that would suit it throughout the site.
-
-
-# Styling
-
-* The style of the site as mentioned before is clean, neat and tidy. When landing on the site, everything is interactive so the user can immediately be intrigued
- from the offset. The images flip when hovered over, this then displays the background with Locaiton and Information. These automatically take the user to the
- next part of the site. Informaton holds a brief info on the site but enough to engage the customer. A video on each one shows what the holiday entails. You visually
- see the adventure. Close the box and go back to the flipped image, click on Location and add marker and you see your holiday destinations. The choices are displayed
- on the page, you can pick and then contact the organisers and they do the rest.
 
 ### UX
 
@@ -498,3 +486,13 @@ Kind Regards,
 
 Matthew
 
+### How I’d like the website to be perceived:
+
+
+* This website would be an easy to use adventure holiday booking site which can be accessed all from one easy location.
+
+* They've seen the locations on TV or in magazines and this is where the user can start their dream holiday.
+
+* A nice clean UX single page design site all sat in one location. Click and point revolving images provide more information and the user never
+
+* leaves the cool holiday home page. Design & Conquer.
