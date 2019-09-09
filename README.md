@@ -19,7 +19,7 @@ that will show them how to book and what's available.
 
 ## 1. UX Design
 
-* [Project Goals and Design](#Project Goals and Design)
+* [Project Goals](# Project Goals and Design)
 * Users Objects -
 * Developers Objects -
 * User Stories -
