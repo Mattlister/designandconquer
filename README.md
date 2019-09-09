@@ -19,17 +19,19 @@ that will show them how to book and what's available.
 
 ## 1. UX Design
 
-[Project Design](#Project-Design)
-
-* [Project Goals and Design] (#project goals and design)
-* Users Objects -
-* Developers Objects -
-* User Stories -
+* [Project Design](#Project-Design)
+* [User Objects](#User-Objects)
+* [Developers Objects](#Developers-Objects)
+* [User Stories](#User-Stories)
 * Project Design
 * Wireframes
 
-## 2. Festures of site
 
+
+
+
+
+## 2. Festures of site
 
 ## 3. Technologies Used
 
