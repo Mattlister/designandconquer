@@ -19,7 +19,7 @@ that will show them how to book and what's available.
 
 ## 1. UX Design
 
-* [Project Goals](# Project Goals and Design)
+* [Project Goals and Design](#project goals and design)
 * Users Objects -
 * Developers Objects -
 * User Stories -
@@ -60,7 +60,7 @@ that will show them how to book and what's available.
 * leaves the cool holiday home page. Design & Conquer.
 
 
-# Project Goals and Design
+#Project Goals and Design
 
 ![](/assets/images/flipimage1.jpg) 
 
