@@ -191,8 +191,6 @@ function addmarker6(latilongi) {
 
 
 
-
-
 // add marker settings
 $('#btnaddmarker7').on('click', function() {
     addmarker7(cruise[0].lat, cruise[0].lng);
@@ -201,6 +199,10 @@ $('#btnaddmarker7').on('click', function() {
 
 function addmarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        parking: {
+    icon: iconBase + 'parking_lot_maps.png';
+  }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
         title: 'new marker',
