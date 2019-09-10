@@ -1,8 +1,8 @@
 ![](/assets/images/header.jpg)
 
-* Design and Conquer is a website for adeventure holiday enthusiasts. Designed for anyone with a passion for travelling, I wanted it to
+* Design and Conquer is a website for adventure holiday enthusiasts. Designed for anyone with a passion for travelling, I wanted it to
   be quick and easy to use. A click, choose and select site. Nothing to take the customers experience too far away from the adventure.
-  I wanted the layout and features of the site to be crisp and engaging. the image draws you in, the interactivity of the site showcases
+  The layout and features of the site are crisp and engaging. the images draw you in and the interactivity of the site showcases
   what you can do. Simply get in touch and go from there. It's cool and engaging for the customer.
 
 
@@ -48,32 +48,34 @@
 
 # Project Design
 
-* I've designed the website with minimal but engaging colour and content. As it's a single page application, I had to think how I could add a lot of
-  content onto one page and not lose anything. The idea I had was for the user to "see something", "like something" and "choose something" It's crisp, 
-  clean and the heading stands out at the top with a clever description in the heading of what the website is about "Design and Conquer".
+* I've designed the website with minimal but engaging colour and content. As it's a single page application, I had to think how I could add 
+  a lot of visual information onto one page and not lose anything. The idea I had was for the user to "see something", "like something" and 
+  "choose something" It's crisp, clean and the heading stands out at the top with a clever description in the heading of what the website is
+  about "Design and Conquer".
 
 # Design
 
 
 * As you can see in the wireframes section further down, I was originally going to use an orange jumbotron header but it lost something onscreen and
   looked dated. I reviewed other sites that had more freedom in their approach as they weren't single page applications and so could offer more but
-  I didn't have that advantage. I had to think of a way that could showcase the site without being over worded and was pleasing to view from the
-  outset. Something that stood out and so I came up with the second concept which is on the imaged wireframes. The sharp images gave something away for
-  what the website represents straight away. Adventure. As they say, a picture paints a thousand words and so it was again, a great way to do showcase
-  adventure and heartstopping moments without any words. Something I could use to showcase my SPA design.
+  I didn't have that advantage with an SPA. I had to think how to showcase the site without being over worded and was pleasing to view 
+  from the outset. It had to stand out and so I came up with the second concept which is on the newer imaged wireframes. The sharp images showed what 
+  the website represents straight away. Adventure. 
+  
+  As they say, a picture paints a thousand words and so to my advantage, I used images and video to show heartstopping moments without many words
 
 # Colours
 
-* A colour scheme of blue was given to itself from the main image. It was such a striking coloured picture, it was hard not to use it's natural photographic
+* A colour scheme of blue presented itself from the main image. It was such a striking coloured picture, it was hard not to use it's natural photographic
   colours to my advantage. The white of the mountains, the bright sun at the top and the skiers bright clothing was just stunning and so I built around this 
-  and chose images whic sat well with the background. On the back of the flipped images, I used gradients which was used a blurred idea. Like the sun and blue
-  sky showing through frosted glass. It kept in with the design. 
+  and chose images whic sat well with the background. On the back of the flipped images, I had the idea to use gradients like a window. The sun and blue
+  sky showed through a frosted glass perspective which I think kept in with the rest of the design. 
 
 # Images
 
-* Each image used was specifically chosen to showcase that adventure I chose the idea of images because you instantly know what's 
-  represented. whether it's bike riding or shark cage diving. Once an option was chosen, the background has a shadowed grey filter so the 
-  option chosen stands out at the forefront of the design hiding the background and adding focus.
+* Each image used was specifically chosen to showcase that holiday. I chose the idea of images because you instantly know what's 
+  represented. whether it's bike riding or shark cage diving. Once an option was chosen, a shadowed grey filter covered the background so the 
+  option chosen stands out at the forefront of the design. It was used to hide the background and add focus.
 
 # Styling
 
@@ -81,10 +83,13 @@
   immediately be drawn in from the offset. The images flip when hovered over which then displays the coloured background with Location and 
   Information. 
 
-* When "The Location" option is selected, it displays a map which is a central point of the holiday destination. Click on the add marker button and
-  markers for available holiday locations will be displayed. The user instantly knows whats happening. They hover over the image so if it was Yosamite
-  for instance and they click on location. They have 3 climbs they can experience with Design and Conquer. To get a taste of what the site offers, if 
-  they choose "Information", some content on the modal which pops up explains what the adventure holds in store. There's also a video which when clicked 
+* When "The Location" option is selected, it displays a map which is the central point of that holiday destination. Click on the "add marker" button and
+  markers for each holiday location will be displayed. The user instantly knows where they can go.
+
+* They then hover over the image so if it was Yosamite for instance and they click on location. They have 3 climbs they can experience with Design and 
+  Conquer. It's just quick to use.
+
+* To get a taste of what the site offers, if they choose "Information" on the back of the flipped image, some content on the modal which pops up explains what the adventure holds in store. There's also a video which when clicked 
   showcases a users experience of that holiday. Once watched and chosen, they can go to the "What We Do and How to Book" below the header which again, 
   showcases a users video with various adventures into a showreel. There's then a "Booking Here" button under the video which displays
   a booking form. The user can fill it in with some brief information and once done, they click on the "Submit" button and that's when the holiday
@@ -165,21 +170,28 @@
 # As a user aged between 16 and upwards, I want:
 
 1. The objectives to be met when using the site so there's no confusion and it's easy to navigate around the page.
+
 2. As it's a single page application, I wanted the modals to hold more information and allow me to move around and find new content without leaving
    the page. I was able to showcase more using this technique through visual images and video.
+
 3. As for the vidoes I used for the website, they again displayed so much in a single piece of visual content more than words could. Somebody stepping
    off the plane into the blue. A boat ride out to the sea to be within 2 metres of a Great White Shark. The unbelievable surf of Banzai's coast.
    It engaged me, gave me the thrill to get on the plane and try that adventure for myself and in turn the audience. I could visualise and imagine 
    the destination.
+
 4. Visual images before the box flipped shows you instantly what the adventure is going to be.
-5. Visually stunning videos are used as mentioned before to really showcase the adventure.
+5. 
+5. Stunning videos with inspriing music are used as mentioned before to really showcase the adventure.
+6. 
 6. 'The Location' is pinpointed to the heading of the holiday. Seperate markers on the map shows locations where you choose your adventure.
 
 
 # For the user
 
 1. I want them to find the site enjoyable and engaging.
+
 2. I want it to hold enough information without being too confusing to use. 
+3. 
 3. The idea behind the site is, they find the destination by watching the videos and then contacting us. I travelled to New York this year and
    I went to Virgin (other holiday booking companies are available) to book it. I found going to see them was such a constructive experience. They
    located the hotel, the best places to visit, the sites to see and helped make the entire experience easier before I'd left the travel agents. The 
@@ -187,7 +199,9 @@
    helps to "design" the package which would include travelling, accomodation and insurances. That way, the user would only then need to worry about
    packing their clothes and personal neccesities. Again, the idea behind the site is the user can "see something", "like something" and "choose something". 
    The organiser then puts together options with the user to "design" a personal experience.
+
 4. This design I am also using to create other websites for 2 other companies. 
+5. 
 5. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site for a user to find.
 
 
@@ -246,7 +260,7 @@
 * When building the original layout, as you can see on the site as it is now, I changed the font to white. It stood out better against
   the blue. Once in place, I could start my concept of building content from one location, I came up with the idea
   of having the flipped image as my original sketch below shows. The 9 images and the idea behind the flipped image is at the bottom.
-  I think worked out really well and looks good. 
+  I think it worked out really well and looks strong on screen.
 
 <p align="center">
   <img width="500" height="250" src="/assets/wireframes/conceptsketch2.png">
@@ -286,45 +300,48 @@
 
 ### [Home Page](https://github.com/Mattlister/designandconquer)
 
-Being a SPA, you never leave the one page. You can do everything all in one place and so I've added all the necessary features on the home page.
+* Being a SPA, you never leave the one page. You can do everything all in one place and the necessary features come from that starting point.
 
-* All revolving images as stated have an information button about the location displaying the map which shows where the holiday is.
+* All revolving images as stated have a location button which displays the map. The information button holds brief content and a video to watch. 
 
 
 ### Hopes for the website are:
 
-An user can navigate around the site with ease and simplicity:
+* A user can navigate around the site with ease and simplicity
 
-* Accessing the websites to find the perfect holiday 
+* The website can be used to find the perfect holiday 
 
-* Allow the user to follow a dream and a passion
+* It allows a user to start their dream and passion
 
-* Nice design that allows each user to move around the site comfortably.
+* It's found to be a nice design that allows each user to move around the site comfortably.
 
-* Clean, clear and easy to use.
+* It's clean, clear and easy to use.
 
 
-- There will always be bold adventurers looking for something new. Watching the amazing documentary Free Solo, it showcased how far someone
-- will go to fill that need and addiction for something different. I wanted this site to be bold, colourful but all in one neat and easy to use
-- place. Design and Conquer is a website I was going to add to my portfolio from years ago but I neved made it. As a project, I thought this was
-- perfect to use for the holiday allowance project for the course and allows me to showcase what I've learnt.
+ * There will always be bold adventurers looking for something new. Watching the amazing documentary Free Solo, it showcased how far someone
+   will go to fill that need and addiction for something different. I wanted this site to be bold, colourful but all in one easy to use
+   place. Design and Conquer is a website I was going to add to my portfolio from a few years ago but I neved made it. As a project, I thought this was
+   perfect to use for the holiday allowance project for the course and allows me to showcase what I've learnt.
 
 ### Site Interactivity and Features
 
 
 
-# Technologies Used
+### Technologies Used
 
-This Project uses the following programming languages
+## This Project uses the following programming languages
 
 * HTML
 * CSS 
 * Javascript
 * JQuery
+* Google Maps
+* Google Fonts
+* Favicons
 
-Cloud 9 and AWS Cloud 9
+* Cloud 9 and AWS Cloud 9
 
-* The same IDE was used but it moved from one product supplier of simply Cloud 9 to AWS (Amazon) Cloud 9
+* The same IDE was used but it moved from one product supplier of just Cloud 9 to AWS (Amazon) Cloud 9
 
 * [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
