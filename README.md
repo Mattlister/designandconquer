@@ -30,30 +30,30 @@
 
 
 
-# 2. Site Features
+### 2. Site Features
 
-# 3. Technologies Used
+### 3. Technologies Used
 
-# 4. Testing
+### 4. Testing
 
-# 5. Deployment
+### 5. Deployment
 
-# 6. Acknowledgements
+### 6. Acknowledgements
 
-# 7. Disclaimer
+### 7. Disclaimer
 
-# For my friends currently working on their Milestone 2 projects.
+### For my friends currently working on their Milestone 2 projects.
 
 
 
-# Project Design
+## Project Design
 
 * I've designed the website with minimal but engaging colour and content. As it's a single page application, I had to think how I could add 
   a lot of visual information onto one page and not lose anything. The idea I had was for the user to "see something", "like something" and 
   "choose something" It's crisp, clean and the heading stands out at the top with a clever description in the heading of what the website is
   about "Design and Conquer".
 
-# Design
+### Design
 
 
 * As you can see in the wireframes section further down, I was originally going to use an orange jumbotron header but it lost something onscreen and
@@ -64,20 +64,20 @@
   
   As they say, a picture paints a thousand words and so to my advantage, I used images and video to show heartstopping moments without many words
 
-# Colours
+### Colours
 
 * A colour scheme of blue presented itself from the main image. It was such a striking coloured picture, it was hard not to use it's natural photographic
   colours to my advantage. The white of the mountains, the bright sun at the top and the skiers bright clothing was just stunning and so I built around this 
   and chose images whic sat well with the background. On the back of the flipped images, I had the idea to use gradients like a window. The sun and blue
   sky showed through a frosted glass perspective which I think kept in with the rest of the design. 
 
-# Images
+### Images
 
 * Each image used was specifically chosen to showcase that holiday. I chose the idea of images because you instantly know what's 
   represented. whether it's bike riding or shark cage diving. Once an option was chosen, a shadowed grey filter covered the background so the 
   option chosen stands out at the forefront of the design. It was used to hide the background and add focus.
 
-# Styling
+### Styling
 
 * The style of the site as mentioned before is clean, neat and tidy. When landing on the site, everything is interactive so the user can 
   immediately be drawn in from the offset. The images flip when hovered over which then displays the coloured background with Location and 
@@ -96,7 +96,7 @@
   organisers go to work. I was trying to keep everything minimal but engaging without headache and I had to think of each step of the users
   experience.
 
-# Fonts
+### Fonts
 
 * I tried and tested various fonts for the site. At the beginning, I had 20 fonts all in one page and over a 2 hour period, tried each one.
   I found the Barrio font to be perfect for the header. Off key, scribbled a little, not quite neat enough. A holiday adventurers font.
@@ -120,7 +120,7 @@
 - a user.
 
 
-# Project Goals
+### Project Goals
 
 ![](/assets/images/flipimage1.jpg) 
 
@@ -133,7 +133,7 @@
 
 
 
-# User Objects
+### User Objects
 
 * The website has been designed for people that want to try a new type of holiday that's not on the normal scale. It's also designed for people
  who want to add to their list of adventures.
@@ -158,16 +158,16 @@
  Images and map markers showcase the locations so the user know where their adventures take place.
 
 
-# Developers Objects
+### Developers Objects
 
 * Well stuctured and content friendly with well thought out programming.
 * The layout is formatted in a way that the user can navigate around the site without frustration.
 * A professionally layed out single page application with includes JavaScript, some JQuery, complex HTML and CSS.
 * A site that the developer would use themselves and I will be using the format again for other clients. It will be a forefront of his portfolio.
 
-# User Stories
+### User Stories
 
-# As a user aged between 16 and upwards, I want:
+## As a user aged between 16 and upwards, I want:
 
 1. The objectives to be met when using the site so there's no confusion and it's easy to navigate around the page.
 
