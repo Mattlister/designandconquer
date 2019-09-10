@@ -199,15 +199,15 @@ $('#btnaddmarker7').on('click', function() {
 
 function addmarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
-        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        parking: {
-    icon: iconBase + 'parking_lot_maps.png';
+        {
+    var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map7
+        map: map7,
+        icon: image
     });
     }
 } 
