@@ -196,7 +196,7 @@
 1. I want them to find the site enjoyable and engaging.
 
 2. I want it to hold enough information without being too confusing to use. 
-3. 
+
 3. The idea behind the site is, they find the destination by watching the videos and then contacting us. I travelled to New York this year and
    I went to Virgin (other holiday booking companies are available) to book it. I found going to see them was such a constructive experience. They
    located the hotel, the best places to visit, the sites to see and helped make the entire experience easier before I'd left the travel agents. The 
@@ -206,13 +206,13 @@
    The organiser then puts together options with the user to "design" a personal experience.
 
 4. This design I am also using to create other websites for 2 other companies. 
-5. 
+
 5. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site for a user to find.
 
 
 ### Original wireframe concepts
 
-* The wireframes below were the original design I had in mind. A bold header and the images were to be sat on a blank background. How i visualised
+* The wireframes below were the original design I had in mind. A bold header and the images were to be sat on a blank background. How I visualised
   it and how it showed were very different and it was much duller on screen. The images which hadn't been chosen at the time might have brought it 
   into a better light but I reviewed other sites and they either had a similar design or something more dramatic.
 
@@ -258,12 +258,12 @@
 </p>
 
 
-# Flip Image Concept
+### Flip Image Concept
 
 * When building the original layout, as you can see on the site as it is now, I changed the font to white. It stood out better against
-  the blue. Once in place, I could start my concept of building content from one location, I came up with the idea
-  of having the flipped image as my original sketch below shows. The 9 images and the idea behind the flipped image is at the bottom.
-  I think it worked out really well and looks strong on screen.
+  the blue. Once in place, I could start my concept of building content from one location. I came up with the idea
+  of having the flipped image as my original sketch shows. The 9 images and the idea behind the flipped image is at the bottom.
+  I think it works well and looks strong on screen.
 
 <p align="center">
   <img width="500" height="250" src="/assets/wireframes/conceptsketch2.png">
@@ -332,7 +332,7 @@
 
 ### Technologies Used
 
-## This Project uses the following programming languages
+### This Project uses the following programming languages
 
 * HTML
 * CSS 
