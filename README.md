@@ -365,18 +365,19 @@
 
 
 
-# The goals for the website are:
+### The goals for the website are:
 
-* To be seen as an easy to use resource for a holiday adventurer wanting to try something new. Also, it showcases my working knowledge of vari
+* To be seen as an easy to use resource for a holiday adventurer wanting to try something new. Also, it showcases my working knowledge of various software
+  languages which I've learnt during the various sections leading up to the MS2 project.
 
-# Ideal site visitors
+### Ideal site visitors
 
 
-# This project is the best way to help them achieve these things because:
+### This project is the best way to help them achieve these things because:
 
 The website has one page that has all navigation and options direct from the one page.
 
-## This website is:
+### This website is:
 
 Easy to navigate through.
 
