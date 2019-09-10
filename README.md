@@ -103,8 +103,8 @@
   When reviewed within peer review in Slack, the feedback on the font choice was very positive.
 
 * The second font I used, Megrim was again chosen from a long list of font choices. I thought it was cool, sharp and fitted in well with the design 
-  of the site. I used this for the smaller content fonts in the modals and it's response wasn't as good so I only this as a 2nd heading and description
-  font.
+  of the site. I used this for the smaller content fonts in the modals and it's response wasn't as good so I chose to use it as the smaller headings 
+  and description font.
 
 * My third main font used was Oxygen. This was clear, concise and fitted neatly into the modals and all readable sections. 
 
@@ -126,7 +126,7 @@
 
 
 * The primary goal of Design and Conquer is a single page application where a user can book an adventure holiday. As the title indicates, the user
-  is able to "design" the advneture and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
+  is able to "design" the adventure and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
   What We Do? section where a user can change choose a holiday if needed. The user can watch videos on each slide and read information about the 
   location. There's also a Help Guide on the home page which explains the website and how to use it.
 
@@ -149,7 +149,7 @@
 * Striking images and easily readable content
 * Watchable videos that can help a user see what they can achieve
 
-# Design and Conquer helps a user find their passion because:
+### Design and Conquer helps a user find their passion because:
 
 * The design of the site is to showcase whats available via visual content with description. This helps the user to see what they will
  be able to do when they book the holiday.
@@ -165,9 +165,14 @@
 * A professionally layed out single page application with includes JavaScript, some JQuery, complex HTML and CSS.
 * A site that the developer would use themselves and I will be using the format again for other clients. It will be a forefront of his portfolio.
 
+### Future plans
+
+* Offer more holiday destinations by expanding the adventures and portfolio
+* Showcase more self made videos from users about their experiences
+
 ### User Stories
 
-## As a user aged between 16 and upwards, I want:
+* As a user aged between 16 and upwards, I want:
 
 1. The objectives to be met when using the site so there's no confusion and it's easy to navigate around the page.
 
@@ -180,13 +185,13 @@
    the destination.
 
 4. Visual images before the box flipped shows you instantly what the adventure is going to be.
-5. 
+
 5. Stunning videos with inspriing music are used as mentioned before to really showcase the adventure.
-6. 
+ 
 6. 'The Location' is pinpointed to the heading of the holiday. Seperate markers on the map shows locations where you choose your adventure.
 
 
-# For the user
+### For the user
 
 1. I want them to find the site enjoyable and engaging.
 
@@ -205,9 +210,7 @@
 5. As I will be using the website on my portfolio, easy to find contact information will also be displayed on the site for a user to find.
 
 
-
-
-## Original wireframe concepts
+### Original wireframe concepts
 
 * The wireframes below were the original design I had in mind. A bold header and the images were to be sat on a blank background. How i visualised
   it and how it showed were very different and it was much duller on screen. The images which hadn't been chosen at the time might have brought it 
