@@ -217,14 +217,17 @@ $('#btnaddmarker8').on('click', function() {
     addmarker8(buggy[0].lat, buggy[0].lng);
 });
 
-
 function addmarker8(latilongi) {
     for (var i = 0; i < buggy.length; i++) {
+        {
+    var image = 'icons/icons8-go-kart-40.png';
+  }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(buggy[i].lat, buggy[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map8
+        map: map8,
+        icon: image
     });
     }
 } 
