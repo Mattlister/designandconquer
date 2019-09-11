@@ -105,7 +105,7 @@ function addmarker1(latilongi) {
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climb[i].lat, climb[i].lng),
-        title: 'new marker',
+        title: 'Yosamite has many epic climbs for you to scale. One of the greatest parks in the world to visit',
         draggable: true,
         map: map1,
         icon: image
@@ -127,7 +127,7 @@ function addmarker2(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
-        title: 'new marker',
+        title: 'Mount Everest is the ultimate climbers experience. Epic conditions to conquer and we have the climbs for you',
         draggable: true,
         map: map2,
         icon: image
@@ -149,7 +149,7 @@ function addmarker3(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(surf[i].lat, surf[i].lng),
-        title: 'new marker',
+        title: 'The wave of a lifetime. Some call it the greatest surf known to man. When that wave hits, make sure your ready'
         draggable: true,
         map: map3,
         icon: image
@@ -171,7 +171,7 @@ function addmarker4(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(ski[i].lat, ski[i].lng),
-        title: 'new marker',
+        title: 'The French alps give you the greatest downhill skiing adventure of your life. Beautiful views and perfect snow to glide over',
         draggable: true,
         map: map4,
         icon: image
@@ -193,7 +193,7 @@ function addmarker5(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(jump[i].lat, jump[i].lng),
-        title: 'new marker',
+        title: 'The thrill of the Victoria Falls jump will blow your mind. You will feel like your flying high as you soar across the sky'
         draggable: true,
         map: map5,
         icon: image
@@ -214,7 +214,7 @@ function addmarker6(latilongi) {
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(dive[i].lat, dive[i].lng),
-        title: 'new marker',
+        title: 'Neptune Islands Shark dives will face you with the oceans ultimate predator. When its fin breaches the surface, your heart wil stop',
         draggable: true,
         map: map6,
         icon: image
@@ -237,7 +237,7 @@ function addmarker7(latilongi) {
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
-        title: 'new marker',
+        title: 'The River Nile is one of the most beautiful and breathtaking places in the world. A truly wonderful place to visit',
         draggable: true,
         map: map7,
         icon: image
@@ -257,7 +257,7 @@ function addmarker8(latilongi) {
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(buggy[i].lat, buggy[i].lng),
-        title: 'new marker',
+        title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill',
         draggable: true,
         map: map8,
         icon: image
