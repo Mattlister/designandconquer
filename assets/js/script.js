@@ -105,7 +105,7 @@ function addmarker1(latilongi) {
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climb[i].lat, climb[i].lng),
-        title: 'Yosamite has many epic climbs for you to scale. One of the greatest parks in the world to visit',
+        title: 'Yosamite has some epic climbs for you to scale. The greatest park in the world that you can visit',
         draggable: true,
         map: map1,
         icon: image
@@ -127,7 +127,7 @@ function addmarker2(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
-        title: 'Mount Everest is the ultimate climbers experience. Epic conditions to conquer and we have the climbs for you',
+        title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb',
         draggable: true,
         map: map2,
         icon: image
@@ -149,7 +149,7 @@ function addmarker3(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(surf[i].lat, surf[i].lng),
-        title: 'The wave of a lifetime. Some call it the greatest surf known to man. When that wave hits, make sure your ready'
+        title: 'Banzai has the greatest waves and so the greatest surf known to man. When that wave hits, make sure your ready',
         draggable: true,
         map: map3,
         icon: image
@@ -171,7 +171,7 @@ function addmarker4(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(ski[i].lat, ski[i].lng),
-        title: 'The French alps give you the greatest downhill skiing adventure of your life. Beautiful views and perfect snow to glide over',
+        title: 'The French alps give you the thrilling downhill skiing adventure of your life. Beautiful views and perfect snow to glide over',
         draggable: true,
         map: map4,
         icon: image
@@ -193,7 +193,7 @@ function addmarker5(latilongi) {
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(jump[i].lat, jump[i].lng),
-        title: 'The thrill of the Victoria Falls jump will blow your mind. You will feel like your flying high as you soar across the sky'
+        title: 'Victoria Falls skydive jump will blow your mind. You will feel like your flying high as you soar across the sky',
         draggable: true,
         map: map5,
         icon: image
