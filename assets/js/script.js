@@ -35,7 +35,7 @@ const jump = [{name: "Google Location 1", lat:-17.924444, lng:25.856667},
 {name: "Google Location 2", lat: 17.9318, lng: 25.8256},
 {name: "Google Location 3", lat: 17.9049, lng: 25.9379}];
 
-const dive = [{name: "Google Location 1", lat:34.7240, lng:135.8611}];
+const dive = [{name: "Google Location 1", lat:-35.336240, lng:136.118428}];
 
 const cruise = [{name: "Google Location 1", lat:29.533438, lng:31.270695},
 {name: "Google Location 2", lat: 21.701324, lng: 31.176766},
@@ -77,12 +77,16 @@ $('#btnaddmarker').on('click', function() {
 
 function addmarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
+        {
+    var image = 'markers/icons8-cycling-mountain-bike-50.png';
+  }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(bike[i].lat, bike[i].lng),
         
         title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences',
         draggable: true,
-        map: map0
+        map: map0,
+        icon: image
     });
     }
 }
@@ -95,11 +99,16 @@ $('#btnaddmarker1').on('click', function() {
 
 function addmarker1(latilongi) {
     for (var i = 0; i < climb.length; i++) {
+        
+        {
+    var image = 'markers/icons8-trekking-50.png';
+  }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climb[i].lat, climb[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map1
+        map: map1,
+        icon: image
     });
     }
 } 
@@ -112,11 +121,16 @@ $('#btnaddmarker2').on('click', function() {
 
 function addmarker2(latilongi) {
     for (var i = 0; i < climbe.length; i++) {
+         {
+    var image = 'markers/icons8-trekking-50.png';
+  }
+        
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map2
+        map: map2,
+        icon: image
     });
     }
 } 
@@ -129,11 +143,16 @@ $('#btnaddmarker3').on('click', function() {
 
 function addmarker3(latilongi) {
     for (var i = 0; i < surf.length; i++) {
+        {
+    var image = 'markers/icons8-surfing-50.png';
+  }
+        
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(surf[i].lat, surf[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map3
+        map: map3,
+        icon: image
     });
     }
 } 
@@ -146,11 +165,16 @@ $('#btnaddmarker4').on('click', function() {
 
 function addmarker4(latilongi) {
     for (var i = 0; i < ski.length; i++) {
+        {
+    var image = 'markers/icons8-skiing-50.png';
+  }
+        
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(ski[i].lat, ski[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map4
+        map: map4,
+        icon: image
     });
     }
 } 
@@ -163,11 +187,16 @@ $('#btnaddmarker5').on('click', function() {
 
 function addmarker5(latilongi) {
     for (var i = 0; i < jump.length; i++) {
+        {
+    var image = 'markers/icons8-skydiving-50.png';
+  }
+        
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(jump[i].lat, jump[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map5
+        map: map5,
+        icon: image
     });
     }
 } 
@@ -180,11 +209,15 @@ $('#btnaddmarker6').on('click', function() {
 
 function addmarker6(latilongi) {
     for (var i = 0; i < dive.length; i++) {
+         {
+    var image = 'markers/icons8-shark-50.png';
+  }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(dive[i].lat, dive[i].lng),
         title: 'new marker',
         draggable: true,
-        map: map6
+        map: map6,
+        icon: image
     });
     }
 } 
@@ -200,7 +233,7 @@ $('#btnaddmarker7').on('click', function() {
 function addmarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
         {
-    var image = 'icons/icons8-sail-boat-40.png';
+    var image = 'markers/icons8-sail-boat-50.png';
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
@@ -220,7 +253,7 @@ $('#btnaddmarker8').on('click', function() {
 function addmarker8(latilongi) {
     for (var i = 0; i < buggy.length; i++) {
         {
-    var image = 'icons/icons8-go-kart-40.png';
+    var image = 'markers/icons8-go-kart-50.png';
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(buggy[i].lat, buggy[i].lng),
