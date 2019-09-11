@@ -200,7 +200,7 @@ $('#btnaddmarker7').on('click', function() {
 function addmarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
         {
-    var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+    var image = 'icons/icons8-sail-boat-40.png';
   }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
