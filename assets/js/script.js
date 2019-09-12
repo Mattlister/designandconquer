@@ -78,8 +78,8 @@ $('#btnaddmarker').on('click', function() {
 function addmarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
         {
-    var image = 'markers/icons8-cycling-mountain-bike-50.png';
-  }
+             var image = 'markers/icons8-cycling-mountain-bike-50.png';
+        }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(bike[i].lat, bike[i].lng),
         
@@ -99,10 +99,9 @@ $('#btnaddmarker1').on('click', function() {
 
 function addmarker1(latilongi) {
     for (var i = 0; i < climb.length; i++) {
-        
         {
-    var image = 'markers/icons8-trekking-50.png';
-  }
+          var image = 'markers/icons8-trekking-50.png';
+        }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climb[i].lat, climb[i].lng),
         title: 'Yosamite has some epic climbs for you to scale. The greatest park in the world that you can visit',
@@ -122,9 +121,8 @@ $('#btnaddmarker2').on('click', function() {
 function addmarker2(latilongi) {
     for (var i = 0; i < climbe.length; i++) {
          {
-    var image = 'markers/icons8-trekking-50.png';
-  }
-        
+             var image = 'markers/icons8-trekking-50.png';
+          }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
         title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb',
@@ -144,9 +142,8 @@ $('#btnaddmarker3').on('click', function() {
 function addmarker3(latilongi) {
     for (var i = 0; i < surf.length; i++) {
         {
-    var image = 'markers/icons8-surfing-50.png';
-  }
-        
+            var image = 'markers/icons8-surfing-50.png';
+        }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(surf[i].lat, surf[i].lng),
         title: 'Banzai has the greatest waves and so the greatest surf known to man. When that wave hits, make sure your ready',
@@ -188,8 +185,8 @@ $('#btnaddmarker5').on('click', function() {
 function addmarker5(latilongi) {
     for (var i = 0; i < jump.length; i++) {
         {
-    var image = 'markers/icons8-skydiving-50.png';
-  }
+            var image = 'markers/icons8-skydiving-50.png';
+        }
         
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(jump[i].lat, jump[i].lng),
@@ -209,9 +206,9 @@ $('#btnaddmarker6').on('click', function() {
 
 function addmarker6(latilongi) {
     for (var i = 0; i < dive.length; i++) {
-         {
-    var image = 'markers/icons8-shark-50.png';
-  }
+        {
+            var image = 'markers/icons8-shark-50.png';
+        }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(dive[i].lat, dive[i].lng),
         title: 'Neptune Islands Shark dives will face you with the oceans ultimate predator. When its fin breaches the surface, your heart wil stop',
@@ -233,8 +230,8 @@ $('#btnaddmarker7').on('click', function() {
 function addmarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
         {
-    var image = 'markers/icons8-sail-boat-50.png';
-  }
+            var image = 'markers/icons8-sail-boat-50.png';
+        }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
         title: 'The River Nile is one of the most beautiful and breathtaking places in the world. A truly wonderful place to visit',
@@ -253,8 +250,8 @@ $('#btnaddmarker8').on('click', function() {
 function addmarker8(latilongi) {
     for (var i = 0; i < buggy.length; i++) {
         {
-    var image = 'markers/icons8-go-kart-50.png';
-  }
+             var image = 'markers/icons8-go-kart-50.png';
+        }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(buggy[i].lat, buggy[i].lng),
         title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill',
