@@ -6,7 +6,7 @@
   what you can do. Simply get in touch and go from there. It's cool and engaging for the customer.
 
 
-[My page](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/7d84574e1e134945b270ee845b650848/preview/index.html)
+[My page](https://mattlister.github.io/designandconquer/)
 
 * A Single Page Application for anyone looking to conquer their next Big Adventure!!
 
@@ -26,7 +26,7 @@
 * [Developers Objects](#Developers-Objects)
 * [User Stories](#User-Stories)
 * Project Design
-* Wireframes
+* [Wireframes](#Original-wireframe-concepts)
 
 
 
