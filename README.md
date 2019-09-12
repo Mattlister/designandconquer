@@ -25,9 +25,10 @@
 * [User Objects](#User-Objects)
 * [Developers Objects](#Developers-Objects)
 * [User Stories](#User-Stories)
-* Project Design
 * [Wireframes](#Original-wireframe-concepts)
-
+* [Deployment](#Deployment)
+* [Testing](#Testing)
+* [Acknowledgements](#Acknowledgements)
 
 
 ### 2. Site Features
