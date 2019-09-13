@@ -97,6 +97,7 @@ $('#btnaddmarker1').on('click', function() {
 });
 
 
+
 function addmarker1(latilongi) {
     for (var i = 0; i < climb.length; i++) {
         {
@@ -329,7 +330,26 @@ $('#Vfalls').on('show.bs.modal', function(event) {
       $("#location-map8").css("width", "100%");
       $("#map_go8").css("width", "100%");
   });
+$(function () {
+        $("#btnClosePopup").click(function () {
+            $("#modal-content").modal("hide");
+        });
+    });
 
+        function showOnLoadModal() {
+            $(window).on("load", function () {
+                $("#whatwedo").modal("show");
+                $("#form-group").modal("show");
+            });
+        }
+
+        function disappearModalTwo() {
+            document.getElementById("exampleModal_One").style.display='none';
+        }
+
+function myFunction() {
+  alert("Thanks for your email, we'll be in touch real soon!!!");
+}
   
 });
 
