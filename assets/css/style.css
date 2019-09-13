@@ -68,8 +68,8 @@ ol {
 
 h6 {
     font-family: 'Megrim', cursive;
-    color: #ffffff;
-    font-size: 30px;
+    color: #22009c;
+    font-size: 50px;
     text-align: center;
     text-shadow: 8px 10px 40px #ffff,
     1px 1px 3px #00ffff;
@@ -306,7 +306,7 @@ body {margin: 0.3em;}
 
 #buttonbar {background-color: whitesmoke;}
 
-
+.gmaps * {box-sizing: content-box;} 
 
 #map_go {
     border: 1px red; 
@@ -314,35 +314,6 @@ body {margin: 0.3em;}
   margin: 0;
   padding: 0;
 }
-
-#map_go1 {
-    border: 1px red; 
-    height: 100%;
-  margin: 0;
-  padding: 0;
-}  
-#map_go2 {
-    border: 1px red; 
-    height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#map_go3 {
-    border: 1px red; 
-    height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#map_go4 {
-    border: 1px red; 
-    height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
 
 
 
