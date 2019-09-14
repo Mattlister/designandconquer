@@ -51,7 +51,7 @@ function initializeGMap(lat, lng) {
     
 //Variables to tie in to coordinates
     var myOptions = {
-        zoom: 12,
+        zoom: 8,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: myLatLng
 };
