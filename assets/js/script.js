@@ -336,20 +336,15 @@ $(function () {
         });
     });
 
-        function showOnLoadModal() {
-            $(window).on("load", function () {
-                $("#whatwedo").modal("show");
-                $("#form-group").modal("show");
-            });
-        }
-
-        function disappearModalTwo() {
-            document.getElementById("exampleModal_One").style.display='none';
-        }
-
-function myFunction() {
-  alert("Thanks for your email, we'll be in touch real soon!!!");
-}
+ $('.modal').on('hidden.bs.modal', function () {
+var $this = $(this);
+//get iframe on click
+ var vidsrc_frame = $this.find("iframe");
+var vidsrc_src = vidsrc_frame.attr('src');
+ console.log(`videosrc=` + vidsrc_src); 
+vidsrc_frame.attr('src', '');
+vidsrc_frame.attr('src', vidsrc_src);
+});
   
 });
 
