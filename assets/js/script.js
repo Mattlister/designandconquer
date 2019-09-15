@@ -336,7 +336,7 @@ $(function () {
         });
     });
 
- $('.modal').on('hidden.bs.modal', function () {
+$('.modal').on('hidden.bs.modal', function () {
 var $this = $(this);
 //get iframe on click
  var vidsrc_frame = $this.find("iframe");
@@ -345,6 +345,7 @@ var vidsrc_src = vidsrc_frame.attr('src');
 vidsrc_frame.attr('src', '');
 vidsrc_frame.attr('src', vidsrc_src);
 });
+ 
   
 });
 
