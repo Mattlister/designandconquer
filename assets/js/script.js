@@ -68,8 +68,6 @@ function initializeGMap(lat, lng) {
 
 
     
-
-
 // add marker settings
 $('#btnaddmarker').on('click', function() {
     addmarker(bike[0].lat, bike[0].lng);
@@ -221,7 +219,6 @@ function addmarker6(latilongi) {
 } 
 
 
-
 // add marker settings
 $('#btnaddmarker7').on('click', function() {
     addmarker7(cruise[0].lat, cruise[0].lng);
@@ -264,8 +261,6 @@ function addmarker8(latilongi) {
 } 
 
 } // End of the initializeGMap()
-
-
 
     // function and events
   $('#Qbiking').on('show.bs.modal', function(event) {
@@ -330,6 +325,7 @@ $('#Vfalls').on('show.bs.modal', function(event) {
       $("#location-map8").css("width", "100%");
       $("#map_go8").css("width", "100%");
   });
+  
 $(function () {
         $("#btnClosePopup").click(function () {
             $("#modal-content").modal("hide");
@@ -345,8 +341,11 @@ var vidsrc_src = vidsrc_frame.attr('src');
 vidsrc_frame.attr('src', '');
 vidsrc_frame.attr('src', vidsrc_src);
 });
- 
-  
+
+function myFunction() {
+  alert("I am an alert box!");
+}
+
 });
 
 
