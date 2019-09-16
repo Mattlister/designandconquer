@@ -2,12 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Barrio|Megrim|Oxygen|Righteous|Rubik+Mono+One|Shadows+Into+Light&display=swap');
 
-body { 
-  background: url("../images/skiing.jpg") no-repeat center center fixed; 
+body {
+  background: url("../images/skiing.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: sans-serif;
+  background-color: #DEDEDE;
+  color: #333;
+  padding: 20px 0 28px 0;
+  margin: 0;
+  text-align: center;
 }
 
 img-src {
@@ -17,104 +23,109 @@ img-src {
 
 /* Fonts */
 
-p {text-align: center;
-    
+p {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  color: #6C7A89;
+  font-size: 25px;
+
 }
 
 #first {
-    font-family: 'Barrio', cursive;
-    color: #ffffff;
-    font-size: 70px;
+  font-family: 'Barrio', cursive;
+  color: #ffffff;
+  font-size: 70px;
 
 }
 
-p2 {text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
+p2 {
+  text-align: center;
+  text-shadow: 8px 10px 40px #00ffff;
 }
 
 h2 {
   font-family: 'Righteous', cursive;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  /* text-shadow: 8px 10px 40px #00ffff; */
+    display: block;
+    margin: 0 auto;
 }
 
 
 h3 {
   font-family: 'Shadows Into Light', cursive;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #00ffff;
 
 }
 
 h4 {
   font-family: 'Oxygen', sans-serif;
-    color: #6C7A89;
-    font-size: 25px;
-    text-align: center;
+  color: #6C7A89;
+  font-size: 25px;
+  text-align: center;
 
 }
 
 ol {
   font-family: 'Oxygen', sans-serif;
-    color: #6C7A89;
-    font-size: 25px;
-    text-align: center;
+  color: #6C7A89;
+  font-size: 25px;
+  text-align: center;
 
 }
 
 h6 {
-    font-family: 'Megrim', cursive;
-    color: #22009c;
-    font-size: 50px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #ffff,
-    1px 1px 3px #00ffff;
+  font-family: 'Megrim', cursive;
+  color: #22009c;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #ffff,
+  1px 1px 3px #00ffff;
 }
 
 /* Paragragh styling */
 
 .p4 {
   font-family: 'Barrio', cursive;
-    color: #6C7A89;
-    font-size: 35px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
+  color: #6C7A89;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #00ffff;
 
 }
 
-.form-group { font-family: 'Oxygen', sans-serif;
-    color: #6C7A89;
-    font-size: 25px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #00ffff;
-
-
-}
-
-p {
+.form-group {
   font-family: 'Oxygen', sans-serif;
   color: #6C7A89;
   font-size: 25px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #00ffff;
+
+
 }
+
 
 tag {
   font-family: 'Rubik Mono One', sans-serif;
-    color: black;
-    font-size: 15px;
-    text-shadow: #63FF00 1px 0 10px;
+  color: black;
+  font-size: 15px;
+  text-shadow: #63FF00 1px 0 10px;
 }
 
-.btn:hover {background: #eee;}
+.btn:hover {
+  background: #eee;
+}
 
-.info {color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #00ffff
-    1px 1px 3px #00ffff;
+.info {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #00ffff 1px 1px 3px #00ffff;
 
 }
 
@@ -123,20 +134,20 @@ tag {
 .btn {
   font-family: 'Megrim', cursive;
   color: #ffffff;
-   font-size: 40px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #ffffff,
-    1px 1px 3px #00ffff;
-  
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #ffffff,
+  1px 1px 3px #00ffff;
+
 }
 
 .btn-primary {
   font-family: 'Megrim', cursive;
   color: #ffffff;
-   font-size: 20px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #ffffff,
-    1px 1px 3px #00ffff;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #ffffff,
+  1px 1px 3px #00ffff;
 
 }
 
@@ -147,10 +158,10 @@ tag {
 .btn-success {
   font-family: 'Megrim', cursive;
   color: #ffffff;
-   font-size: 20px;
-    text-align: center;
-    text-shadow: 8px 10px 40px #ffffff,
-    1px 1px 3px #00ffff;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 8px 10px 40px #ffffff,
+  1px 1px 3px #00ffff;
 }
 
 .btn-success:hover {
@@ -172,7 +183,8 @@ btn {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+  display: flex;
+  justify-content: center;
   display: inline-block;
 }
 
@@ -182,7 +194,7 @@ btn {
 }
 
 .onclick {
-   background-color: #4CAF50;
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -193,10 +205,10 @@ btn {
   margin: 4px 2px;
   cursor: pointer;
 }
-  
+
 
 input {
-    display: none;
+  display: none;
 }
 
 /* Flip image box styling and function */
@@ -207,10 +219,12 @@ input {
   height: 200px;
   border: 1px solid #f1f1f1;
   -webkit-perspective: 1000px;
-          perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
+
 .flip-box-inner {
   position: relative;
   width: 100%;
@@ -222,25 +236,29 @@ input {
   transition: transform 0.8s;
   transition: transform 0.8s, -webkit-transform 0.8s;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-box:hover .flip-box-inner {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-box-front, .flip-box-back {
+
+.flip-box-front,
+.flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
+
 .flip-box-front {
   background-color: #bbb;
   color: #000000;
@@ -248,35 +266,28 @@ input {
 
 
 /* Style the back side */
+
 .flip-box-back {
   background-image: -webkit-linear-gradient(315deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   background-image: -o-linear-gradient(315deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .modal-backdrop {
-   background-color: #050505;
+  background-color: #050505;
 }
 
 
 .iframe {
-  padding:1px;
-  border:1px
-  
+  padding: 1px;
+  border: 1px
 }
 
 
 /* CSS For working content */
 
-body {
-  font-family: sans-serif;
-  background-color: #DEDEDE;
-  color: #333;
-  padding: 20px 0 28px 0;
-  margin: 0;
-}
 
 img {
   max-width: 100%;
@@ -291,7 +302,7 @@ img {
 
 /* Map information and display */
 
-html, body, #map {
+#map {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -300,111 +311,98 @@ html, body, #map {
 
 /* add map marker */
 
-body {margin: 0.3em;}
 
-.mine {width: 95%; margin: 0.1em;}
 
-#buttonbar {background-color: whitesmoke;}
+.mine {
+  width: 95%;
+  margin: 0.1em;
+}
+
+#buttonbar {
+  background-color: whitesmoke;
+}
 
 
 
 #map_go {
-    border: 1px red; 
-    height: 100%;
+  border: 1px red;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 #map * {
-    overflow:visible;
+  overflow: visible;
 }
 
 
 
 /* Optional: Makes the sample page fill the window. */
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-body {
-    text-align: center;
-}
 form {
-    display: inline-block;
+  display: inline-block;
 }
 
 /* form group layout */
 
 .form-group {
-                    background: #ffffff;
-                    padding: 20px;
-                }
+  background: #ffffff;
+  padding: 20px;
+}
 
-                .form-group2 {
-                    background: #ffffff;
-                    padding: 20px;
-                }
 
-                .border {
-                    margin: 70px;
-                    border: 1px solid #4CAF50;
-                }
+.border {
+  margin: 70px;
+  border: 1px solid #4CAF50;
+}
 
-                .padding-footer {
-                    padding: 30px;
-                }
+.padding-footer {
+  padding: 30px;
+}
 
 
 
-            .card-img-top {
-                padding: 8px
-            }
+.card-img-top {
+  padding: 8px
+}
 
-            .card-img-fluid {
-                padding: 6px;
-                border: 0px;
-            }
+.card-img-fluid {
+  padding: 6px;
+  border: 0px;
+}
 
-            .modal-content {
-                border-bottom: 10px;
-                padding-bottom: 20px;
+.modal-content {
+  border-bottom: 10px;
+  padding-bottom: 20px;
 
-            }
+}
 
-            .myclass {
+.myclass {
 
-      min-height: 0;
-      min-width: 50px;
-      padding-top: 40px;
-      padding-bottom: 20px;
-    }
+  min-height: 0;
+  min-width: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
 
 /* footer links styling */
-              
-            .h6:hover {
-    
-                color: #24e5f2;
-            }
 
-            .fab:hover {
-                color: #45f1f7;
-            }
+.h6:hover {
 
-            .fa-facebook {
-                
-                color: #ffffff;
-            }
+  color: #24e5f2;
+}
 
-            .fa-twitter {
-                
-                color: #ffffff;
-            }
+.fab:hover {
+  color: #45f1f7;
+}
 
+.fa-facebook {
 
-            .fa-youtube {
-                
-                color: #ffffff;
-            }
+  color: #ffffff;
+}
+
+.fa-twitter {
+
+  color: #ffffff;
+}
