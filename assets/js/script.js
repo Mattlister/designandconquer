@@ -345,8 +345,8 @@ vidsrc_frame.attr('src', vidsrc_src);
 
 
 function myFunction() {
-  alert("Thanks for your email, we'll be in touch real soon!!!");
-} 
+  alert("I am an alert box!");
+}
 
 });
 
