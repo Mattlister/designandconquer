@@ -315,6 +315,9 @@ body {margin: 0.3em;}
   padding: 0;
 }
 
+#map * {
+    overflow:visible;
+}
 
 
 

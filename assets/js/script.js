@@ -344,9 +344,7 @@ vidsrc_frame.attr('src', vidsrc_src);
 
 
 
-function myFunction() {
-  alert("I am an alert box!");
-}
+google.maps.event.trigger(map, 'resize');
 
 });
 
