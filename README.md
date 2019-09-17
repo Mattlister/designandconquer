@@ -495,10 +495,7 @@ which helps add so much more to the back of the flip boxes. Once I had the code 
 breaks which did help in regards to displaying on various sized devices.
  
 
-* JavaScript - Some of the code for this was produced by Matthew Lister based on learning material from the code insitute course. I also used code
-from google garage and JSFiddle to produce the map layouts that tie into the modals. To finish off the markers, I used information from stack overflow and edited
-it to display my markers as i'd hoped they would on the webapge. Some of the mapping section was imported and edited from google maps API's.
-
+* JavaScript -
 
 * JSON - The code was produced using information found online on how to produce a JSON file. Once I had the basis, I added more informtion to the 
 file to hold multiple markers that will display on the map.
