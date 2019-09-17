@@ -80,7 +80,7 @@ $('#btnaddmarker').on('click', function() {
 function addmarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
         {
-             var image = 'markers/icons8-cycling-mountain-bike-50.png';
+             var image = 'assets/images/icons8-cycling-mountain-bike-50.png';
         }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(bike[i].lat, bike[i].lng),
@@ -102,7 +102,7 @@ $('#btnaddmarker1').on('click', function() {
 function addmarker1(latilongi) {
     for (var i = 0; i < climb.length; i++) {
         {
-          var image = 'markers/icons8-trekking-50.png';
+          var image = 'assets/images/icons8-trekking-50.png';
         }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climb[i].lat, climb[i].lng),
@@ -123,7 +123,7 @@ $('#btnaddmarker2').on('click', function() {
 function addmarker2(latilongi) {
     for (var i = 0; i < climbe.length; i++) {
          {
-             var image = 'markers/icons8-trekking-50.png';
+             var image = 'assets/images/icons8-trekking-50.png';
           }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
@@ -144,7 +144,7 @@ $('#btnaddmarker3').on('click', function() {
 function addmarker3(latilongi) {
     for (var i = 0; i < surf.length; i++) {
         {
-            var image = 'markers/icons8-surfing-50.png';
+            var image = 'assets/images/icons8-surfing-50.png';
         }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(surf[i].lat, surf[i].lng),
@@ -165,7 +165,7 @@ $('#btnaddmarker4').on('click', function() {
 function addmarker4(latilongi) {
     for (var i = 0; i < ski.length; i++) {
         {
-    var image = 'markers/icons8-skiing-50.png';
+    var image = 'assets/images/icons8-surfing-50.png';
   }
         
         var marker = new google.maps.Marker({
@@ -187,7 +187,7 @@ $('#btnaddmarker5').on('click', function() {
 function addmarker5(latilongi) {
     for (var i = 0; i < jump.length; i++) {
         {
-            var image = 'markers/icons8-skydiving-50.png';
+            var image = 'assets/images/icons8-skydiving-50.png';
         }
         
         var marker = new google.maps.Marker({
@@ -209,7 +209,7 @@ $('#btnaddmarker6').on('click', function() {
 function addmarker6(latilongi) {
     for (var i = 0; i < dive.length; i++) {
         {
-            var image = 'markers/icons8-shark-50.png';
+            var image = 'assets/images/icons8-shark-50.png';
         }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(dive[i].lat, dive[i].lng),
@@ -231,7 +231,7 @@ $('#btnaddmarker7').on('click', function() {
 function addmarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
         {
-            var image = 'markers/icons8-sail-boat-50.png';
+            var image = 'assets/images/icons8-sail-boat-50.png';
         }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(cruise[i].lat, cruise[i].lng),
@@ -251,7 +251,7 @@ $('#btnaddmarker8').on('click', function() {
 function addmarker8(latilongi) {
     for (var i = 0; i < buggy.length; i++) {
         {
-             var image = 'markers/icons8-go-kart-50.png';
+             var image = 'assets/images/icons8-go-kart-50.png';
         }
         var marker = new google.maps.Marker({
         position: new google.maps.LatLng(buggy[i].lat, buggy[i].lng),
