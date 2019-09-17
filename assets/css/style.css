@@ -305,8 +305,6 @@ img {
 
 #map {
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -327,8 +325,7 @@ img {
 #map_go {
   border: 1px red;
   height: 100%;
-  margin: 0;
-  padding: 0;
+
 }
 
 #map * {
