@@ -62,6 +62,9 @@ function initializeGMap(lat, lng) {
     
     
     
+    
+    
+    
 //Variables to tie in to coordinates
     var myOptions = {
         zoom: 8,
@@ -80,32 +83,7 @@ function initializeGMap(lat, lng) {
     var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
 
 
-
-
-
-    
 // add marker settings
-$('#btnaddmarker').on('click', function() {
-    addmarker(bike[0].lat, bike[0].lng);
-});
-
-
-function addmarker(latilongi) {
-    for (var i = 0; i < bike.length; i++) {
-        {
-             var image = 'assets/images/icons8-cycling-mountain-bike-50.png';
-        }
-        
-        
-        var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(bike[i].lat, bike[i].lng),
-                title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences',
-        draggable: true,
-        map: map0,
-        icon: image
-    });
-    }
-}
 
 $('.buttons').click(function(e) {
   e.preventDefault();
@@ -115,6 +93,8 @@ $('.buttons').click(function(e) {
       addMarker(bike);
     case 'climbButton':
       addMarker(climb);
+      case 'climbButton':
+      addMarker(climbe);
     case 'climbButton':
       addMarker(surf);
     default:
@@ -133,20 +113,22 @@ function addMarker(activity) {
     }
   }
 
-function addmarker2(latilongi) {
-    for (var i = 0; i < climbe.length; i++) {
-         {
-             var image = 'assets/images/icons8-trekking-50.png';
-          }
-        var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
-        title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb',
-        draggable: true,
-        map: map2,
-        icon: image
-    });
-    }
-} 
+
+
+$('#Eclimbing').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(climbe[0].lat, climbe[0].lng);
+      $("#location-map2").css("width", "100%");
+      $("#map_go2").css("width", "100%");
+  });
+
+// add marker settings
+$('#btnaddmarker2').on('click', function() {
+    addmarker2(climbe[0].lat, climbe[0].lng);
+});
+
+
+
 
 addmarker();
 
@@ -175,26 +157,10 @@ function addmarker1(latilongi) {
     }
 } 
 
-// add marker settings
-$('#btnaddmarker2').on('click', function() {
-    addmarker2(climbe[0].lat, climbe[0].lng);
-});
 
 
-function addmarker2(latilongi) {
-    for (var i = 0; i < climbe.length; i++) {
-         {
-             var image = 'assets/images/icons8-trekking-50.png';
-          }
-        var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
-        title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb',
-        draggable: true,
-        map: map2,
-        icon: image
-    });
-    }
-} 
+
+
 
 
 
@@ -344,12 +310,7 @@ function addmarker8(latilongi) {
       $("#map_go1").css("width", "100%");
   });
 
-$('#Eclimbing').on('show.bs.modal', function(event) {
-      let button = $(event.relatedTarget);
-      initializeGMap(climbe[0].lat, climbe[0].lng);
-      $("#location-map2").css("width", "100%");
-      $("#map_go2").css("width", "100%");
-  });
+
 
 $('#Bsurfing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
