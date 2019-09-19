@@ -1,3 +1,45 @@
+
+            //Everest
+            
+            const climbe = [{name: "Google Location 1", lat:27.986065, lng:86.922623},
+                            {name: "Google Location 2", lat: 28.004333316, lng: 86.855663244},
+                            {name: "Google Location 3", lat:  27.816667, lng: 86.716667}];
+            
+            //Banzai
+            
+            const surf = [{name: "Google Location 1", lat:21.664019, lng:-158.053852},
+                           {name: "Google Location 2", lat: 21.640296, lng: -158.063779},
+                           {name: "Google Location 3", lat: 21.659830694, lng: -158.053166454}];
+            
+            const ski = [{name: "Google Location 1", lat:45.45916483, lng:6.90249639},
+                          {name: "Google Location 2", lat: 45.292165498, lng: 6.574664368},
+                          {name: "Google Location 3", lat: 45.004333316, lng: 6.119666188}];
+            
+            const jump = [{name: "Google Location 1", lat:-17.924444, lng:25.856667},
+                          {name: "Google Location 2", lat: 17.9318, lng: 25.8256},
+                          {name: "Google Location 3", lat: 17.9049, lng: 25.9379}];
+            
+            const dive = [{name: "Google Location 1", lat:-35.336240, lng:136.118428}];
+            
+            const cruise = [{name: "Google Location 1", lat:29.533438, lng:31.270695},
+                            {name: "Google Location 2", lat: 21.701324, lng: 31.176766},
+                            {name: "Google Location 3", lat: 16.783861, lng: 32.898682}];
+            
+            const buggy = [{name: "Google Location 1", lat:25.1840, lng:55.2596},
+                        {name: "Google Location 2", lat: 25.1872, lng: 55.2812},
+                        {name: "Google Location 3", lat: 25.2768, lng: 55.3407}];
+
+
+
+
+
+
+
+
+
+
+
+
 //Simen 
 
 
@@ -71,19 +113,6 @@ Collapse
 
 addMarkerBtn = document.querySelector('#btnaddmarker');
 addMarkerBtn.addEventListener('click', addMarker(bike[0].lat, bike[0].lng));
-
-// John's Lynch advise
-
-John_Lynch_alumnus:deciduous_tree: 9:02 AM
-@Matthew Not exactly sure what you want to do, but I have two observations/suggestions:
-1. In each function you assign image to a constant value inside a for loop.  Better to do this once before the loop.
-2. Adding explanatory comments to your code will
- (a) help you clarify the logic in your own mind,
- (b) help others understand your code,
- (c) earn you marks.
-3. Writing out in words as a sequence of steps or a flow diagram what you want to happen can really help.
-Adopting this sort of approach can be invaluable for helping to clarify things, and sometimes helps the solution to jump out at you... :slightly_smiling_face:
-PS. Why do you have the var image = assignments inside {} blocks?
 
 // John_L_Alumuni
 
