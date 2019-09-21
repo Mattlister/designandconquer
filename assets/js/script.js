@@ -47,7 +47,25 @@ let myLatLng;
             {name: "Google Location 2", lat: 25.1872, lng: 55.2812},
             {name: "Google Location 3", lat: 25.2768, lng: 55.3407}];
 
-
+  function addMarker(activity) {
+    for (var i = 0; i < activity.length; i++) {
+      var marker = new google.maps.Marker({
+        position: (activity[i].lat, activity[i].lng),
+        title: activity[i].name,
+        draggable: true,
+        map: 'map' + i,
+        icon: activity[i].icon
+      });
+    }
+  }
+ 
+ 
+addMarker(bike);
+addMarker(climb);
+  
+  
+  
+// Older code  
 
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
@@ -98,6 +116,18 @@ function addMarker(latilongi) {
 $('#btnaddmarker1').on('click', function() {
     addMarker1(climb[0].lat, climb[0].lng);
 });
+
+   function addMarker(activity) {
+    for (var i = 0; i < activity.length; i++) {
+      var marker = new google.maps.Marker({
+        position: (activity[i].lat, activity[i].lng),
+        title: activity[i].name,
+        draggable: true,
+        map: 'map' + i,
+        icon: activity[i].icon
+      });
+    }
+  }
 
 
 function addMarker1(latilongi) {
