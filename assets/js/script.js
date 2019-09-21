@@ -52,21 +52,23 @@ const activity = [
        name: 'Google Location 1',
        lat: -37.623900, 
        lng: 144.707700,
-
-name: 'Google Location 2',
-       lat; -26.785780, 
+       icon: 'assets/images/icons8-cycling-mountain-bike-50.png'
+     },
+     
+      {
+       name: 'Google Location 2',
+       lat: -26.785780,
        lng: 153.110300,
-       icon; '/assets/images/icons8-cycling-mountain-bike-50.png'        
-
-
-name: 'Google Location 3',
-       lat; -37.79627,
-       lng; 146.9745,
-       icon; '/assets/images/icons8-cycling-mountain-bike-50.png'
-       
-     }
+       icon: 'assets/images/icons8-cycling-mountain-bike-50.png'
+     },
+      {
+       name: 'Google Location 3',
+       lat: -37.796270,
+       lng: 146.974500,
+       icon: 'assets/images/icons8-cycling-mountain-bike-50.png'
+     },
     
-    ]
+    ];
 
   function addMarker(activity) {
     for (var i = 0; i < activity.length; i++) {
