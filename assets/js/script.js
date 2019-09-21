@@ -1,15 +1,15 @@
 $(document).ready(function() {
-let map;
-let myMarker;
-let myLatLng;
+//let map;
+//let myMarker;
+//let myLatLng;
 
 //Lat and Long
 
             //Queensland
 
-            const bike = [{name: "Google Location 1", lat:-37.623900, lng: 144.707700},
-            {name: "Google Location 2", lat: -26.785780, lng: 153.110300},
-            {name: "Google Location 3", lat: -37.796270, lng: 146.974500}];
+          //  const bike = [{name: "Google Location 1", lat:-37.623900, lng: 144.707700},
+          //    {name: "Google Location 2", lat: -26.785780, lng: 153.110300},
+          //  {name: "Google Location 3", lat: -37.796270, lng: 146.974500}];
             
             //Yosamite
             
