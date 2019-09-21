@@ -6,62 +6,51 @@ let myLatLng;
 //Lat and Long
 
             //Queensland
-            const bike = [
-                {
-                 name: 'Google Location 1',
-                 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'
-                     lat:-37.623900,
-                     lng: 144.707700,
-                 icon 'assets/images/icons8-cycling-mountain-bike-50.png'
-                },
-                {
-                 name: 'Google Location 2',
-                        lat: -26.785780,
-                        lng: 153.110300,
-                        icon 'assets/images/icons8-cycling-mountain-bike-50.png'
-                },
-                {
-                name: 'Google Location 3', 
-                       lat: -37.796270, 
-                       lng: 146.974500,
-                       icon 'assets/images/icons8-cycling-mountain-bike-50.png'
-                }
-                ];
-            
+
+            const bike = [{name: "Google Location 1", lat:-37.623900, lng: 144.707700},
+            {name: "Google Location 2", lat: -26.785780, lng: 153.110300},
+            {name: "Google Location 3", lat: -37.796270, lng: 146.974500}];
             
             //Yosamite
             
-            const bike = [
-                {
-                 name: 'Google Location 1',
-                 'Yosamite has some epic climbs for you to scale. The greatest park in the world that you can visit'
-                     lat:37.865101,
-                     lng: -119.538330,
-                 icon 'assets/images/icons8-trekking-50.png'
-                },
-                {
-                 name: 'Google Location 2',
-                        lat: -37.746036,
-                        lng: -119.53294,
-                        icon 'assets/images/icons8-trekking-50.png'
-                },
-                {
-                name: 'Google Location 3', 
-                       lat: 38.8015, 
-                       lng: -120.133,
-                       icon 'assets/images/icons8-trekking-50.png'
-                }
-                ];
+            const climb = [{name: "Google Location 1", lat:37.865101, lng:-119.538330},
+            {name: "Google Location 2", lat: 37.746036, lng: -119.53294},
+            {name: "Google Location 3", lat: 38.8015, lng: -120.133}];
             
+            //Everest
             
+            const climbe = [{name: "Google Location 1", lat:27.986065, lng:86.922623},
+            {name: "Google Location 2", lat: 28.004333316, lng: 86.855663244},
+            {name: "Google Location 3", lat:  27.816667, lng: 86.716667}];
+            
+            //Banzai
+            
+            const surf = [{name: "Google Location 1", lat:21.664019, lng:-158.053852},
+            {name: "Google Location 2", lat: 21.640296, lng: -158.063779},
+            {name: "Google Location 3", lat: 21.659830694, lng: -158.053166454}];
+            
+            const ski = [{name: "Google Location 1", lat:45.45916483, lng:6.90249639},
+            {name: "Google Location 2", lat: 45.292165498, lng: 6.574664368},
+            {name: "Google Location 3", lat: 45.004333316, lng: 6.119666188}];
+            
+            const jump = [{name: "Google Location 1", lat:-17.924444, lng:25.856667},
+            {name: "Google Location 2", lat: 17.9318, lng: 25.8256},
+            {name: "Google Location 3", lat: 17.9049, lng: 25.9379}];
+            
+            const dive = [{name: "Google Location 1", lat:-35.336240, lng:136.118428}];
+            
+            const cruise = [{name: "Google Location 1", lat:29.533438, lng:31.270695},
+            {name: "Google Location 2", lat: 21.701324, lng: 31.176766},
+            {name: "Google Location 3", lat: 16.783861, lng: 32.898682}];
+            
+            const buggy = [{name: "Google Location 1", lat:25.1840, lng:55.2596},
+            {name: "Google Location 2", lat: 25.1872, lng: 55.2812},
+            {name: "Google Location 3", lat: 25.2768, lng: 55.3407}];
 
 
 
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
-    
-    
-    
     
     
     
@@ -83,66 +72,35 @@ function initializeGMap(lat, lng) {
     var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
 
 
+    
 // add marker settings
-
-$('.buttons').click(function(e) {
-  e.preventDefault();
-  let id = this.id;
-  switch (id) {
-    case 'bikeButton':
-      addMarker(bike);
-    case 'climbButton':
-      addMarker(climb);
-      case 'climbButton':
-      addMarker(climbe);
-    case 'climbButton':
-      addMarker(surf);
-    default:
-      break;
-  }
+$('#btnaddmarker').on('click', function() {
+    addMarker(bike[0].lat, bike[0].lng);
 });
-function addMarker(activity) {
-    for (var i = 0; i < activity.length; i++) {
-      var marker = new google.maps.Marker({
-        position: (activity[i].lat, activity[i].lng),
-        title: activity[i].name,
+
+function addMarker(latilongi) {
+    for (var i = 0; i < bike.length; i++) {
+        {
+             var image = 'assets/images/icons8-cycling-mountain-bike-50.png';
+        }
+        var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(bike[i].lat, bike[i].lng),
+        
+        title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences',
         draggable: true,
-        map: 'map' + i,
-        icon: activity[i].icon
-      });
+        map: map0,
+        icon: image
+    });
     }
-  }
-
-
-
-$('#Eclimbing').on('show.bs.modal', function(event) {
-      let button = $(event.relatedTarget);
-      initializeGMap(climbe[0].lat, climbe[0].lng);
-      $("#location-map2").css("width", "100%");
-      $("#map_go2").css("width", "100%");
-  });
-
-// add marker settings
-$('#btnaddmarker2').on('click', function() {
-    addmarker2(climbe[0].lat, climbe[0].lng);
-});
-
-
-
-
-addmarker();
-
-
-
+}
 
 // add marker settings
 $('#btnaddmarker1').on('click', function() {
-    addmarker1(climb[0].lat, climb[0].lng);
+    addMarker1(climb[0].lat, climb[0].lng);
 });
 
 
-
-function addmarker1(latilongi) {
+function addMarker1(latilongi) {
     for (var i = 0; i < climb.length; i++) {
         {
           var image = 'assets/images/icons8-trekking-50.png';
@@ -157,20 +115,34 @@ function addmarker1(latilongi) {
     }
 } 
 
-
-
-
-
-
-
-
 // add marker settings
-$('#btnaddmarker3').on('click', function() {
-    addmarker3(surf[0].lat, surf[0].lng);
+$('#btnaddmarker2').on('click', function() {
+    addmarker2(climbe[0].lat, climbe[0].lng);
 });
 
 
-function addmarker3(latilongi) {
+function addMarker2(latilongi) {
+    for (var i = 0; i < climbe.length; i++) {
+         {
+             var image = 'assets/images/icons8-trekking-50.png';
+          }
+        var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(climbe[i].lat, climbe[i].lng),
+        title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb',
+        draggable: true,
+        map: map2,
+        icon: image
+    });
+    }
+} 
+
+// add marker settings
+$('#btnaddmarker3').on('click', function() {
+    addMarker3(surf[0].lat, surf[0].lng);
+});
+
+
+function addMarker3(latilongi) {
     for (var i = 0; i < surf.length; i++) {
         {
             var image = 'assets/images/icons8-surfing-50.png';
@@ -187,11 +159,11 @@ function addmarker3(latilongi) {
 
 // add marker settings
 $('#btnaddmarker4').on('click', function() {
-    addmarker4(ski[0].lat, ski[0].lng);
+    addMarker4(ski[0].lat, ski[0].lng);
 });
 
 
-function addmarker4(latilongi) {
+function addMarker4(latilongi) {
     for (var i = 0; i < ski.length; i++) {
         {
     var image = 'assets/images/icons8-surfing-50.png';
@@ -209,11 +181,11 @@ function addmarker4(latilongi) {
 
 // add marker settings
 $('#btnaddmarker5').on('click', function() {
-    addmarker5(jump[0].lat, jump[0].lng);
+    addMarker5(jump[0].lat, jump[0].lng);
 });
 
 
-function addmarker5(latilongi) {
+function addMarker5(latilongi) {
     for (var i = 0; i < jump.length; i++) {
         {
             var image = 'assets/images/icons8-skydiving-50.png';
@@ -231,11 +203,11 @@ function addmarker5(latilongi) {
 
 // add marker settings
 $('#btnaddmarker6').on('click', function() {
-    addmarker6(dive[0].lat, dive[0].lng);
+    addMarker6(dive[0].lat, dive[0].lng);
 });
 
 
-function addmarker6(latilongi) {
+function addMarker6(latilongi) {
     for (var i = 0; i < dive.length; i++) {
         {
             var image = 'assets/images/icons8-shark-50.png';
@@ -253,11 +225,11 @@ function addmarker6(latilongi) {
 
 // add marker settings
 $('#btnaddmarker7').on('click', function() {
-    addmarker7(cruise[0].lat, cruise[0].lng);
+    addMarker7(cruise[0].lat, cruise[0].lng);
 });
 
 
-function addmarker7(latilongi) {
+function addMarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
         {
             var image = 'assets/images/icons8-sail-boat-50.png';
@@ -274,10 +246,10 @@ function addmarker7(latilongi) {
 
 // add marker settings
 $('#btnaddmarker8').on('click', function() {
-    addmarker8(buggy[0].lat, buggy[0].lng);
+    addMarker8(buggy[0].lat, buggy[0].lng);
 });
 
-function addmarker8(latilongi) {
+function addMarker8(latilongi) {
     for (var i = 0; i < buggy.length; i++) {
         {
              var image = 'assets/images/icons8-go-kart-50.png';
@@ -310,7 +282,12 @@ function addmarker8(latilongi) {
       $("#map_go1").css("width", "100%");
   });
 
-
+$('#Eclimbing').on('show.bs.modal', function(event) {
+      let button = $(event.relatedTarget);
+      initializeGMap(climbe[0].lat, climbe[0].lng);
+      $("#location-map2").css("width", "100%");
+      $("#map_go2").css("width", "100%");
+  });
 
 $('#Bsurfing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
@@ -378,11 +355,5 @@ vidsrc_frame.attr('src', vidsrc_src);
 google.maps.event.trigger(map, 'resize');
 
 });
-
-
-
-
-
-
 
 
