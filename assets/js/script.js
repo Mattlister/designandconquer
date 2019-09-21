@@ -101,6 +101,7 @@ $('.buttons').click(function(e) {
  
 addMarker(bike);
 addMarker(climb);
+addMarker(surf);
   
   
   
