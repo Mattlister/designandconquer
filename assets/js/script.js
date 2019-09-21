@@ -69,6 +69,22 @@ const activity = [
      },
     
     ];
+    
+$('.buttons').click(function(e) {
+    e.preventDefault();
+    let id = this.id
+    switch (id) {
+        case 'bikeButton':
+      addMarker(bike);
+    case 'climbButton':
+      addMarker(climb);
+    case 'climbButton':
+      addMarker(surf);
+    default:
+      break;
+  }
+});
+
 
   function addMarker(activity) {
     for (var i = 0; i < activity.length; i++) {
