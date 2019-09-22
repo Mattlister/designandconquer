@@ -47,7 +47,7 @@ $(document).ready(function() {
             {name: "Google Location 2", lat: 25.1872, lng: 55.2812},
             {name: "Google Location 3", lat: 25.2768, lng: 55.3407}];
 
-const activity = [
+const destinations = [
     {
        name: 'Google Location 1',
        lat: -37.623900, 
@@ -86,7 +86,8 @@ $('.buttons').click(function(e) {
 });
 
 
-  function addMarker(activity) {
+  function addMarker(destinations) {
+       console.log('Return' + destinations);
     for (var i = 0; i < activity.length; i++) {
       var marker = new google.maps.Marker({
         position: (activity[i].lat, activity[i].lng),
@@ -99,9 +100,16 @@ $('.buttons').click(function(e) {
   }
  
  
-addMarker(bike);
-addMarker(climb);
-addMarker(surf);
+addMarker('bike');
+addMarker('climb');
+addMarker('cimbe');
+addMarker('surf');
+addMarker('ski');
+addMarker('jump');
+addMarker('dive');
+addMarker('cruise');
+addMarker('buggy');
+
   
   
   
