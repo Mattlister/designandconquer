@@ -87,10 +87,9 @@ $('.buttons').click(function(e) {
 
 
   function addMarker(destinations) {
-       console.log('Return' + destinations);
     for (var i = 0; i < activity.length; i++) {
       var marker = new google.maps.Marker({
-        position: (activity[i].lat, activity[i].lng),
+        position: (destinations[i].lat, destinations[i].lng),
         title: activity[i].name,
         draggable: true,
         map: 'map' + i,
@@ -108,7 +107,7 @@ addMarker('ski');
 addMarker('jump');
 addMarker('dive');
 addMarker('cruise');
-addMarker('buggy');
+addMarker('buggy')
 
   
   
