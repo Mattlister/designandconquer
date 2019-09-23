@@ -13,7 +13,7 @@ const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { name: "Google Location 3", lat: -37.796270, lng: 146.974500 },
     {map: map0},
     { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    {icon: 'assets/images/icons8-cycling-mountain-bike-50.png'},
     ];
     
 // Yosamite     
@@ -23,7 +23,7 @@ const climb = [{ name: "Google Location 1", lat: 37.865101, lng: -119.538330 },
     { name: "Google Location 3", lat: 38.8015, lng: -120.133 },
     {map: map1},
     { title: 'Yosamite has some epic climbs for you to scale. The greatest park in the world that you can visit'},
-    {icon: image = 'assets/images/icons8-trekking-50.png'},];
+    {icon: 'assets/images/icons8-trekking-50.png'},];
     
 // Everest    
 
@@ -32,7 +32,7 @@ const climbe = [{ name: "Google Location 1", lat: 27.986065, lng: 86.922623 },
     { name: "Google Location 3", lat: 27.816667, lng: 86.716667 },
     {map: map2},
     { title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb'},
-    {icon: image = 'assets/images/icons8-trekking-50.png'},];
+    {icon: 'assets/images/icons8-trekking-50.png'},];
     
 // Banzai  
     
@@ -42,7 +42,7 @@ const surf = [{ name: "Google Location 1", lat: 21.664019, lng: -158.053852 },
     { name: "Google Location 3", lat: 21.659830694, lng: -158.053166454 },
     {map: map3},
     { title: 'Banzai has the greatest waves and so the greatest surf known to man. When that wave hits, make sure your ready'},
-    {icon: image = 'assets/images/icons8-surfing-50.png'},];
+    {icon: 'assets/images/icons8-surfing-50.png'},];
 
 // French Alps
 
@@ -61,13 +61,13 @@ const jump = [{ name: "Google Location 1", lat: -17.924444, lng: 25.856667 },
     { name: "Google Location 3", lat: 17.9049, lng: 25.9379 },
     {map: map5},
     { title: 'Victoria Falls skydive jump will blow your mind. You will feel like your flying high as you soar across the sky'},
-    {icon: image = 'assets/images/icons8-skydiving-50.png'},];
+    {icon: 'assets/images/icons8-skydiving-50.png'},];
 
 // Netune Shark Dive    
             
 const dive = [{ name: "Google Location 1", lat: -35.336240, lng: 136.118428 },{map: map0},
     { title: 'Neptune Islands Shark dives will face you with the oceans ultimate predator. When its fin breaches the surface, your heart wil stop'},
-    {icon: image = 'assets/images/icons8-shark-50.png'},
+    {icon: 'assets/images/icons8-shark-50.png'},
     ];
 
 // Nile 
@@ -77,7 +77,7 @@ const cruise = [{ name: "Google Location 1", lat: 29.533438, lng: 31.270695 },
     { name: "Google Location 3", lat: 16.783861, lng: 32.898682 },
     {map: map0},
     { title: 'The River Nile is one of the most beautiful and breathtaking places in the world. A truly wonderful place to visit'},
-    {icon: image = 'assets/images/icons8-sail-boat-50.png'}
+    {icon: 'assets/images/icons8-sail-boat-50.png'}
     ];
 
 // Dubai
@@ -87,7 +87,7 @@ const buggy = [{ name: "Google Location 1", lat: 25.1840, lng: 55.2596 },
     { name: "Google Location 3", lat: 25.2768, lng: 55.3407 },
     {map: map0},
     { title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill'},
-    {icon: image = 'assets/images/icons8-go-kart-50.png'},
+    {icon: 'assets/images/icons8-go-kart-50.png'},
     ];
             
        
@@ -170,6 +170,9 @@ function initializeGMap(lat, lng) {
 $('#btnaddmarker').on('click', function() {
     addMarker(bike[0].lat, bike[0].lng);
 });
+
+
+
 
 function addMarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
