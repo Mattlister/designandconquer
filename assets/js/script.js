@@ -6,12 +6,32 @@ $(document).ready(function() {
 
 // New data
 
+//Variables to tie in to coordinates
+    var myOptions = {
+        zoom: 8,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: myLatLng
+};
+
+    var map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions);
+    var map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions);
+    var map2 = new google.maps.Map(document.getElementById("map_go2"), myOptions);
+    var map3 = new google.maps.Map(document.getElementById("map_go3"), myOptions);
+    var map4 = new google.maps.Map(document.getElementById("map_go4"), myOptions);
+    var map5 = new google.maps.Map(document.getElementById("map_go5"), myOptions);
+    var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
+    var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
+    var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
+
+
+
+
 // Queensland
 
 const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { name: "Google Location 2", lat: -26.785780, lng: 153.110300 },
     { name: "Google Location 3", lat: -37.796270, lng: 146.974500 },
-    {map: map0},
+    {map: map},
     { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
     {icon: 'assets/images/icons8-cycling-mountain-bike-50.png'},
     ];
@@ -82,7 +102,9 @@ const cruise = [{ name: "Google Location 1", lat: 29.533438, lng: 31.270695 },
 
 // Dubai
 
-const buggy = [{ name: "Google Location 1", lat: 25.1840, lng: 55.2596 },
+const buggy = [
+    {
+    name: "Google Location 1", lat: 25.1840, lng: 55.2596 },
     { name: "Google Location 2", lat: 25.1872, lng: 55.2812 },
     { name: "Google Location 3", lat: 25.2768, lng: 55.3407 },
     {map: map0},
@@ -145,24 +167,6 @@ $('.buttons').click(function(e) {
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
     
-    
-//Variables to tie in to coordinates
-    var myOptions = {
-        zoom: 8,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        center: myLatLng
-};
-
-    var map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions);
-    var map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions);
-    var map2 = new google.maps.Map(document.getElementById("map_go2"), myOptions);
-    var map3 = new google.maps.Map(document.getElementById("map_go3"), myOptions);
-    var map4 = new google.maps.Map(document.getElementById("map_go4"), myOptions);
-    var map5 = new google.maps.Map(document.getElementById("map_go5"), myOptions);
-    var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
-    var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
-    var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
-
 
 
 
@@ -172,7 +176,7 @@ $('#btnaddmarker').on('click', function() {
 });
 
 
-
+/*
 
 function addMarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
@@ -189,6 +193,8 @@ function addMarker(latilongi) {
     });
     }
 }
+
+
 
 // add marker settings
 $('#btnaddmarker1').on('click', function() {
@@ -371,6 +377,8 @@ function addMarker8(latilongi) {
     });
     }
 } 
+*/
+
 
 } // End of the initializeGMap()
 
