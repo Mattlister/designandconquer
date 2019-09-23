@@ -164,6 +164,7 @@ $('.buttons').click(function(e) {
 });
 
 
+
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
     
