@@ -6,6 +6,8 @@ $(document).ready(function() {
 
 // New data
 
+// Queensland
+
 const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { name: "Google Location 2", lat: -26.785780, lng: 153.110300 },
     { name: "Google Location 3", lat: -37.796270, lng: 146.974500 },
@@ -13,63 +15,84 @@ const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
     {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
     ];
+    
+// Yosamite     
 
 const climb = [{ name: "Google Location 1", lat: 37.865101, lng: -119.538330 },
     { name: "Google Location 2", lat: 37.746036, lng: -119.53294 },
     { name: "Google Location 3", lat: 38.8015, lng: -120.133 },
     {map: map1},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    { title: 'Yosamite has some epic climbs for you to scale. The greatest park in the world that you can visit'},
     {icon: image = 'assets/images/icons8-trekking-50.png'},];
+    
+// Everest    
 
 const climbe = [{ name: "Google Location 1", lat: 27.986065, lng: 86.922623 },
     { name: "Google Location 2", lat: 28.004333316, lng: 86.855663244 },
     { name: "Google Location 3", lat: 27.816667, lng: 86.716667 },
     {map: map2},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    { title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb'},
     {icon: image = 'assets/images/icons8-trekking-50.png'},];
+    
+// Banzai  
+    
 
 const surf = [{ name: "Google Location 1", lat: 21.664019, lng: -158.053852 },
     { name: "Google Location 2", lat: 21.640296, lng: -158.063779 },
     { name: "Google Location 3", lat: 21.659830694, lng: -158.053166454 },
     {map: map3},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},];
+    { title: 'Banzai has the greatest waves and so the greatest surf known to man. When that wave hits, make sure your ready'},
+    {icon: image = 'assets/images/icons8-surfing-50.png'},];
+
+// French Alps
 
 const ski = [{ name: "Google Location 1", lat: 45.45916483, lng: 6.90249639 },
     { name: "Google Location 2", lat: 45.292165498, lng: 6.574664368 },
     { name: "Google Location 3", lat: 45.004333316, lng: 6.119666188 },
     {map: map4},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},];
+    { title: 'The French alps give you the thrilling downhill skiing adventure of your life. Beautiful views and perfect snow to glide over'},
+    {icon: image = 'assets/images/icons8-skiing-50.png'},];
+
+// Victoria Falls    
+    
 
 const jump = [{ name: "Google Location 1", lat: -17.924444, lng: 25.856667 },
     { name: "Google Location 2", lat: 17.9318, lng: 25.8256 },
     { name: "Google Location 3", lat: 17.9049, lng: 25.9379 },
     {map: map5},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},];
+    { title: 'Victoria Falls skydive jump will blow your mind. You will feel like your flying high as you soar across the sky'},
+    {icon: image = 'assets/images/icons8-skydiving-50.png'},];
+
+// Netune Shark Dive    
             
 const dive = [{ name: "Google Location 1", lat: -35.336240, lng: 136.118428 },{map: map0},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    { title: 'Neptune Islands Shark dives will face you with the oceans ultimate predator. When its fin breaches the surface, your heart wil stop'},
+    {icon: image = 'assets/images/icons8-shark-50.png'},
     ];
+
+// Nile 
 
 const cruise = [{ name: "Google Location 1", lat: 29.533438, lng: 31.270695 },
     { name: "Google Location 2", lat: 21.701324, lng: 31.176766 },
     { name: "Google Location 3", lat: 16.783861, lng: 32.898682 },
     {map: map0},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    { title: 'The River Nile is one of the most beautiful and breathtaking places in the world. A truly wonderful place to visit'},
+    {icon: image = 'assets/images/icons8-sail-boat-50.png'}
     ];
+
+// Dubai
 
 const buggy = [{ name: "Google Location 1", lat: 25.1840, lng: 55.2596 },
     { name: "Google Location 2", lat: 25.1872, lng: 55.2812 },
     { name: "Google Location 3", lat: 25.2768, lng: 55.3407 },
     {map: map0},
-    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    { title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill'},
+    {icon: image = 'assets/images/icons8-go-kart-50.png'},
     ];
             
+       
+       
+       
                
             
 function addMarker(destinations) {
