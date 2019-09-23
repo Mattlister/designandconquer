@@ -16,33 +16,59 @@ const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
 
 const climb = [{ name: "Google Location 1", lat: 37.865101, lng: -119.538330 },
     { name: "Google Location 2", lat: 37.746036, lng: -119.53294 },
-    { name: "Google Location 3", lat: 38.8015, lng: -120.133 }];
+    { name: "Google Location 3", lat: 38.8015, lng: -120.133 },
+    {map: map1},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-trekking-50.png'},];
 
 const climbe = [{ name: "Google Location 1", lat: 27.986065, lng: 86.922623 },
     { name: "Google Location 2", lat: 28.004333316, lng: 86.855663244 },
-    { name: "Google Location 3", lat: 27.816667, lng: 86.716667 }];
+    { name: "Google Location 3", lat: 27.816667, lng: 86.716667 },
+    {map: map2},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-trekking-50.png'},];
 
 const surf = [{ name: "Google Location 1", lat: 21.664019, lng: -158.053852 },
     { name: "Google Location 2", lat: 21.640296, lng: -158.063779 },
-    { name: "Google Location 3", lat: 21.659830694, lng: -158.053166454 }];
+    { name: "Google Location 3", lat: 21.659830694, lng: -158.053166454 },
+    {map: map3},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},];
 
 const ski = [{ name: "Google Location 1", lat: 45.45916483, lng: 6.90249639 },
     { name: "Google Location 2", lat: 45.292165498, lng: 6.574664368 },
-    { name: "Google Location 3", lat: 45.004333316, lng: 6.119666188 }];
+    { name: "Google Location 3", lat: 45.004333316, lng: 6.119666188 },
+    {map: map4},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},];
 
 const jump = [{ name: "Google Location 1", lat: -17.924444, lng: 25.856667 },
     { name: "Google Location 2", lat: 17.9318, lng: 25.8256 },
-    { name: "Google Location 3", lat: 17.9049, lng: 25.9379 }];
+    { name: "Google Location 3", lat: 17.9049, lng: 25.9379 },
+    {map: map5},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},];
             
-const dive = [{ name: "Google Location 1", lat: -35.336240, lng: 136.118428 }];
+const dive = [{ name: "Google Location 1", lat: -35.336240, lng: 136.118428 },{map: map0},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    ];
 
 const cruise = [{ name: "Google Location 1", lat: 29.533438, lng: 31.270695 },
     { name: "Google Location 2", lat: 21.701324, lng: 31.176766 },
-    { name: "Google Location 3", lat: 16.783861, lng: 32.898682 }];
+    { name: "Google Location 3", lat: 16.783861, lng: 32.898682 },
+    {map: map0},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    ];
 
 const buggy = [{ name: "Google Location 1", lat: 25.1840, lng: 55.2596 },
     { name: "Google Location 2", lat: 25.1872, lng: 55.2812 },
-    { name: "Google Location 3", lat: 25.2768, lng: 55.3407 }];
+    { name: "Google Location 3", lat: 25.2768, lng: 55.3407 },
+    {map: map0},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    ];
             
                
             
@@ -55,6 +81,7 @@ function addMarker(destinations) {
         draggable: true,
         map: 'map' + i,
         icon: destinations [i].icon
+        
       });
     }
   }
@@ -68,6 +95,12 @@ addMarker(jump);
 addMarker(dive);
 addMarker(cruise);
 addMarker(buggy);
+
+
+// add marker settings
+$('#btnaddmarker').on('click', function() {
+    addMarker(bike[0].lat, bike[0].lng);
+});
 
 
 $('.buttons').click(function(e) {
@@ -106,10 +139,6 @@ function initializeGMap(lat, lng) {
     var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
     var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
     var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
-
-
-
-
 
 
 
