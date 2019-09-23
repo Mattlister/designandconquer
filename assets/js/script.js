@@ -8,9 +8,11 @@ $(document).ready(function() {
 
 const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { name: "Google Location 2", lat: -26.785780, lng: 153.110300 },
-    { name: "Google Location 3", lat: -37.796270, lng: 146.974500 }];
-
-
+    { name: "Google Location 3", lat: -37.796270, lng: 146.974500 },
+    {map: map0},
+    { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
+    {icon: image = 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    ];
 
 const climb = [{ name: "Google Location 1", lat: 37.865101, lng: -119.538330 },
     { name: "Google Location 2", lat: 37.746036, lng: -119.53294 },
@@ -68,14 +70,9 @@ addMarker(cruise);
 addMarker(buggy);
 
 
-
-
-
-
-
 $('.buttons').click(function(e) {
     e.preventDefault();
-    let id = this.id
+    let id = this.id;
     switch (id) {
         case 'bikeButton':
       addMarker(bike);
@@ -89,16 +86,8 @@ $('.buttons').click(function(e) {
 });
 
 
-  
-
-  
-  
-  
-// Older code  
-
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
-    
     
     
 //Variables to tie in to coordinates
@@ -119,7 +108,12 @@ function initializeGMap(lat, lng) {
     var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
 
 
-    
+
+
+
+
+
+
 // add marker settings
 $('#btnaddmarker').on('click', function() {
     addMarker(bike[0].lat, bike[0].lng);
