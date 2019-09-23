@@ -1,11 +1,15 @@
 $(document).ready(function() {
-//let map;
-//let myMarker;
-//let myLatLng;
+let map;
+let myMarker;
+let myLatLng;
 
 
 // New data
-
+marker = new google.maps.Marker({
+               
+                setMap : map,
+            }); 
+            
 //Variables to tie in to coordinates
     var myOptions = {
         zoom: 8,
@@ -31,7 +35,7 @@ $(document).ready(function() {
 const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { name: "Google Location 2", lat: -26.785780, lng: 153.110300 },
     { name: "Google Location 3", lat: -37.796270, lng: 146.974500 },
-    {map: map},
+    {map: map0},
     { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
     {icon: 'assets/images/icons8-cycling-mountain-bike-50.png'},
     ];
