@@ -1,32 +1,6 @@
 $(document).ready(function() {
-let map;
-let myMarker;
-let myLatLng;
-
-
-// New data
-marker = new google.maps.Marker({
-               
-                setMap : map,
-            }); 
-            
-//Variables to tie in to coordinates
-    var myOptions = {
-        zoom: 8,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        center: myLatLng
-};
-
-    var map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions);
-    var map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions);
-    var map2 = new google.maps.Map(document.getElementById("map_go2"), myOptions);
-    var map3 = new google.maps.Map(document.getElementById("map_go3"), myOptions);
-    var map4 = new google.maps.Map(document.getElementById("map_go4"), myOptions);
-    var map5 = new google.maps.Map(document.getElementById("map_go5"), myOptions);
-    var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
-    var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
-    var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
-
+    
+    {
 
 
 
@@ -116,24 +90,46 @@ const buggy = [
     {icon: 'assets/images/icons8-go-kart-50.png'},
     ];
             
-       
-       
-       
-               
-            
+ $(document).ready(function() {
+
+});
+
+function initMap(lat, lng) {
+    myLatLng = {lat, lng};
+    
+    var myOptions = {
+     zoom: 8,
+     mapTypeId: google.maps.MapTypeId.ROADMAP,
+     center: myLatLng
+ };
+    
+    map = new google.maps.Map(document.getElementById("map"), myOptions);
+    
+    myMarker = new google.maps.Marker({
+                map : map,
+              	position : myLatLng
+            }); // Set the first marker on the map
+
+
 function addMarker(destinations) {
-       console.log('Return' + destinations);
     for (var i = 0; i < destinations.length; i++) {
-      var marker = new google.maps.Marker({
-        position: (destinations [i].lat, destinations [i].lng),
+      myMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(destinations[i].lat, destinations[i].lng),
         title: destinations [i].name,
         draggable: true,
-        map: 'map' + i,
-        icon: destinations [i].icon
-        
+        map: map,
+        icon: destinations[i].icon
       });
     }
   }
+  
+addMarker(bike);
+
+
+} // End of initMap()
+       
+       
+
   
 addMarker(bike);
 addMarker(climb);
@@ -169,10 +165,6 @@ $('.buttons').click(function(e) {
 
 
 
-function initializeGMap(lat, lng) {
-    myLatLng = {lat, lng};
-    
-
 
 
 // add marker settings
@@ -182,7 +174,6 @@ $('#btnaddmarker').on('click', function() {
 
 
 /*
-
 function addMarker(latilongi) {
     for (var i = 0; i < bike.length; i++) {
         {
@@ -198,14 +189,10 @@ function addMarker(latilongi) {
     });
     }
 }
-
-
-
 // add marker settings
 $('#btnaddmarker1').on('click', function() {
     addMarker1(climb[0].lat, climb[0].lng);
 });
-
    function addMarker(activity) {
     for (var i = 0; i < activity.length; i++) {
       var marker = new google.maps.Marker({
@@ -217,8 +204,6 @@ $('#btnaddmarker1').on('click', function() {
       });
     }
   }
-
-
 function addMarker1(latilongi) {
     for (var i = 0; i < climb.length; i++) {
         {
@@ -233,13 +218,10 @@ function addMarker1(latilongi) {
     });
     }
 } 
-
 // add marker settings
 $('#btnaddmarker2').on('click', function() {
     addmarker2(climbe[0].lat, climbe[0].lng);
 });
-
-
 function addMarker2(latilongi) {
     for (var i = 0; i < climbe.length; i++) {
          {
@@ -254,13 +236,10 @@ function addMarker2(latilongi) {
     });
     }
 } 
-
 // add marker settings
 $('#btnaddmarker3').on('click', function() {
     addMarker3(surf[0].lat, surf[0].lng);
 });
-
-
 function addMarker3(latilongi) {
     for (var i = 0; i < surf.length; i++) {
         {
@@ -275,13 +254,10 @@ function addMarker3(latilongi) {
     });
     }
 } 
-
 // add marker settings
 $('#btnaddmarker4').on('click', function() {
     addMarker4(ski[0].lat, ski[0].lng);
 });
-
-
 function addMarker4(latilongi) {
     for (var i = 0; i < ski.length; i++) {
         {
@@ -297,13 +273,10 @@ function addMarker4(latilongi) {
     });
     }
 } 
-
 // add marker settings
 $('#btnaddmarker5').on('click', function() {
     addMarker5(jump[0].lat, jump[0].lng);
 });
-
-
 function addMarker5(latilongi) {
     for (var i = 0; i < jump.length; i++) {
         {
@@ -319,13 +292,10 @@ function addMarker5(latilongi) {
     });
     }
 } 
-
 // add marker settings
 $('#btnaddmarker6').on('click', function() {
     addMarker6(dive[0].lat, dive[0].lng);
 });
-
-
 function addMarker6(latilongi) {
     for (var i = 0; i < dive.length; i++) {
         {
@@ -340,14 +310,10 @@ function addMarker6(latilongi) {
     });
     }
 } 
-
-
 // add marker settings
 $('#btnaddmarker7').on('click', function() {
     addMarker7(cruise[0].lat, cruise[0].lng);
 });
-
-
 function addMarker7(latilongi) {
     for (var i = 0; i < cruise.length; i++) {
         {
@@ -362,12 +328,10 @@ function addMarker7(latilongi) {
     });
     }
 } 
-
 // add marker settings
 $('#btnaddmarker8').on('click', function() {
     addMarker8(buggy[0].lat, buggy[0].lng);
 });
-
 function addMarker8(latilongi) {
     for (var i = 0; i < buggy.length; i++) {
         {
@@ -476,5 +440,3 @@ vidsrc_frame.attr('src', vidsrc_src);
 google.maps.event.trigger(map, 'resize');
 
 });
-
-
