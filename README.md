@@ -35,15 +35,9 @@
 
 ### 3. Technologies Used
 
-### 4. Testing
+### 4. Disclaimer
 
-### 5. Deployment
-
-### 6. Acknowledgements
-
-### 7. Disclaimer
-
-### For my friends currently working on their Milestone 2 projects.
+### 5. For my friends currently working on their Milestone 2 projects.
 
 
 
@@ -396,7 +390,21 @@ published to GitHub pages using the GitHub settings.
 
 ### Deployment to Github
 
-I used and configured GitHub Pages to publish my site's source files from my master branch folder named the-band. This is in Cloud9 folder 
+When deploying Design and Conquer to GitHub from the GitHub, I used the following process:
+
+1. Log into GitHub.
+2. From the list of GitHub repositories, select
+3. At the top the page, where the menu items are, you'll see Settings.
+4. Once selected, scroll down the page to the GitHub pages section
+5. Under Source, click the drop-down menu labelled and select Master Branch
+6. When you select Master Branch, the page will automatically be refreshed and Design and Conquer is then deployed.
+7. Once done, scroll back down to the GitHub pages section and you will be able to retrieve the link to the deployed website.
+
+My project uses GitHub for storage and sharing of the project code for remote us
+
+
+
+I used and configured GitHub Pages to publish my site's source files from my master branch folder named Design and Conquer. This is in Cloud9 folder 
 for all my Project Pages that were under that umbrella.
 
 Publishing my source files is dependent on my site type as in what language the code is developed in and the site type I have in 
@@ -446,7 +454,7 @@ I used default commands to push to Github such as:
   within maps but... the maps had to be seperated and the locations individually added. So, between me and John, we were able to re-write the code 
   altogether and resolve the issue. I could get markers displaying on the maps. Phew!!
 
-* That was amajor milestone but.... I had more to workout because, when I added a centralised location to the modal 1, it worked great. Adding modal
+* That was a major milestone but.... I had more to workout because, when I added a centralised location to the modal 1, it worked great. Adding modal
   2 though overwrote the information and so I had to work that out as well. It took me a week to resolve this through various searches and code checks
   to stop the data overwriting when new information was added. I asked one of my peers, Shane Muirhead ro review it and he noticed all the content was
   but as I'd not worked in JavaScript before, he was able to advise me on my hard coded could be streamlined and so with more research and advise, I 
@@ -465,8 +473,8 @@ displayed. The images when hovered over as you'll see will flip and they'll be a
 When testing in Safari, the image flipped and stayed as the image but a mirrored version. When the buttons did show, it flipped the image back to the originally
 and there was no maps or modals appearing. These are bugs I need to look into but this is a junction I came to mid project.
 
-I used Autoprefixer as explained above to resolve the safari issues I had. I also tested on various iphone formats, ipad tablets and laptops. This inclued Macbook
-with Safari and laptops with Windows 10 installed. Tested on various browsers on both laptops to show everything displayed as it should and planned.
+* I used Autoprefixer as explained above to resolve the safari issues I had. I also tested on various iphone formats, ipad tablets and laptops. This inclued Macbook
+ with Safari and laptops with Windows 10 installed. Tested on various browsers on both laptops to show everything displayed as it should and planned.
 
 
 
