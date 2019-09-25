@@ -1,38 +1,50 @@
+  
 $(document).ready(function() {
-    let map;
-    let myMarker;
-    let myLatLng;
+let map;
+let myMarker;
+let myLatLng;
 
 
-    function initializeGMap(lat, lng) {
+function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
     
     
-    //Variables to tie in to coordinates
-        var myOptions = {
-            zoom: 8,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            center: myLatLng };
+//Variables to tie in to coordinates
+    var myOptions = {
+        zoom: 8,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: myLatLng };
 
-        var map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions);
-        var map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions);
-        var map2 = new google.maps.Map(document.getElementById("map_go2"), myOptions);
-        var map3 = new google.maps.Map(document.getElementById("map_go3"), myOptions);
-        var map4 = new google.maps.Map(document.getElementById("map_go4"), myOptions);
-        var map5 = new google.maps.Map(document.getElementById("map_go5"), myOptions);
-        var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
-        var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
-        var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
+    var map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions);
+    var map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions);
+    var map2 = new google.maps.Map(document.getElementById("map_go2"), myOptions);
+    var map3 = new google.maps.Map(document.getElementById("map_go3"), myOptions);
+    var map4 = new google.maps.Map(document.getElementById("map_go4"), myOptions);
+    var map5 = new google.maps.Map(document.getElementById("map_go5"), myOptions);
+    var map6 = new google.maps.Map(document.getElementById("map_go6"), myOptions);
+    var map7 = new google.maps.Map(document.getElementById("map_go7"), myOptions);
+    var map8 = new google.maps.Map(document.getElementById("map_go8"), myOptions);
 
 
-    function mapMarker(map) {
-        myMarker = new google.maps.Marker({
-                    map : map,
-                  	position : myLatLng
-                }); // Set the first marker on the map
-    }
+function mapMarker(map) {
+    myMarker = new google.maps.Marker({
+                map : map,
+              	position : myLatLng
+            }); // Set the first marker on the map
+}
     
-
+ function addMarker(destinations, map) {
+    for (var i = 0; i < destinations.length; i++) {
+      myMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(destinations[i].lat, destinations[i].lng),
+        title: destinations [i].name,
+        draggable: true,
+        map: map,
+        icon: destinations[i].icon
+      });
+    }
+  }
+  
 
 // Queensland
 const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
@@ -69,7 +81,6 @@ const surf = [{ name: "Google Location 1", lat: 21.664019, lng: -158.053852 },
     { title: 'Banzai has the greatest waves and so the greatest surf known to man. When that wave hits, make sure your ready'},
     {icon: 'assets/images/icons8-surfing-50.png'},];
 
-
 // French Alps
 const ski = [{ name: "Google Location 1", lat: 45.45916483, lng: 6.90249639 },
     { name: "Google Location 2", lat: 45.292165498, lng: 6.574664368 },
@@ -102,7 +113,7 @@ const cruise = [{ name: "Google Location 1", lat: 29.533438, lng: 31.270695 },
     {icon: 'assets/images/icons8-sail-boat-50.png'}
     ];
 
- // Dubai
+// Dubai
 const buggy = [
     {
     name: "Google Location 1", lat: 25.1840, lng: 55.2596 },
@@ -111,106 +122,98 @@ const buggy = [
     {map: map8},
     { title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill'},
     {icon: 'assets/images/icons8-go-kart-50.png'},
-    ]; 
+    ];
 
-    
+
 addMarker(bike, map0);
 addMarker(climb, map1);
-addMarker(cimbe, map2);
+addMarker(climbe, map2);
 addMarker(surf, map3);
-addMarker(ski, map4);
-addMarker(jump, map5);
-addMarker(dive, map6);
-addMarker(cruise, map7);
-addMarker(buggy, map8);
 
 mapMarker(map0);
 mapMarker(map1);
 mapMarker(map2);
 mapMarker(map3);
-mapMarker(map4);
-mapMarker(map5);
-mapMarker(map6);
-mapMarker(map7);
-mapMarker(map8);
 
 
-    
-} // End of the initializeGMap()
 
+} 
+
+
+// End of the initializeGMap()
+  
     // function and events
     
   $('#Qbiking').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(bike[0].lat, bike[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map0").css("width", "100%");
       $("#map_go0").css("width", "100%");
   });
 
+
     $('#Yclimbing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(climb[0].lat, climb[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map1").css("width", "100%");
       $("#map_go1").css("width", "100%");
   });
 
 $('#Eclimbing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(climbe[0].lat, climbe[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map2").css("width", "100%");
       $("#map_go2").css("width", "100%");
   });
 
 $('#Bsurfing').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(surf[0].lat, surf[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map3").css("width", "100%");
       $("#map_go3").css("width", "100%");
   });
   
   $('#Falps').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(ski[0].lat, ski[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map4").css("width", "100%");
       $("#map_go4").css("width", "100%");
   });
   
 $('#Vfalls').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(jump[0].lat, jump[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map5").css("width", "100%");
       $("#map_go5").css("width", "100%");
   });
   
   $('#Ndiving').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(dive[0].lat, dive[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map6").css("width", "100%");
       $("#map_go6").css("width", "100%");
   });
   
   $('#Ncruising').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(cruise[0].lat, cruise[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map7").css("width", "100%");
       $("#map_go7").css("width", "100%");
   });
   
   $('#Dbuggying').on('show.bs.modal', function(event) {
       let button = $(event.relatedTarget);
-      initializeGMap(buggy[0].lat, buggy[0].lng);
+      initializeGMap(parseFloat(this.dataset.lat), parseFloat(this.dataset.lng));
       $("#location-map8").css("width", "100%");
       $("#map_go8").css("width", "100%");
   });
-  
-$(function () {
+ 
+
         $("#btnClosePopup").click(function () {
             $("#modal-content").modal("hide");
         });
-    });
 
 // Pauses video on exit
-
 $('.modal').on('hidden.bs.modal', function () {
 var $this = $(this);
 //get iframe on click
@@ -223,8 +226,7 @@ vidsrc_frame.attr('src', vidsrc_src);
 
 
 //Prevents maps issues
-
 google.maps.event.trigger(map, 'resize');
 
-});
 
+}); //End of document ready
