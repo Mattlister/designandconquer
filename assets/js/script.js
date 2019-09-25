@@ -125,7 +125,6 @@ const buggy = [
     { name: "Google Location 3", lat: 25.2768, lng: 55.3407 },
     {map: map8},
     { title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill'},
-    {icon: 'assets/images/icons8-go-kart-50.png'},
     ];
 
 
