@@ -133,11 +133,11 @@ addMarker(bike, map0);
 addMarker(climb, map1);
 addMarker(climbe, map2);
 addMarker(surf, map3);
-addMarker(ski, map0);
-addMarker(jump, map1);
-addMarker(dive, map2);
-addMarker(cruise, map3);
-addMarker(buggy, map3);
+addMarker(ski, map4);
+addMarker(jump, map5);
+addMarker(dive, map6);
+addMarker(cruise, map7);
+addMarker(buggy, map8);
 
 
 mapMarker(map0);
