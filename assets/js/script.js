@@ -55,7 +55,6 @@ const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { icon: 'assets/images/icons8-cycling-mountain-bike-50.png'},
     ];
     
-    
 
 // Yosamite     
 const climb = [{ name: "Google Location 1", lat: 37.865101, lng: -119.538330 },
@@ -63,7 +62,8 @@ const climb = [{ name: "Google Location 1", lat: 37.865101, lng: -119.538330 },
     { name: "Google Location 3", lat: 38.8015, lng: -120.133 },
     { map: map1},
     { title: 'Yosamite has some epic climbs for you to scale. The greatest park in the world that you can visit'},
-    {icon: 'assets/images/icons8-trekking-50.png'},];
+    {icon: 'assets/images/icons8-trekking-50.png'},
+    ];
     
 // Everest    
 const climbe = [{ name: "Google Location 1", lat: 27.986065, lng: 86.922623 },
@@ -71,7 +71,8 @@ const climbe = [{ name: "Google Location 1", lat: 27.986065, lng: 86.922623 },
     { name: "Google Location 3", lat: 27.816667, lng: 86.716667 },
     { map: map2},
     { title: 'Mount Everest is the ultimate climbers experience with epic conditions to conquer and climb'},
-    {icon: 'assets/images/icons8-trekking-50.png'},];
+    {icon: 'assets/images/icons8-trekking-50.png'},
+    ];
     
 // Banzai  
 const surf = [{ name: "Google Location 1", lat: 21.664019, lng: -158.053852 },
@@ -79,7 +80,8 @@ const surf = [{ name: "Google Location 1", lat: 21.664019, lng: -158.053852 },
     { name: "Google Location 3", lat: 21.659830694, lng: -158.053166454 },
     { map: map3},
     { title: 'Banzai has the greatest waves and so the greatest surf known to man. When that wave hits, make sure your ready'},
-    {icon: 'assets/images/icons8-surfing-50.png'},];
+    {icon: 'assets/images/icons8-surfing-50.png'},
+    ];
 
 // French Alps
 const ski = [{ name: "Google Location 1", lat: 45.45916483, lng: 6.90249639 },
@@ -87,7 +89,8 @@ const ski = [{ name: "Google Location 1", lat: 45.45916483, lng: 6.90249639 },
     { name: "Google Location 3", lat: 45.004333316, lng: 6.119666188 },
     { map: map4},
     { title: 'The French alps give you the thrilling downhill skiing adventure of your life. Beautiful views and perfect snow to glide over'},
-    {icon:  'assets/images/icons8-skiing-50.png'},];
+    {icon:  'assets/images/icons8-skiing-50.png'},
+    ];
 
 // Victoria Falls    
 const jump = [{ name: "Google Location 1", lat: -17.924444, lng: 25.856667 },
@@ -95,7 +98,8 @@ const jump = [{ name: "Google Location 1", lat: -17.924444, lng: 25.856667 },
     { name: "Google Location 3", lat: 17.9049, lng: 25.9379 },
     {map: map5},
     { title: 'Victoria Falls skydive jump will blow your mind. You will feel like your flying high as you soar across the sky'},
-    {icon: 'assets/images/icons8-skydiving-50.png'},];
+    {icon: 'assets/images/icons8-skydiving-50.png'},
+    ];
 
 // Netune Shark Dive    
 const dive = [{ name: "Google Location 1", lat: -35.336240, lng: 136.118428 },
@@ -129,13 +133,22 @@ addMarker(bike, map0);
 addMarker(climb, map1);
 addMarker(climbe, map2);
 addMarker(surf, map3);
+addMarker(ski, map0);
+addMarker(jump, map1);
+addMarker(dive, map2);
+addMarker(cruise, map3);
+addMarker(buggy, map3);
+
 
 mapMarker(map0);
 mapMarker(map1);
 mapMarker(map2);
 mapMarker(map3);
-
-
+mapMarker(map4);
+mapMarker(map5);
+mapMarker(map6);
+mapMarker(map7);
+mapMarker(map8);
 
 } 
 
