@@ -47,20 +47,15 @@ function mapMarker(map) {
     }
   }
   
-  
-  
-  var iconBase =
-      'assets/images/';
-
-  
+ 
 
 // Queensland
-const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
+    const bike = [{ name: "Google Location 1", lat: -37.623900, lng: 144.707700 },
     { name: "Google Location 2", lat: -26.785780, lng: 153.110300 },
     { name: "Google Location 3", lat: -37.796270, lng: 146.974500 },
     { map: map0 },
     { title: 'Queensland has some great mountain biking trails. Check out our 3 locations to find some unbelievable biking experiences'},
-    { icon: iconBase + 'assets/images/icons8-cycling-mountain-bike-50.png'},
+    { icon: 'assets/images/icons8-cycling-mountain-bike-50.png'},
     ];
     
 
@@ -136,7 +131,7 @@ const buggy = [
     ];
 
 
-
+addMarker(bike, map0);
 addMarker(climb, map1);
 addMarker(climbe, map2);
 addMarker(surf, map3);
