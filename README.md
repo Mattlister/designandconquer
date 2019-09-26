@@ -12,10 +12,11 @@
 
 * The project I’ve designed is for my second milestone project for the Interactive FrontEnd Design and Development module of the 
   Full Stack Developer Course. I’ve used Bootstrap to design the HTML layout of the website. This is to provide functionality and a 
-  responsive design which sits in an HTML shell with added elements of CSS to add styling. This is a Single Page Applciation (SPA Respectively)
-  adventure holiday booking website. The user can use the images to display an API map and see information on each page. There's a "What we do 
-  and how to book" option at the top of the page where the user can enquire and book holiday destinations using the request and booking form 
-  that will show them how to book and what's available.
+  responsive design which sits in an HTML shell with added elements of CSS to add styling. JavaScript and JQuery have been used for
+  the mapping locations. This is a Single Page Applciation (SPA Respectively) adventure holiday booking website. The user can use the 
+  images to display an API map and see information on each page. There's a "What we do and how to book" option at the top of the page 
+  where the user can enquire and book holiday destinations using the request and booking form that will show them how to book and what's 
+ available.
 
 ## Contents
 
@@ -43,7 +44,7 @@
 
 ## Project Design
 
-* I've designed the website with minimal but engaging colour and content. As it's a single page application, I had to think how I could add 
+* I've designed the website with engaging colour and content. As it's a single page application, I had to think how I could add 
   a lot of visual information onto one page and not lose anything. The idea I had was for the user to "see something", "like something" and 
   "choose something" It's crisp, clean and the heading stands out at the top with a clever description in the heading of what the website is
   about "Design and Conquer".
@@ -78,13 +79,14 @@
   immediately be drawn in from the offset. The images flip when hovered over which then displays the coloured background with Location and 
   Information. 
 
-* When "The Location" option is selected, it displays a map which is the central point of that holiday destination. Click on the "add marker" button and
-  markers for each holiday location will be displayed. The user instantly knows where they can go.
+* When "The Location" option is selected, it displays a map which is the central point of that holiday destination. The user can zom out and
+  additional destinations and so they instantly knows where they can go.
 
 * They then hover over the image so if it was Yosamite for instance and they click on location. They have 3 climbs they can experience with Design and 
   Conquer. It's just quick to use.
 
-* To get a taste of what the site offers, if they choose "Information" on the back of the flipped image, some content on the modal which pops up explains what the adventure holds in store. There's also a video which when clicked 
+* To get a taste of what the site offers, if they choose "Information" on the back of the flipped image, some content on the modal which pops up explains 
+* what the adventure holds in store. There's also a video which when clicked 
   showcases a users experience of that holiday. Once watched and chosen, they can go to the "What We Do and How to Book" below the header which again, 
   showcases a users video with various adventures into a showreel. There's then a "Booking Here" button under the video which displays
   a booking form. The user can fill it in with some brief information and once done, they click on the "Submit" button and that's when the holiday
