@@ -237,19 +237,21 @@
   a difference from the moment I added the background image. Nothing else but that image changed everything. I could then layer over the 
   top of it and add my original plan. I was able to build from the bottom up and show something more with imagery.
 
-* Full Screen Design
+* Full Screen Design - Displays great, really happy with the results and it's responsness. Splits as it should when minimised.
 
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/Newfswireframe.png">
 </p>
 
-* Ipad Design
+* Ipad Design - Again, looks great. Fit's the tablets great and displays as I wanted it too.
 
 <p align="center">
   <img width="400" height="400" src="/assets/wireframes/ipadnewwf.png">
 </p>
 
-* Mobile Design
+* Mobile Design - The only slight issue which I wasn't able to rectify no matter how many screen changes I made was the smaller pixel 
+  sized screen when the images were more centralised and so the skier character wasn't as visible. He is meant to be slightly seen
+  on all devices with the images slighlty pulled to the left so he's displayed.
 
 <p align="center">
   <img width="300" height="350" src="/assets/wireframes/mobwireframe.png">
