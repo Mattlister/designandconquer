@@ -395,44 +395,27 @@
 
 ### Deployment to Github
 
-When deploying Design and Conquer to GitHub from the GitHub, I used the following process:
+# When deploying Design and Conquer from the [GitHub repository](https://github.com/Mattlister/designandconquer), I used the following process:
 
 1. Log into GitHub.
-2. From the list of GitHub repositories, select
+2. From the list of GitHub repositories, select Mattlister/designandconquer
 3. At the top the page, where the menu items are, you'll see Settings.
 4. Once selected, scroll down the page to the GitHub pages section
 5. Under Source, click the drop-down menu labelled and select Master Branch
 6. When you select Master Branch, the page will automatically be refreshed and Design and Conquer is then deployed.
 7. Once done, scroll back down to the GitHub pages section and you will be able to retrieve the link to the deployed website.
 
-## My project uses GitHub for storage and sharing of the project code for remote us
+## To run the project locally
 
+* For cloning this project from Github: 
 
-* I used and configured GitHub Pages to publish my site's source files from my master branch folder named Design and Conquer. This is in Cloud9 folder 
- for all my Project Pages that were under that umbrella.
-
-* Publishing my source files is dependent on my site type as in what language the code is developed in and the site type I have in 
-  my repository.
-
-* To enable my GitHub Pages to be published, I have a master branch in my repository.
-
-* To access my GitHub Pages site's repository.
-
-* I access my repository name and click Settings.
-
-* Repository settings button
-
-* Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
-
-* select-gh-pages-or-master-as-source
-
-* Click Save.
-
-* I then Published my GitHub Pages site from my docs folder in my master branch and published the source files from the 
-  docs folder in my master branch. I had to have a master branch containing all the data.
-
-* GitHub Pages reads everything when publishing a site, including the CNAME file, from the /docs folder. Every change is updated
- so every step taken and evey edit is documented.
+1. Choose the following link: [Design and Conquer GitHub repository](https://github.com/Mattlister/designandconquer)
+2. Under repository name, select "Clone or download"
+3. You'll see Clone in the HTTPs section, copy the URL for the repository.
+4. In your own IDE, open Git Bash.
+5. Change the current working directory to your location of choice where you'd like the directory to be made.
+6. Type the command git clone, and then paste the URL copied in step 3.
+7. Then Press Enter and your local clone will be created.
 
 
 # I used default commands to push to Github such as:
