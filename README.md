@@ -166,6 +166,7 @@
 
 * Offer more holiday destinations by expanding the adventures and portfolio
 * Showcase more self made videos from users about their experiences
+* More dynamic script in the JavaScript
 
 ### User Stories
 
@@ -339,7 +340,6 @@
 * Google Fonts
 * Favicons
 
-* Cloud 9 and AWS Cloud 9
 
 * The same IDE was used but it moved from one product supplier of just Cloud 9 to AWS (Amazon) Cloud 9
 
@@ -372,23 +372,24 @@
 
 ### This project is the best way to help them achieve these things because:
 
-The website has one page that has all navigation and options direct from the one page.
+* The website has one page that has all navigation and options direct from the one page.
 
 ### This website is:
 
-Easy to navigate through.
 
-Allows the user to work through the site with an easy to understand front end design.
-Provides the user the information they need without it being overwhelming.
-Booking forms and Get in touch forms are clear and concise for when the user wants to book a holiday
+* Easy to navigate through.
+
+* Allows the user to work through the site with an easy to understand front end design.
+  Provides the user the information they need without it being overwhelming.
+  Booking forms and Get in touch forms are clear and concise for when the user wants to book a holiday
 
 
 ## Deployment
 
-This project was developed using the Cloud9 development software originally and then AWS Cloud9. The data is stored in git using the Cloud9 platform.
+* This project was developed using the Cloud9 development software originally and then AWS Cloud9. The data is stored in git using the Cloud9 platform.
 
-The project was regularly pushed to GitHub repository https://github.com/Mattlister/designandconquer/commits/master and 
-published to GitHub pages using the GitHub settings.
+* The project was regularly pushed to GitHub repository https://github.com/Mattlister/designandconquer/commits/master and 
+  published to GitHub pages using the GitHub settings.
 
 ### Deployment to Github
 
@@ -402,27 +403,26 @@ When deploying Design and Conquer to GitHub from the GitHub, I used the followin
 6. When you select Master Branch, the page will automatically be refreshed and Design and Conquer is then deployed.
 7. Once done, scroll back down to the GitHub pages section and you will be able to retrieve the link to the deployed website.
 
-My project uses GitHub for storage and sharing of the project code for remote us
+## My project uses GitHub for storage and sharing of the project code for remote us
 
 
+* I used and configured GitHub Pages to publish my site's source files from my master branch folder named Design and Conquer. This is in Cloud9 folder 
+ for all my Project Pages that were under that umbrella.
 
-I used and configured GitHub Pages to publish my site's source files from my master branch folder named Design and Conquer. This is in Cloud9 folder 
-for all my Project Pages that were under that umbrella.
+* Publishing my source files is dependent on my site type as in what language the code is developed in and the site type I have in 
+  my repository.
 
-Publishing my source files is dependent on my site type as in what language the code is developed in and the site type I have in 
-my repository.
+* To enable my GitHub Pages to be published, I have a master branch in my repository.
 
-To enable my GitHub Pages to be published, I have a master branch in my repository.
+* To access my GitHub Pages site's repository.
 
-To access my GitHub Pages site's repository.
+* I access my repository name and click Settings.
 
-I access my repository name and click Settings.
+* Repository settings button
 
-Repository settings button
+* Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
 
-Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
-
-select-gh-pages-or-master-as-source
+* select-gh-pages-or-master-as-source
 
 * Click Save.
 
@@ -433,7 +433,7 @@ select-gh-pages-or-master-as-source
  so every step taken and evey edit is documented.
 
 
-I used default commands to push to Github such as:
+# I used default commands to push to Github such as:
 
 * git status when checking what needed uploading.
 * git commit -m "" with the named update between the quotes for anyone reading what changes I made. A short piece of info helps understand
@@ -441,30 +441,24 @@ I used default commands to push to Github such as:
 * git push -u origin master which then pushes my update and I then need to enter my username and password for security.
 
 
-# Issues whilst building the site
+# Issues and setbacks whilst building the site and time taken
 
-* This site although set me back a few times with various issues when putting the project in place. I originally wrote some in depth JavaScript
-  code that displayed the maps, had the content and centralised locations from HTML but I couldn't get more than one location using JavaScript. 
-  I originally planned to have 3 locations to choose from each holiday destination. As I looked more indepth, some of the holidays only had 1 option
-  available . For instance, there's only 1 Neptune island diving location. Only 1 Victoria falls etc and so I could narrow my locations but still
-  couldn't get them to display. So, as a suggestion from my mentor. I created a JSON file and added fetch commands to the JavaScript file. I was able
-  to create the For loops and arrays, I could get all the data to read. There were no errors in any of my code or DevTools but the markers would not
-  display. I had 3 extra sessions with my mentor. I spent time with tutors looking at this for a week solid but could not figure it out. I then came
-  up with the concept that the modals held the information, not the maps. The map was one solid piece of data. The modals were 9 seperate pieces of
-  of code. So, I created 9 modals to showcase the maps but this didn't resolve it. The modals still would not show the markers and so I reached out in 
-  Slack again. John Longgately who had done the code spotted what I was trying to do. It was hard explaining my situation as it seemed simple. Markers 
-  within maps but... the maps had to be seperated and the locations individually added. So, between me and John, we were able to re-write the code 
-  altogether and resolve the issue. I could get markers displaying on the maps. Phew!!
+* This site has been a hard and long slog to work through. I wrote the JavaScript 3 times in various formats. Firstly, I wrote a fetch command which
+  was indepth JavaScript code that was meant to display the maps through JSON. I thought the content worked and centralised the locations, but it was 
+  the HTML code. It should have pulled data from JSON to add the markers. The code was clean, there were no errors. DevTools was fine and the arrays 
+  pulled the data back but.... the maps would not show the markers on the maps provided by HTML. So, back to the drawing board. The second attempt was 
+  much more difficult to put together. I had more to workout because, when I added a centralised location to the modal 1, it worked great. Adding modal 
+  2 though overwrote the information and so I had to work that out. It took me a week to resolve this through various searches and code checks to stop 
+  the data overwriting when new information was added. To achiever this,I had to write all of the code individually for wach working modal and functions. 
+  When finished, it was 100% working, it looked good but it was all hard coded and as I was concerned about losing marks and so, onto option number 3. 
+  I wrote the project with more dynamic code and I was able to get the markers to display and the maps worked. I was happy with the end results and so 
+  I was ready to submit. The JavaScript took a while. For my first attempt, I had extra sessions with my mentor, I had tutors looking and advising but 
+  the maps would not display the markers and so moving onto the next way of working produced exactly what I needed. The third options gave me the final 
+  code as I wanted it to be.
 
-* That was a major milestone but.... I had more to workout because, when I added a centralised location to the modal 1, it worked great. Adding modal
-  2 though overwrote the information and so I had to work that out as well. It took me a week to resolve this through various searches and code checks
-  to stop the data overwriting when new information was added. I asked one of my peers, Shane Muirhead ro review it and he noticed all the content was
-  but as I'd not worked in JavaScript before, he was able to advise me on my hard coded could be streamlined and so with more research and advise, I 
-  created the working JavaScript file I have now. 
-
-* I've learnt a great deal on this project and yes, it has taken me longer but I believe I did create something relatively complicated. I only say this
-  because when researching what I was doind, the answers weren't always obvious to others. I was able to work through this and keep my head up and keep 
-  going to produce what I have now.
+* This site has set me back a few times with various issues when putting the project in place. But, I have learnt a great deal working on this project, 
+  and yes, it has taken me longer but I believe I did create something relatively complicated. I only say this because when researching what I was doing, 
+  the answers weren't always obvious to others. I was able to work through this and keep my head up and keep going to produce what I have now.
 
 
 ## Testing
@@ -482,7 +476,7 @@ and there was no maps or modals appearing. These are bugs I need to look into bu
 
 ### Media and Content
 
-The text, images and videos were found on various sites for each particular venture. 
+* The text, images and videos were found on various sites for each particular venture. 
 
 * The content was taken and used in context from actual sites running these adventures for real and so their write up's were specific for the use of 
   promoting the products.
@@ -516,28 +510,28 @@ file to hold multiple markers that will display on the map.
 
 ### Acknowledgements
 
-I'd like to say thank you to my mentor Simen Daehlin who has supported me throughout the project and has been a great influence and inspired me to
-keep going, especially when I really was ready to throw in the towel but a 10:30 call at night helped get me back on track. The Slack
-community reviewed my code and pointed out issues/ offered advice to aide me in improving my sites to produce something greater and so I'm 
-really grateful for their consistent support and it's good to know we're in this together. I'd also like to say thank you and acknowledge John Longgately
-and Shane Muirhead for their help in regard to issues I had with my Javascript and JQUERY code. And finally, I'd like to say a big thank you to Anna Greaves and 
-Anthony O'Brien for their indepth code reviews.
+* I'd like to say thank you to my mentor Simen Daehlin who has supported me throughout the project and has been a great influence and inspired me to
+  keep going, especially when I really was ready to throw in the towel but a 10:30 call at night helped get me back on track. The Slack
+  community reviewed my code and pointed out issues/ offered advice to aide me in improving my sites to produce something greater and so I'm 
+  really grateful for their consistent support and it's good to know we're in this together. I'd also like to say thank you and acknowledge John Longgately
+  and Shane Muirhead for their help in regard to issues I had with my Javascript and JQUERY code. And finally, I'd like to say a big thank you to Anna Greaves and 
+  Anthony O'Brien for their indepth code reviews.
 
 ### Disclaimer
 
-The content of the Website I have produced is for educational purposes only including all images and videos.
+* The content of the Website I have produced is for educational purposes only including all images and videos.
 
 
 ### For my friends currently working on their Milestone 2 projects.
 
-I'm happy if youy'd like to use my readme file as a reference and guide as an example of how to write a strucured milestone project. The format will hopefully
-be of use to you but it is not ok to copy directly from mine for your own project. 
+* I'm happy if youy'd like to use my readme file as a reference and guide as an example of how to write a strucured milestone project. The format will hopefully
+  be of use to you but it is not ok to copy directly from mine for your own project. 
 
-Thank you for your understanding,
+* Thank you for your understanding,
 
-Kind Regards,
+* Kind Regards,
 
-Matthew
+* Matthew
 
 ### How I’d like the website to be perceived:
 
