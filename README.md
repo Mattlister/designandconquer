@@ -39,7 +39,17 @@
 
 ### 3. [Technologies Used](#Technologies-Used)
 
-### 4.[Acknowledgements](#Acknowledgements)
+* [HTML](#HTML)
+* [CSS](#CSS)
+* [JavaScript](#JavaScript)
+* [JQUERY](#JQUERY)
+* [Bootstrap](#Bootstrap)
+* [Google Maps](#Google-Maps)
+* [Google Fonts](#Google-Fonts)
+* [Favicons](#Favicons)
+* [Autoprefixer](#AutoPrefixer)
+
+### 4. [Acknowledgements](#Acknowledgements)
 
 
 
@@ -333,6 +343,9 @@
 * CSS 
 * Javascript
 * [JQUERY](https://jquery.com/)
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+* Bootstrap was used to build a solid and yet simple structure which allowed the site to be responsive easily.
 
 * The same IDE was used but it moved from one product supplier of just Cloud 9 to AWS (Amazon) Cloud 9 for all the above languages.
  
@@ -348,9 +361,7 @@
 
 * Favicons was used for the URL toolbar icon
 
-* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
-* Bootstrap was used to build a solid and yet simple structure which allowed the site to be responsive easily.
 
  [Autoprefixer](https://autoprefixer.github.io/)
  
