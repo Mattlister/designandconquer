@@ -49,7 +49,9 @@
 * [Favicons](#Favicons)
 * [Autoprefixer](#AutoPrefixer)
 
-### 4. [Acknowledgements](#Acknowledgements)
+### 4. [Testing](#Testing)
+
+### 5. [Acknowledgements](#Acknowledgements)
 
 
 
