@@ -399,7 +399,7 @@
 
 ### Deployment to Github
 
-# When deploying Design and Conquer from the [GitHub repository](https://github.com/Mattlister/designandconquer), I used the following process:
+## When deploying Design and Conquer from the [GitHub repository](https://github.com/Mattlister/designandconquer), I used the following process:
 
 1. Log into GitHub.
 2. From the list of GitHub repositories, select Mattlister/designandconquer
