@@ -338,21 +338,24 @@
 * CSS 
 * Javascript
 * [JQUERY](https://jquery.com/)
+
+* The same IDE was used but it moved from one product supplier of just Cloud 9 to AWS (Amazon) Cloud 9 for all the above languages.
+ 
 * [Google Maps](https://developers.google.com/maps/documentation)
+
+* Google maps were used as the maps based software for this project. 
+
 * [Google Fonts](https://fonts.google.com/)
+
+* Google was used for stylising the website fonts as it gave me a great selection to choose from. 
+
 * [Favicons](https://www.favicon.cc/)
 
+* Favicons was used for the URL toolbar icon
 
-
-* The same IDE was used but it moved from one product supplier of just Cloud 9 to AWS (Amazon) Cloud 9
-
-* [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 * Bootstrap was used to build a solid and yet simple structure which allowed the site to be responsive easily.
-
-* [Goolge Fonts](https://fonts.google.com/)
-
-* Google was used for stylising the website fonts as it gave me a great selection to choose from.
 
  [Autoprefixer](https://autoprefixer.github.io/)
  
