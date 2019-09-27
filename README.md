@@ -454,6 +454,9 @@
   and yes, it has taken me longer but I believe I did create something relatively complicated. I only say this because when researching what I was doing, 
   the answers weren't always obvious to others. I was able to work through this and keep my head up and keep going to produce what I have now.
 
+* One other issue i had was the map was sometimes greyed out. I tried different things to fix it. It would work 9 out of times or 3 would work and 1
+  1 wouldn't so I added: google.maps.event.trigger(map, 'resize'); to resolve the issue.
+
 
 ### Testing
 
