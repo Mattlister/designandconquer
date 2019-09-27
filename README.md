@@ -390,7 +390,7 @@
   Booking forms and Get in touch forms are clear and concise for when the user wants to book a holiday
 
 
-## Deployment
+### Deployment
 
 * This project was developed using the Cloud9 development software originally and then AWS Cloud9. The data is stored in git using the Cloud9 platform.
 
@@ -399,7 +399,7 @@
 
 ### Deployment to Github
 
-## When deploying Design and Conquer from the [GitHub repository](https://github.com/Mattlister/designandconquer), I used the following process:
+### When deploying Design and Conquer from the [GitHub repository](https://github.com/Mattlister/designandconquer), I used the following process:
 
 1. Log into GitHub.
 2. From the list of GitHub repositories, select Mattlister/designandconquer
@@ -409,7 +409,7 @@
 6. When you select Master Branch, the page will automatically be refreshed and Design and Conquer is then deployed.
 7. Once done, scroll back down to the GitHub pages section and you will be able to retrieve the link to the deployed website.
 
-## To run the project locally
+### To run the project locally
 
 * For cloning this project from Github: 
 
@@ -422,7 +422,7 @@
 7. Then Press Enter and your local clone will be created.
 
 
-# I used default commands to push to Github such as:
+### I used default commands to push to Github such as:
 
 * git status when checking what needed uploading.
 * git commit -m "" with the named update between the quotes for anyone reading what changes I made. A short piece of info helps understand
@@ -430,7 +430,7 @@
 * git push -u origin master which then pushes my update and I then need to enter my username and password for security.
 
 
-# Issues and setbacks whilst building the site and time taken
+### Issues and setbacks whilst building the site and time taken
 
 * This site has been a hard and long slog to work through. I wrote the JavaScript 3 times in various formats. Firstly, I wrote a fetch command which
   was indepth JavaScript code that was meant to display the maps through JSON. I thought the content worked and centralised the locations, but it was 
@@ -450,7 +450,7 @@
   the answers weren't always obvious to others. I was able to work through this and keep my head up and keep going to produce what I have now.
 
 
-## Testing
+### Testing
 
 * I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
 using this browser. The website worked to the normal standard on Mozilla Firefox as well. So far, So good. But, On Apple's Safari browser, there were bugs 
