@@ -145,6 +145,7 @@ tag {
 
 .btn-primary:hover {
   background-color: #242ef2;
+  padding: 5px;
 }
 
 .btn-success {
