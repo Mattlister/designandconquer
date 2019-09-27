@@ -337,10 +337,11 @@
 * HTML
 * CSS 
 * Javascript
-* JQuery
-* Google Maps
-* Google Fonts
-* Favicons
+* [JQUERY](https://jquery.com/)
+* [Google Maps](https://developers.google.com/maps/documentation)
+* [Google Fonts](https://fonts.google.com/)
+* [Favicons](https://www.favicon.cc/)
+
 
 
 * The same IDE was used but it moved from one product supplier of just Cloud 9 to AWS (Amazon) Cloud 9
