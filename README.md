@@ -29,16 +29,18 @@
 * [Wireframes](#Original-wireframe-concepts)
 * [Deployment](#Deployment)
 * [Testing](#Testing)
-* [Acknowledgements](#Acknowledgements)
 
 
-### 2. Site Features
 
-### 3. Technologies Used
+### 2. Features
 
-### 4. Disclaimer
+* [Site Featured](#Site-Features)
+* [Future Plans](#Future-plans)
 
-### 5. For my friends currently working on their Milestone 2 projects.
+### 3. [Technologies Used](#Technologies-Used)
+
+### 4.[Acknowledgements](#Acknowledgements)
+
 
 
 
@@ -126,8 +128,6 @@
   is able to "design" the adventure and then "conquer" it. There are 9 options on the home page to choose from but an optional form is under the
   What We Do? section where a user can change choose a holiday if needed. The user can watch videos on each slide and read information about the 
   location. There's also a Help Guide on the home page which explains the website and how to use it.
-
-
 
 
 ### User Objects
@@ -258,7 +258,7 @@
 </p>
 
 
-### Flip Image Concept
+### Site Features
 
 * When building the original layout, as you can see on the site as it is now, I changed the font to white. It stood out better against
   the blue. Once in place, I could start my concept of building content from one location. I came up with the idea
@@ -271,28 +271,27 @@
 
  * To show this as a functioning working project, I attached the following shots below to show the process and fluid nature of the design working.
 
-* Image 1 shows after being selected, the beginning of the image flipping.
 
 
-* Image 2 shows the image mid flip revealing the back of the box
+* Image 1 shows the image mid flip revealing the back of the box
 
 <p align="center">
   <img width="500" height="250" src="/assets/images/flipimage2.jpg">
 </p>
 
-* Image 3 shows the back of the box showing 'The Location' and 'Information' buttons
+* Image 2 shows the back of the box showing 'The Location' and 'Information' buttons
 
 <p align="center">
   <img width="500" height="250" src="/assets/images/flipimage3.jpg">
 </p>
 
-* Image 4 shows the how displayed when the reveal has finished
+* Image 3 shows the how displayed when the reveal has finished
 
 <p align="center">
   <img width="500" height="250" src="/assets/images/flipimage4.jpg">
 </p>
 
-* Images 5 and 6 have been added to show that the images are all responsive and consistent when selected.
+* Images 4 and 5 have been added to show that the images are all responsive and consistent when selected.
 
 <p align="center">
   <img width="500" height="250" src="/assets/images/flip2images1.jpg">
@@ -326,13 +325,9 @@
    place. Design and Conquer is a website I was going to add to my portfolio from a few years ago but I neved made it. As a project, I thought this was
    perfect to use for the holiday allowance project for the course and allows me to showcase what I've learnt.
 
-### Site Interactivity and Features
-
-
 
 ### Technologies Used
 
-### This Project uses the following programming languages
 
 * HTML
 * CSS 
@@ -373,7 +368,6 @@
 * To be seen as an easy to use resource for a holiday adventurer wanting to try something new. Also, it showcases my working knowledge of various software
   languages which I've learnt during the various sections leading up to the MS2 project.
 
-### Ideal site visitors
 
 
 ### This project is the best way to help them achieve these things because:
