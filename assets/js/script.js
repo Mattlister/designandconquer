@@ -160,7 +160,7 @@ mapMarker(map8);
 } 
 
 
-// End of the initializeGMap()
+// End of the initializeGMap() section
   
     // function and events
     
