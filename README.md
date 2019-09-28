@@ -463,13 +463,30 @@
 ### Testing
 
 * I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
-using this browser. The website worked to the normal standard on Mozilla Firefox as well. So far, So good. But, On Apple's Safari browser, there were bugs 
-displayed. The images when hovered over as you'll see will flip and they'll be a grdient background with both a Location and Information button on the back.
-When testing in Safari, the image flipped and stayed as the image but a mirrored version. When the buttons did show, it flipped the image back to the originally
-and there was no maps or modals appearing. These are bugs I need to look into but this is a junction I came to mid project.
+  using this browser. The website worked to the normal standard on Mozilla Firefox as well. So far, So good. But, On Apple's Safari browser, there were bugs 
+  displayed. The images when hovered over as you'll see will flip and they'll be a grdient background with both a Location and Information button on the back.
+  When testing in Safari, the image flipped and stayed as the image but a mirrored version. When the buttons did show, it flipped the image back to the originally
+  and there was no maps or modals appearing. These are bugs I need to look into but this is a junction I came to mid project.
+
+* Now working safari issue by using the AutoPrefixer software. No more pausing issues on Safari.
 
 * I used Autoprefixer as explained above to resolve the safari issues I had. I also tested on various iphone formats, ipad tablets and laptops. This inclued Macbook
  with Safari and laptops with Windows 10 installed. Tested on various browsers on both laptops to show everything displayed as it should and planned.
+
+* As I mentioned, I've spent a fair amount of time working on the site and so: Peer Review has been a great help to me. Get feedback from fellow programmers is a really 
+* helpful way of making I'm working to a high standard. From all walks of coding, alumni, mentors, tutors and peers all reviewed the code, pointed out issues I'd be better 
+* to change and work through. Better layout. Better fonts to use. Better styling and to be more aware of the smaller screens. Even more than I was already. Having a coders
+  eyes look over my work and spotting potential issues was a great testing tool as they're aware of changes that needed to be made on a high scale.
+
+* I ran all my code through validators on a regular basis as part of my testing. [JSHint](https://jshint.com/), the [W3C validator](https://validator.w3.org/) and 
+  CSS stlying I found to all be of great use to me when I was checking my code. 
+ 
+* Personal testing from family and friends. I had my wife (whose honesty is always sharp) test the site and she was impressed with it. She saw a lot of potentional in what 
+  I'd put it together. She showed it to some of her friends and from that, I've been offered a freelance job to produce a site like mine but it's for a cake making business
+  which I take as a massive positive and so I've started working on that. 
+
+* A work colleague who did photography and graphics at university and who is also a budding programmerwent through the site. He found the visuals to be very on point and strong
+  and the code to be up to date, nice and clean. The images he advised were clear and precise and from a photography point of view, they were striking and detailed.
 
 
 
@@ -498,10 +515,13 @@ which helps add so much more to the back of the flip boxes. Once I had the code 
 breaks which did help in regards to displaying on various sized devices.
  
 
-* JavaScript -
+* JavaScript - The JavaScript took on many forms. All the content was written by myself with some support at various flavours provided by Simen Daehlin,
+*              John Lonngately and Shane Muirhead who I've thanked further below but they worked the JavaScript with me at points to improve the layout
+*              and the way my code was written. It was always "correct" but I had some points which needed to be neatened up and so fortunately, I had 
+*             support helping me to produce greater script.
 
-* JSON - The code was produced using information found online on how to produce a JSON file. Once I had the basis, I added more informtion to the 
-file to hold multiple markers that will display on the map.
+* JSON within the JavaScript, initially a separate file - The code was produced using information found online on how to produce a JSON file. Once I had 
+*             the basis, I added more informtion to the file to hold multiple markers that will display on the map.
 
 
 

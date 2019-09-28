@@ -133,7 +133,7 @@ const buggy = [
     { title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill'},
     ];
 
-// Add's the map markers to the maps
+// Add's the map markers to the maps. Needed 
 
 addMarker(bike, map0);
 addMarker(climb, map1);
