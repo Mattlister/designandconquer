@@ -1,21 +1,24 @@
-  
-$(document).ready(function() {
+  $(document).ready(function() {
 let map;
 let myMarker;
 let myLatLng;
 
 
+// initialises Google Maps
+
 function initializeGMap(lat, lng) {
     myLatLng = {lat, lng};
     
     
-//Variables to tie in to coordinates
+//controls the type of maps used and zoom
     var myOptions = {
         zoom: 8,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: myLatLng 
         
     };
+    
+    // Reads from the above options set to display the maps consistently
 
     var map0 = new google.maps.Map(document.getElementById("map_go0"), myOptions);
     var map1 = new google.maps.Map(document.getElementById("map_go1"), myOptions);
@@ -34,6 +37,8 @@ function mapMarker(map) {
               	position : myLatLng
             }); // Set the first marker on the map
 }
+
+// Dynamic function to present markers onto the maps
     
  function addMarker(destinations, map) {
     for (var i = 0; i < destinations.length; i++) {
@@ -47,7 +52,7 @@ function mapMarker(map) {
     }
   }
   
- 
+// Map location coordinates for each of the 9 displayed maps 
 
 // Queensland
     const bike = [{ name: "A great bike riding location", lat: -37.623900, lng: 144.707700 },
@@ -128,6 +133,7 @@ const buggy = [
     { title: 'Dune Buggying in Dubai is for serious petrol heads. The speed of racing around the desert is the mind blowing thrill'},
     ];
 
+// Add's the map markers to the maps
 
 addMarker(bike, map0);
 addMarker(climb, map1);
@@ -139,6 +145,7 @@ addMarker(dive, map6);
 addMarker(cruise, map7);
 addMarker(buggy, map8);
 
+// Displays the map markers working with HTML
 
 mapMarker(map0);
 mapMarker(map1);
@@ -226,7 +233,8 @@ $('#Vfalls').on('show.bs.modal', function(event) {
             $("#modal-content").modal("hide");
         });
 
-// Pauses video on exit
+// Resets the vimeo and YouTube videos on exit
+
 $('.modal').on('hidden.bs.modal', function () {
 var $this = $(this);
 //get iframe on click
@@ -238,7 +246,8 @@ vidsrc_frame.attr('src', vidsrc_src);
 });
 
 
-//Prevents maps issues
+//Prevents maps issues which cause it to grey out
+
 google.maps.event.trigger(map, 'resize');
 
 
