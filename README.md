@@ -539,6 +539,8 @@ breaks which did help in regards to displaying on various sized devices.
 ### Disclaimer
 
 * The content of the Website I have produced is for educational purposes only including all images and videos.
+* The links for the Facebook and Twitter sites were added for educational use only as well
+* Vimeo and YouTube were chosen for their content but only for educational purposes only.
 
 
 ### For my friends currently working on their Milestone 2 projects.
