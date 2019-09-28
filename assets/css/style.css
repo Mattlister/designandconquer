@@ -56,10 +56,10 @@ h2 {
   font-size: 30px;
   text-align: center;
   /* text-shadow: 8px 10px 40px #00ffff; */
-    display: block;
-    margin: 0 auto;
-    padding: 5px;
-    
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+
 }
 
 
@@ -189,7 +189,7 @@ btn {
 }
 
 .onclick {
-  
+
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -204,10 +204,10 @@ btn {
 
 /* Flip image box styling and function */
 
-@media (min-width: 320px) and (max-width:767px){
-    .flip-box {
-         margin: 0 auto;
-    }
+@media (min-width: 320px) and (max-width:767px) {
+  .flip-box {
+    margin: 0 auto;
+  }
 }
 
 input {
@@ -289,7 +289,6 @@ input {
 
 /* CSS For working content */
 
-
 img {
   max-width: 100%;
   height: auto;
@@ -309,8 +308,6 @@ img {
 
 
 /* add map marker */
-
-
 
 .mine {
   width: 95%;
@@ -335,7 +332,6 @@ img {
 
 
 /*Makes the sample page fill the window. */
-
 
 form {
   display: inline-block;

@@ -164,7 +164,7 @@
  be able to do when they book the holiday.
  
 * It's easy to navigate and book the adventure they want to try. A helpful handy guide is prominent on the home page to stop any confusion.
- Images and map markers showcase the locations so the user know where their adventures take place.
+ Images and map markers showcase the central point and locations so the user know where their adventures take place.
 
 
 ### Developers Objects
@@ -198,7 +198,7 @@
 
 5. Stunning videos with inspriing music are used as mentioned before to really showcase the adventure.
  
-6. 'The Location' is pinpointed to the heading of the holiday. Seperate markers on the map shows locations where you choose your adventure.
+6. 'The Location' is pinpointed to the central point of the holiday. Seperate markers on the map shows locations where you choose your adventure.
 
 
 ### For the user
@@ -479,7 +479,8 @@
   eyes look over my work and spotting potential issues was a great testing tool as they're aware of changes that needed to be made on a high scale.
 
 * I ran all my code through validators on a regular basis as part of my testing. [JSHint](https://jshint.com/), the [W3C validator](https://validator.w3.org/) and 
-  CSS stlying I found to all be of great use to me when I was checking my code. 
+  CSS stlying I found to all be of great use to me when I was checking my code. I also used the Jigsaw validator which showed some issues but only as I was using 
+  non recognised vendors for some of the display colours and graphics, not because there was an issue with the code itself. [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator)
  
 * Personal testing from family and friends. I had my wife (whose honesty is always sharp) test the site and she was impressed with it. She saw a lot of potentional in what 
   I'd put it together. She showed it to some of her friends and from that, I've been offered a freelance job to produce a site like mine but it's for a cake making business
